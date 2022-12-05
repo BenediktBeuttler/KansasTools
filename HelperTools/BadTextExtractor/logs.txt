@@ -1,0 +1,355 @@
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\abhoeren_(wortklaerung)-clean.txt
+Das Wort Abhören kann verschiedenen Bedeutungen haben. Zum Beispiel: 
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\aggressor_(wortklaerung)-clean.txt
+Das Wort Aggressor kann verschiedenen Bedeutungen haben. Zum Beispiel: 
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\akt-clean.txt
+Das Wort Akt kann verschiedene Bedeutungen haben. Akt bedeutet einfach eine Tat und etwas, was passiert ist. Papiere, die es beschreiben, nennt man Akten. Sie werden oft im der Akten-Mappe aufbewahrt. Und in der Akten-Tasche getragen. 
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\alzheimer-clean.txt
+Das Wort Alzheimer kann verschiedene Bedeutungen haben. Es gibt die Krankheit Alzheimer - Krankheit Es gibt die Person Alois Alzheimer
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\apres-ski_(wortklaerung)-clean.txt
+Das Wort Après-Ski kann verschiedenen Bedeutungen haben. Zum Beispiel: 
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\attituede-clean.txt
+Das Wort At­ti­tü­de kann verschiedene Bedeutungen haben. Meistens ist damit gemeint: Was für eine Einstellung hat ein Mensch. Zum Beispiel: Attitude Gebaren Körperhaltung Geisteshaltung Stellung Einstellung Haltung Charakteranlage Grundeinstellung Gesinnung Standpunkt Das Wort Attitüde kommt aus der französischen Sprache. Auf deutsch heißt das Wort: Haltung Verhalten oder Gebaren Das Wort gibt es in der Kunst. Zum Beispiel, wenn man ein Bild beschreiben will. Dann sagt man, wie die Menschen im Bild dargestellt sind. Was für eine Figur sie machen. Was für eine Haltung sie haben. Man kann auch sagen: Was für eine Attitüde sie haben. Das Wort At­ti­tü­de gibt es auch im Ballett. Im Ballet ist Attitüde eine bestimmte Tanzfigur. Der Tänzer steht auf einem Bein. Das andere Bein wird nach hinten gehoben. Das Wort At­ti­tü­de gibt es auch in der Psychologie . Psychologie ist ein anderes Wort für Seelenkunde. Oder Wissenschaft der Seele. Ein Psychologe meint mit Attiüde, die Einstellung von einem Menschen. Ein Mensch kann verschiedene Einstellungen haben. Zum Beispiel kann ein Mensch: 
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\aufruhr_(wortklaerung)-clean.txt
+Das Wort Aufruhr kann verschiedenen Bedeutungen haben. Zum Beispiel: 
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\aussitzen-clean.txt
+Das Wort aussitzen kann verschiedene Bedeutungen haben. Es wird beim Reiten oder beim Warten benutzt. Aussitzen ist ein Wort das beim Reiten benutzt wird. Es bedeutet fest im Sattel sitzen bleiben, wenn das Pferd sich bewegt. fest halten fest sitzen bleiben Beim Aussitzen wird gewartet. Warten bis ein Problem vorbei geht. Ohne dafür etwas zu tun. ab warten warten bis etwas vorbei geht Das Wort aussitzen ist ein Verb . So wird das Wort getrennt : aussitzen. In der Vergangenheit wird gesagt: saß aus oder ausgesessen. 
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\avatar-clean.txt
+Das Wort Avatar kann verschiedenen Bedeutungen haben. Zum Beispiel: 
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\bank-clean.txt
+Das Wort Bank kann verschiedene Bedeutungen haben. Eine Bank ist ein Geschäft. Dieses Geschäft hat mit Geld zu tun. Bank (Geld) Eine Bank ist ein Möbelstück, wo man sich draufsetzt. Bank (Möbel) Wissenschaftler benutzen das Wort Bank. Sie benutzen es in ihrem Beruf. Bank (Wissenschaft)
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\barriere-clean.txt
+Das Wort Barriere kann verschiedene Bedeutungen haben. Eine Barriere kann sein, wenn etwas im weg ist. Barriere (Hindernis) Am Bahnhof gibt es Barrieren. Barriere (Bahnschranke) Das Wort Barriere kann ein Familienname sein. Barriere (Name)
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\barrieren-clean.txt
+Das Wort Barriere kann verschiedene Bedeutungen haben. Eine Barriere kann sein, wenn etwas im weg ist. Barriere (Hindernis) Am Bahnhof gibt es Barrieren. Barriere (Bahnschranke) Das Wort Barriere kann ein Familienname sein. Barriere (Name)
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\behoerde_(wortklaerung)-clean.txt
+Das Wort Behörde kann verschiedenen Bedeutungen haben. Zum Beispiel: 
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\bildung-clean.txt
+Das Wort Bildung kann verschiedene Bedeutungen haben. 
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\bischof-clean.txt
+Das Wort Bischof kann verschiedene Bedeutungen haben. Bischof wird der oberste Leiter einer Pfarrgemeinde genannt. Bischof (Kirche) Der Papst wird Bischof von Rom genannt. Papst Es gibt ein Getränk das Bischof heißt. Bischof (Getränk)
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\blau_(wortklaerung)-clean.txt
+Das Wort Blau kann verschiedenen Bedeutungen haben. 
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\butler_(wortklaerung)-clean.txt
+Das Wort Butler kann verschiedenen Bedeutungen haben. Zum Beispiel: 
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\cognac-clean.txt
+Das Wort Cognac kann verschiedene Bedeutungen haben. 
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\dandy_(wortklaerung)-clean.txt
+Das Wort Dandy kann verschiedenen Bedeutungen haben. Zum Beispiel: 
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\diaspora-clean.txt
+Das Wort Diaspora kann verschiedene Bedeutungen haben. In manchen Religionen wird das Wort Diaspora benutzt. Diaspora (Religion) Diaspora ist der Name eines sozialen Netzwerks im Internet Diaspora (Soziales Netwerk) 
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\dirndl-clean.txt
+Das Wort Dirndl hat verschiedene Bedeutungen:
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\drohne-clean.txt
+Das Wort Drohne kann verschiedene Bedeutungen haben.
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\drucker-clean.txt
+Das Wort Drucker kann verschiedene Bedeutungen haben. Es gibt den Beruf Drucker. Drucker (Beruf) Es gibt den Drucker für den Computer. Drucker (Gerät)
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\duden-clean.txt
+Das Wort Duden kann verschiedene Bedeutungen haben. 
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\ebola-clean.txt
+Das Wort Ebola kann verschiedene Bedeutungen haben. 
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\elster-clean.txt
+Das Wort Elster kann verschiedene Bedeutungen haben. 
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\empfang-clean.txt
+Das Wort Empfang kann verschiedenen Bedeutungen haben. Zum Beispiel: 
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\erde-clean.txt
+Das Wort Erde hat verschiedene Bedeutungen.
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\fukushima-clean.txt
+Das Wort Fukusihma kann verschiedene Bedeutungen haben. 
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\fussball-clean.txt
+Das Wort Fußball kann 3 verschiedene Bedeutungen haben.
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\geschichte_(wortklaerung)-clean.txt
+Das Wort Geschichte kann verschiedenen Bedeutungen haben. Zum Beispiel: 
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\geschmacklos-clean.txt
+Das Wort geschmacklos kann verschiedene Bedeutungen haben: nicht schön abgestanden (für etwas zu Trinken) stillos Beispiel für 1. Der Nachtisch schmeckt nach nichts. Der Nachtisch ist geschmacklos. oder Die Soße schmeckt wässrig. Die Soße ist geschmacklos Beispiel für 2. Diese Leggins sehen hässlich aus. Diese Leggins sind geschmacklos. oder Das Wohnzimmer sieh kitschig aus. Das Wohnzimmer ist geschmacklos. Beispiel für 3. Manche finden, Leute die FKK machen haben keine Manieren. oder Manche finden, FKK machen ist geschmacklos. Das Wort geschmacklos ist ein Adjektiv . Das Gegenteil von geschmacklos ist: geschmackvoll 
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\gesetz-clean.txt
+Das Wort Gesetz kann verschiedene Bedeutungen haben. Es kann mit Politik zu tun haben. Gesetz (Politik) Es kann mit der Natur zu tun haben. Gesetz (Natur) Es kann mit Religion zu tun haben. Gesetz (Religion)
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\holocaust-clean.txt
+Das Wort Holocaust kommt aus der griechischen Sprache. Auf Deutsch heißt Holocaust: völlig verbrannt. Oder: völlig zerstört. Mit Holocaust meint man: Die Massenvernichtung der Juden in Deutschland und in Europa . Shoah Schoa Shoa Schoah Judenvernichtung Judenmord Holokaust Massenmord an den Juden Morde an Juden Die Ermordung von Juden war in der Nazizeit . Vom Jahr 1933 bis zum Jahr 1945. Das Verbrechen an den Juden war vor und im Zweiten Weltkrieg . Das Verbrechen fand in ganz Europa statt. Besonders in den Ländern: Deutschland , Polen , Frankreich und Russland . Adolf Hitler war der Diktator des Deutschen Reiches . Er hat schon im Jahr 1919 gesagt, dass er alle Juden aus Deutschland weg haben will. Im Jahr 1933 sind die Nazis in Deutschland an die Macht gekommen. Sie haben gesagt, Juden sind eine minderwertige Rasse. Im Jahr 1933 haben die Nazis angefangen neue Gesetze zu machen. Gesetze gegen die Juden. Zum Beispiel: Dann haben die Nazis angefangen Juden zu verhaften. Sie haben die Juden in Konzentrations-lager gebracht. KZ ist die Abkürzung für Konzentrations-lager. Nach dem Jahr 1933 sind Juden ins KZ gebracht worden. Dort wurden sie misshandelt. Und es wurde Geld von ihnen erpresst. Und Zwangs-arbeit machen. Danach wurden sie umgebracht. Das war ein Massenmord in vielen Ländern in Europa. In Europa sind wahrscheinlich mehr als sechs (6) Millionen Juden ermordet worden. Es sind auch noch viele andere Menschen in Konzentrationslagern wie Auschwitz (KZ) umgebracht worden. Zum Beispiel: Am 27. Januar 1945 hat die Rote Armee die Menschen im KZ Auschwitz-Birkenau befreit. Im Jahr 2005 haben die Vereinten Nation gesagt, der 27. Januar soll ein Gedenktag sein. Der 27. Januar ist seit da in vielen Ländern der: Internationaler Tag des Gedenkens an die Opfer des Holocaust . Das Wort Holocaust kommt aus der griechischen Sprache. Das Wort hat verschiedene Bedeutungen . 
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\jadehase-clean.txt
+Das Wort Jadehase hat verschiedene Bedeutungen.
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\jupiter-clean.txt
+Das Wort Jupiter kann verschiedene Bedeutungen haben. 
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\kabinett-clean.txt
+Das Wort Kabinett kann verschiedene Bedeutungen haben.
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\kalaschnikow-clean.txt
+Das Wort Kalaschnikow kann verschiedene Bedeutungen haben.
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\klamm-clean.txt
+Klamm hat 2 verschiedene Bedeutungen.
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\koelsch-clean.txt
+Das Wort Kölsch kann verschiedene Bedeutungen haben.
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\kultur-clean.txt
+Kultur ist alles was von Menschen gemacht worden ist. Und alles was von Menschen erfunden worden ist. Kultur ist auch wie Menschen Zusammenleben. Kultur kann zum Beispiel Sprache , Gesetze oder Musik sein. Kultur ist alles von Menschen gemachte. Zum Beispiel bestimmte Häuserformen, die von Menschen gebaut worden sind. Zivilisation Die Natur gehört nicht zur Kultur. Weil Natur nicht vom Menschen erfunden oder gemacht worden ist. Das Wort Kultur kann eine Menschengruppe sein die etwas macht. Oder das Wort kann alle Menschen meinen. Ganz genau kann man nicht sagen was Kultur ist. Für verschiedene Menschen hat es verschiedene Bedeutungen. Und viele Menschen streiten sich darüber was Kultur ganz genau ist. Jeder Mensch wo Kultur mitmacht ändert und zeigt seine Identität . Kultur hat eine Wirkung wie Menschen Denken oder was Menschen machen. Menschen lernen von Kultur. Wenn sie viel lernen und viel Kultur machen, sind Menschen kultiviert. Menschen zeigen mit Kultur wohin sie gehören. Zum Beispiel damit, was sie für Kleider tragen. Sie zeigen zu welcher sozialen Gruppe sie gehören und was sie für Meinungen haben. Jede Zeit hat verschiedene Kulturen. Das heißt, früher hat es eine andere Kultur als heute gegeben. Und auch Länder haben verschiedene Kulturen. Zum Beispiel was die Menschen in einem Land gerne essen. Gezüchtete Pflanzen können auch eine Kultur sein. Das Wort Kultur ist ein Substantiv . Das Wort kommt vom lateinischen Wort colere. Das Wort colere bedeutet bauen, bestellen oder pflegen. 
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\letzte-clean.txt
+Das Wort letzte kann verschiedene Bedeutungen haben. Das Wort letzte kann ein Substantiv oder ein Adjektiv sein. Und man kann es Groß ( Letzte ) oder klein ( letzte ) schreiben. schlecht vergangen ganz hinten 
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\lobby-clean.txt
+Das Wort Lobby kann verschiedene Bedeutungen haben. 
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\lobby_(politik)-clean.txt
+Eine Lobby ist eine Gruppe von Leuten. Die Leute haben die gleiche Meinung. Sie wollen Politiker von ihrer Meinung überzeugen. Fünfte Gewalt Bande Gruppe Interessengemeinschaft Klüngel Beispiel: Eine Papierfabrik will mehr Papier verkaufen. Die Fabrik spricht mit anderen Papierfabriken. Sie bezahlen einen Lobbyisten. Der Lobbyist trifft sich mit Politikern. Der Lobbyist erzählt den Politikern von den Papierfabriken. Und dass die Fabriken die Hilfe von Politikern brauchen. Politiker sollen Gesetze machen, die gut sind für Papierfabriken. Manche Lobbyisten schenken Politikern auch etwas. Oder geben ihnen Jobs in ihren Firmen. Woher kommt das Wort Lobby? Die Politiker arbeiten im Parlament. Der Raum vor dem Parlament heißt manchmal Lobby. Dort sind die Leute, die die Politiker von ihrer Meinung überzeugen wollen. Es gibt verschiedene Arten von Lobby. Zum Beispiel: Das Wort Lobby hat verschiedene Bedeutungen . 
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\madonna-clean.txt
+Madonna kann verschiedene Bedeutungen haben. 
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\mail-clean.txt
+Mail ist englisch . Auf deutsch heißt Mail "Post". Das Wort Mail kann verschiedene Bedeutungen haben. Es gibt die elektronische Post. Informationen findet man unter E-Mail . Es gibt ein E-Mail-Programm. Informationen findet man unter Mail (Apple) . 
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\mensa_(wortklaerung)-clean.txt
+Das Wort Mensa kann verschiedenen Bedeutungen haben. Zum Beispiel: 
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\mint-clean.txt
+Das Wort Mint kann verschiedene Bedeutungen haben. Zum Beispiel:
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\nachrichten-clean.txt
+Das Wort Nachrichten kann verschiedene Bedeutungen haben. 
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\nachrichtendienst-clean.txt
+Das Wort Nachrichtendienst kann verschiedene Bedeutungen haben.
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\nebelkerze-clean.txt
+Das Wort Nebelkerze kann 2 verschiedene Bedeutungen haben: 
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\piefke-clean.txt
+Das Wort Piefke hat verschiedene Bedeutungen. 1. Bedeutung: Ein Piefke ist ein Angeber . Ein Piefke stellt sich in den Vordergrund. 2. Bedeutung: Die Menschen in Österreich nennen die Menschen in Deutschland manchmal Piefke . Das ist eine Beleidigung. Angerber Prahler Wichtigtuer Deutscher (Beleidigung) Das Wort Piefke ist ein Substantiv . 
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\pille-clean.txt
+Das Wort Pille kann verschiedene Bedeutungen haben. Die Pille damit man nicht schwanger wird. Antibabypille Die Pille als Medikament, wenn man krank ist. Pille (Medikament) Pille kann ein Fußball sein. Pille (Fußball)
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\polarisierung_(in_der_politik)-clean.txt
+Polarisierung gibt es in der Politik . Politiker versuchen damit ihre Meinung ganz genau zu sagen. Sie machen Polarisierung beim Reden oder beim Schreiben in Texten. Politiker möchten zeigen das sie eine andere Meinung haben. Polarisierung soll helfen das es viele Menschen verstehen. Viele Menschen sollen verstehen das der Politiker eine andere Meinung hat. Damit jeder versteht das der Politiker eine andere Meinung hat Meinungsverschiedenheiten zeigen Meinungsunterschiede zeigen Gegensätze zeigen Polarisierung hilft eine Meinung von einem Politiker zu verstehen. Eine Polarisierung zeigt welche Gegensätze Menschen haben. Die Polarisierung kann Streit zwischen Menschengruppen auslösen. Das Wort Polarisierung ist ein Substantiv . Das Wort gibt es nicht nur in der Politik. Es kann verschiedene Bedeutungen haben. 
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\praesident-clean.txt
+Präsident gibt es in verschiedenen Bedeutungen. Staatschef Staatsoberhaupt Staatspräsident Direktor Vorsitzender Das Wort Präsident kommt aus dem Lateinischen. Es bedeutet Vorsitzender Es gibt viele Arten von Präsidenten Zum Beispiel: In Deutschland nennt man ihn Bundespräsident 
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\rotkaeppchen-clean.txt
+Das Wort Rotkäppchen kann verschiedene Bedeutungen haben. Es gibt ein Märchen mit dem Namen Rotkäppchen. Rotkäppchen (Märchen) Ein Sekt hat den Namen Rotkäppchen. Rotkäppchen (Sekt)
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\sechsertraeger-clean.txt
+Ein Sechserträger sind 6 Getränke. Sixpack Multipack Sechsertragerl Meistens ist mit Sechserträger Bier gemeint. Es können Flaschen sein oder Dosen . Die Verpackung zum halten der Getränke ist aus: oder Das Wort Sechserträger wird nicht oft benutzt. Meistens wird Sixpack gesagt. Das Wort Sixpack hat verschiedenen Bedeutungen . 
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\sixpack-clean.txt
+Das Wort Sixpack kann verschiedene Bedeutungen haben: 
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\slam-clean.txt
+Das Wort Slam kann verschiedene Bedeutungen haben. Slam gibt es: 
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\soziales_netzwerk-clean.txt
+Das Wort Soziales Netzwerk kann verschiedene Bedeutungen haben. Im Internet gibt es Soziale Netzwerke. Soziales Netzwerk (Internet) Eine Familie ist auch ein Soziales Netzwerk Soziales Netzwerk (Familie)
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\spoiler-clean.txt
+Das Wort Spoiler hat verschiedene Bedeutungen:
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\thora-clean.txt
+Das Wort Thora kann verschiedene Bedeutungen haben. Thora ist die heilige Schrift der Juden. Thora (heilige Schrift) Thora ist eine Musikgruppe. Thora (Musikgruppe)
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\toleranz-clean.txt
+Das Wort Toleranz kann verschiedene Bedeutungen haben. 
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\tschernobyl-clean.txt
+Das Wort Tschernobyl kann verschiedene Bedeutungen haben. 
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\verschreiben-clean.txt
+Das Wort verschreiben kann verschiedene Bedeutungen haben. Der Arzt kann ein Rezept verschreiben. verschreiben (Rezept) Mit verschreiben kann ein Schreibfehler gemeint sein. Rechtschreibfehler
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\vignette-clean.txt
+Das Wort Vignette kann verschiedene Bedeutungen haben.
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\walfaenger-clean.txt
+Das Wort Walfänger kann verschiedene Bedeutungen haben. 
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\waschbrettbauch-clean.txt
+Bei einem Wasch-brett-bauch sieht man viele Muskeln. Das ist die Bauchmuskulatur Sixpack Sechserpack Das Wort Wasch-brett-bauch ist ein Substantiv . Es hat 3 Wörter: Oft wird für Wasch-brett-bauch auch ein anderes Wort benutzt. Oft wird Sixpack gesagt. Das Wort Sixpack hat verschiedenen Bedeutungen . 
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\wolf-clean.txt
+Das Wort Wolf kann verschiedene Bedeutungen haben. Der Wolf als Tier. Wolf (Tier) Das Wort Wolf kann ein Familienname oder Vorname sein. Wolf (Name) Es gibt einen Fluss im Schwarzwald der Wolf heisst. Wolf (Fluss) Es gibt eine Auto das Wolf heisst. Wolf (Auto/Bundeswehr)
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\zebrastreifen-clean.txt
+Das Wort Zebrastreifen kann verschiedene Bedeutungen haben. 
+
+
+-----
+D:\Repos\kansas\data\new_corpus\texts\hurraki\wiki\zombie-clean.txt
+Das Wort Zombie kann verschiedene Bedeutungen haben.
+
+
+-----

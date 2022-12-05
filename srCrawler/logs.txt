@@ -1,0 +1,754 @@
+1
+created -- 1JahrlängerZeitfürdasAbitur.txt
+added to Meta - 1 Jahr länger Zeit für das Abitur 
+created -- RegierungimSaarlandwillEnergieeinsparen.txt
+added to Meta - Regierung im Saarland will Energie einsparen
+created -- GefängnisstrafefürehemaligenArzt.txt
+added to Meta - Gefängnisstrafe für ehemaligen Arzt
+created -- AmBostalseestehteinHausKopf.txt
+added to Meta - Am Bostalsee steht ein Haus Kopf
+created -- HeißesterTagimSaarland.txt
+added to Meta - Heißester Tag im Saarland
+created -- NeueRegelnfürFlüchtlinge.txt
+added to Meta - Neue Regeln für Flüchtlinge
+created -- ImSaarlandfehlenMedikamente.txt
+added to Meta - Im Saarland fehlen Medikamente
+created -- Verfahrengehtweiter.txt
+added to Meta - Verfahren geht weiter
+created -- GroßerEinsatzderPolizei.txt
+added to Meta - Großer Einsatz der Polizei
+created -- GesetzzurSchulsozialarbeit.txt
+added to Meta - Gesetz zur Schulsozialarbeit
+created -- ArmutimSaarland.txt
+added to Meta - Armut im Saarland
+created -- Eisistgut.txt
+added to Meta - Eis ist gut
+created -- SonderprogrammfürukrainischeSchüler.txt
+added to Meta - Sonderprogramm für ukrainische Schüler
+created -- ImSaarlandfehlen4000MitarbeiterinderGastronomieunddemTourismus.txt
+added to Meta - Im Saarland fehlen 4000 Mitarbeiter in der Gastronomie und dem Tourismus
+created -- BaubeginnfürdengrößtenSolarParkimSaarland.txt
+added to Meta - Baubeginn für den größten Solar-Park im Saarland
+2
+created -- TourdeFrancegestartet.txt
+added to Meta - Tour de France gestartet
+created -- TödlicherBadeunfallinStIngbert.txt
+added to Meta - Tödlicher Badeunfall in St. Ingbert
+created -- ZweineueFällevonAffenpockenimSaarland.txt
+added to Meta - Zwei neue Fälle von Affenpocken im Saarland
+created -- SommerfestderInklusioninDillingen.txt
+added to Meta - Sommerfest der Inklusion in Dillingen
+created -- Vor10JahrenendetederBergbauimSaarland.txt
+added to Meta - Vor 10 Jahren endete der Bergbau im Saarland
+created -- GrillenamBostalseeistab1Juliverboten.txt
+added to Meta - Grillen am Bostalsee ist ab 1. Juli verboten 
+created -- FußballSaisonimSaarlandstartetEndeJuli.txt
+added to Meta - Fußball-Saison im Saarland startet Ende Juli
+created -- SaarländersollenGasundStromsparen.txt
+added to Meta - Saarländer sollen Gas und Strom sparen 
+created -- ArbeitsplätzeimZFWerkbis2025gesichert.txt
+added to Meta - Arbeitsplätze im ZF-Werk bis 2025 gesichert
+created -- WiedersehrvieleCoronaansteckungenimSaarland.txt
+added to Meta - Wieder sehr viele Coronaansteckungen im Saarland
+created -- CoronaBürgertestskostenjetztGeld.txt
+added to Meta - Corona-Bürgertests kosten jetzt Geld
+created -- DiskussionumkostenloseCoronaTests.txt
+added to Meta - Diskussion um kostenlose Corona-Tests
+created -- NeuerSpielerfür1FCKaiserslautern.txt
+added to Meta - Neuer Spieler für 1. FC Kaiserslautern
+created -- ProzessumerschossenePolizisten.txt
+added to Meta - Prozess um erschossene Polizisten
+created -- BessereBezahlungvonMenschenmitBehinderunggefordert.txt
+added to Meta - Bessere Bezahlung von Menschen mit Behinderung gefordert
+3
+created -- FordElektroAutoswerdennichtinSaarlouisgebaut.txt
+added to Meta - Ford-Elektro-Autos werden nicht in Saarlouis gebaut
+created -- NeuesZentruminStIngbert.txt
+added to Meta - Neues Zentrum in St. Ingbert
+created -- EinbürgerungenfürFlüchtlingesollenleichterwerden.txt
+added to Meta - Einbürgerungen für Flüchtlinge sollen leichter werden
+created -- SaarlandsetztsichweiterfürFordWerkein.txt
+added to Meta - Saarland setzt sich weiter für Ford-Werk ein
+created -- TurnerinPaulineSchäferBetzgewinntwichtigenWettbewerb.txt
+added to Meta - Turnerin Pauline Schäfer-Betz gewinnt wichtigen Wettbewerb
+created -- WiedervieleCoronafälleimSaarland.txt
+added to Meta - Wieder viele Coronafälle im Saarland
+created -- FlugzeugnachGranCanariastartet13Stundenspäter.txt
+added to Meta - Flugzeug nach Gran Canaria startet 13 Stunden später
+created -- HoheWaldbrandgefahrimSaarland.txt
+added to Meta - Hohe Waldbrandgefahr im Saarland
+created -- MannschießtaufPolizistenundtötetsichselbst.txt
+added to Meta - Mann schießt auf Polizisten und tötet sich selbst
+created -- BoaConstrictorinNeunkichengefunden.txt
+added to Meta - Boa Constrictor in Neunkichen gefunden
+created -- NeueErmittlungennachMordanschlagvon1991.txt
+added to Meta - Neue Ermittlungen nach Mordanschlag von 1991
+created -- WiederCoronaImpfungenabHerbst.txt
+added to Meta - Wieder Corona-Impfungen ab Herbst
+created -- MenschenmitBehinderungsollenbesserbezahltwerden.txt
+added to Meta - Menschen mit Behinderung sollen besser bezahlt werden
+created -- SchülerimSaarlandkönnenbaldUkrainischlernen.txt
+added to Meta - Schüler im Saarland können bald Ukrainisch lernen
+created -- FordwillinSaarlouiswenigerAutosbauen.txt
+added to Meta - Ford will in Saarlouis weniger Autos bauen
+4
+created -- GroßesTreffenderWerkstättenfürMenschenmitBehinderung.txt
+added to Meta - Großes Treffen der Werkstätten für Menschen mit Behinderung
+created -- Tankenistwiedergünstiger.txt
+added to Meta - Tanken ist wieder günstiger
+created -- ToscaniistneuerCDUChefimSaarland.txt
+added to Meta - Toscani ist neuer CDU-Chef im Saarland
+created -- MikeFrantzkehrtzumFCSzurück.txt
+added to Meta - Mike Frantz kehrt zum FCS zurück
+created -- SparkassewarntvorbetrügerischenNachrichten.txt
+added to Meta - Sparkasse warnt vor betrügerischen Nachrichten
+created -- ErstervollautomatischerSupermarktfürdasSaarland.txt
+added to Meta - Erster vollautomatischer Supermarkt für das Saarland
+created -- SaarlandbereitetsichaufAffenpockenvor.txt
+added to Meta - Saarland bereitet sich auf Affenpocken vor
+created -- CoronaImpfungfürKinderzwischen511Jahren.txt
+added to Meta - Corona-Impfung für Kinder zwischen 5-11 Jahren
+created -- KitaBeiträgewerdenabgeschafft.txt
+added to Meta - Kita-Beiträge werden abgeschafft
+created -- 1FCKaiserslauternsteigtauf.txt
+added to Meta - 1. FC Kaiserslautern steigt auf
+created -- HerzenssachebekommtSpende.txt
+added to Meta - Herzenssache bekommt Spende
+created -- PlänefürdenOsthafeninSaarbrücken.txt
+added to Meta - Pläne für den Osthafen in Saarbrücken
+created -- Vielekaufendas9EuroTicket.txt
+added to Meta - Viele kaufen das 9-Euro-Ticket
+created -- RehlingerfliegtzuFordindieUSA.txt
+added to Meta - Rehlinger fliegt zu Ford in die USA
+created -- VolkszählunghatimSaarlandbegonnen.txt
+added to Meta - Volkszählung hat im Saarland begonnen
+5
+created -- 71JährigerinSulzbachgetötet.txt
+added to Meta - 71-Jähriger in Sulzbach getötet
+created -- VerletzteUkrainerinsaarländischenKrankenhäusern.txt
+added to Meta - Verletzte Ukrainer in saarländischen Krankenhäusern
+created -- ImSaarlandwerdendringendBlutspendengebraucht.txt
+added to Meta - Im Saarland werden dringend Blutspenden gebraucht
+created -- SVElversbergsteigtin3Ligaauf.txt
+added to Meta - SV Elversberg steigt in 3. Liga auf
+created -- KindernachrichteninukrainischerSprache.txt
+added to Meta - Kindernachrichten in ukrainischer Sprache
+created -- UkrainischeSoldatenwerdenausgebildet.txt
+added to Meta - Ukrainische Soldaten werden ausgebildet
+created -- FirmaGoSharingnichtmehrinSaarbrücken.txt
+added to Meta - Firma "Go Sharing" nicht mehr in Saarbrücken
+created -- Fußballverein1FCKaiserslauternentlässtTrainer.txt
+added to Meta - Fußballverein 1. FC Kaiserslautern entlässt Trainer 
+created -- KeineCoronatestsmehranSchulen.txt
+added to Meta - Keine Coronatests mehr an Schulen
+created -- MatthiasMaurerzurückaufderErde.txt
+added to Meta - Matthias Maurer zurück auf der Erde
+created -- CoronaRegelnwerdengeändert.txt
+added to Meta - Corona-Regeln werden geändert
+created -- MaikundgebunginSaarbrücken.txt
+added to Meta - Maikundgebung in Saarbrücken
+created -- GoldundSilberfürBadmintonspielerinIsabelLohau.txt
+added to Meta - Gold und Silber für Badmintonspielerin Isabel Lohau
+created -- KunstausstellungUrbanArtBiennaleeröffnet.txt
+added to Meta - Kunstausstellung „Urban Art Biennale“ eröffnet
+6
+created -- StartderErdbeerernte.txt
+added to Meta - Start der Erdbeerernte
+created -- StudiezuPflegekräften.txt
+added to Meta - Studie zu Pflegekräften
+created -- FordwillWerkinSaarlouiserhalten.txt
+added to Meta - Ford will Werk in Saarlouis erhalten
+created -- AnkeRehlingeristneueMinisterpräsidentin.txt
+added to Meta - Anke Rehlinger ist neue Ministerpräsidentin
+created -- Für9EuroeinenMonatBusundBahnfahren.txt
+added to Meta - Für 9 Euro einen Monat Bus und Bahn fahren
+created -- Zum1MalisteineFrauLandtagspräsidentin.txt
+added to Meta - Zum 1. Mal ist eine Frau Landtagspräsidentin 
+created -- NeueZeckenartenimSaarland.txt
+added to Meta - Neue Zeckenarten im Saarland
+created -- ManndurchMesserstichelebensgefährlichverletzt.txt
+added to Meta - Mann durch Messerstiche lebensgefährlich verletzt
+created -- LehrerinnenundLehrerausderUkrainegesucht.txt
+added to Meta - Lehrerinnen und Lehrer aus der Ukraine gesucht
+created -- SVElversbergimFinaledesSaarlandpokals.txt
+added to Meta - SV Elversberg im Finale des Saarlandpokals
+created -- TelefonhotlinefürFlüchtlingeausderUkraine.txt
+added to Meta - Telefonhotline für Flüchtlinge aus der Ukraine
+created -- DasBundesumweltministeriumbeobachtetdasfranzösischeAtomkraftwerkCattenom.txt
+added to Meta - Das Bundesumweltministerium beobachtet das französische Atomkraftwerk Cattenom
+created -- InSaarbrückensindbeiderPostmehrals100Paketegeklautworden.txt
+added to Meta - In Saarbrücken sind bei der Post mehr als 100 Pakete geklaut worden
+created -- NeueRegierungfürdasSaarlandstehtfest.txt
+added to Meta - Neue Regierung für das Saarland steht fest
+created -- DemonstrationfürdenFriedeninSaarbrücken.txt
+added to Meta - Demonstration für den Frieden in Saarbrücken
+7
+created -- WenigeFlüchtlingeausderUkrainewolleninsSaarland.txt
+added to Meta - Wenige Flüchtlinge aus der Ukraine wollen ins Saarland
+created -- FordBetriebsratgegenweitereKurzarbeit.txt
+added to Meta - Ford-Betriebsrat gegen weitere Kurzarbeit
+created -- NurnochzweiCoronatestsproWocheanSchulen.txt
+added to Meta - Nur noch zwei Coronatests pro Woche an Schulen
+created -- VieleUkraineFlüchtlingeimSaarland.txt
+added to Meta - Viele Ukraine-Flüchtlinge im Saarland
+created -- FranzosenhabendieWahlzwischenMacronundLePen.txt
+added to Meta - Franzosen haben die Wahl zwischen Macron und LePen
+created -- MehrereSchließfächerbeiderSpardaBankausgeraubt.txt
+added to Meta - Mehrere Schließfächer bei der Sparda-Bank ausgeraubt
+created -- 650JahrealteEicheimSaarlandistNationalerbeBaum.txt
+added to Meta - 650 Jahre alte Eiche im Saarland ist Nationalerbe-Baum
+created -- HilfefürukrainischeFlüchtlinge.txt
+added to Meta - Hilfe für ukrainische Flüchtlinge
+created -- WenigerOrganspendenimSaarland.txt
+added to Meta - Weniger Organspenden im Saarland
+created -- Ludwigskirchewirdrepariert.txt
+added to Meta - Ludwigskirche wird repariert
+created -- FestnahmenachMordanYeboah.txt
+added to Meta - Festnahme nach Mord an Yeboah
+created -- UmgangmitCoronaVirus.txt
+added to Meta - Umgang mit Corona-Virus
+created -- DurchsuchungenbeiRechtsextremen.txt
+added to Meta - Durchsuchungen bei Rechtsextremen
+created -- SRFerienOpenAirfälltwiederaus.txt
+added to Meta - SR Ferien Open Air fällt wieder aus
+created -- FCHgewinntgegendenFCS.txt
+added to Meta - FCH gewinnt gegen den FCS
+8
+created -- MesserstechereiineinemZug.txt
+added to Meta - Messerstecherei in einem Zug
+created -- SPDgewinntLandtagswahlimSaarland.txt
+added to Meta - SPD gewinnt Landtagswahl im Saarland
+created -- MaskenpflichtnurnochanwenigenOrten.txt
+added to Meta - Maskenpflicht nur noch an wenigen Orten
+created -- GlobuseröffnetEinkaufsmarktinNeunkirchen.txt
+added to Meta - Globus eröffnet Einkaufsmarkt in Neunkirchen
+created -- TobiasHanshörtalsCDUChefauf.txt
+added to Meta - Tobias Hans hört als CDU-Chef auf
+created -- KinderausUkrainesollenSaarSchulenbesuchen.txt
+added to Meta - Kinder aus Ukraine sollen Saar-Schulen besuchen
+created -- ForderungendesSaarBehindertenbeirats.txt
+added to Meta - Forderungen des Saar-Behindertenbeirats
+created -- DeutlichwenigerStraftatenimSaarland.txt
+added to Meta - Deutlich weniger Straftaten im Saarland
+created -- KlinikenmüssenOperationenverschieben.txt
+added to Meta - Kliniken müssen Operationen verschieben
+created -- CoronaRegelnimSaarlandwurdenleichtgelockert.txt
+added to Meta - Corona-Regeln im Saarland wurden leicht gelockert
+created -- WeltraumeinsatzfürAstronautMatthiasMaurer.txt
+added to Meta - Weltraumeinsatz für Astronaut Matthias Maurer
+created -- Autofahrerfährt2Blitzerum.txt
+added to Meta - Autofahrer fährt 2 Blitzer um
+created -- OskarLafontainehörtmitderPolitikauf.txt
+added to Meta - Oskar Lafontaine hört mit der Politik auf
+created -- ImmermehrFlüchtlingeimSaarland.txt
+added to Meta - Immer mehr Flüchtlinge im Saarland
+created -- HerzenssachesammeltGeld.txt
+added to Meta - Herzenssache sammelt Geld
+9
+created -- InformatikanSchulenimSaarland.txt
+added to Meta - Informatik an Schulen im Saarland
+created -- ImmermehrMenschenbekommenCorona.txt
+added to Meta - Immer mehr Menschen bekommen Corona
+created -- SaarlandgegenhoheBenzinpreise.txt
+added to Meta - Saarland gegen hohe Benzinpreise
+created -- FlüchtlingeausderUkraineangekommen.txt
+added to Meta - Flüchtlinge aus der Ukraine angekommen
+created -- EinVerdächtigerimPolizistenmordvonKuselwiederfrei.txt
+added to Meta - Ein Verdächtiger im Polizistenmord von Kusel wieder frei
+created -- MitarbeiterinKindergärtenhabengestreikt.txt
+added to Meta - Mitarbeiter in Kindergärten haben gestreikt
+created -- RekordanNeuinfektionenmitdemCoronavirus.txt
+added to Meta - Rekord an Neuinfektionen mit dem Coronavirus
+created -- InformationenzurLandtagswahlineinfacherSprache.txt
+added to Meta - Informationen zur Landtagswahl in einfacher Sprache
+created -- SaarländerinRecktenwaldbeiParalympics.txt
+added to Meta - Saarländerin Recktenwald bei Paralympics
+created -- AktionengegendenKrieginderUkraine.txt
+added to Meta - Aktionen gegen den Krieg in der Ukraine
+created -- SaarlandhilftFlüchtlingen.txt
+added to Meta - Saarland hilft Flüchtlingen
+created -- ClubsundDiscosdürfenwiederöffnen.txt
+added to Meta - Clubs und Discos dürfen wieder öffnen
+created -- MenschendemonstrierengegendenKrieg.txt
+added to Meta - Menschen demonstrieren gegen den Krieg
+created -- PolizistenmordinKuselNurnocheinVerdächtiger.txt
+added to Meta - Polizistenmord in Kusel: Nur noch ein Verdächtiger
+created -- FolgendesKriegesfürdasSaarland.txt
+added to Meta - Folgen des Krieges für das Saarland
+10
+created -- BriefwahlWievonzuHausegewähltwerdenkann.txt
+added to Meta - Briefwahl: Wie von zu Hause gewählt werden kann
+created -- LebenslangeGefängnisstrafe.txt
+added to Meta - Lebenslange Gefängnisstrafe
+created -- NeuerCoronaImpfstoff.txt
+added to Meta - Neuer Corona-Impfstoff
+created -- TrauerumSchimpansen.txt
+added to Meta - Trauer um Schimpansen
+created -- NeueErkenntnissezuWaffenvonKusel.txt
+added to Meta - Neue Erkenntnisse zu Waffen von Kusel
+created -- AngriffaufdieUkraine.txt
+added to Meta - Angriff auf die Ukraine
+created -- WahlOMatzurLandtagswahlgestartet.txt
+added to Meta - Wahl-O-Mat zur Landtagswahl gestartet
+created -- CoronaRegelnwerdengelockert.txt
+added to Meta - Corona-Regeln werden gelockert
+created -- UmfragezurLandtagswahlimSaarland.txt
+added to Meta - Umfrage zur Landtagswahl im Saarland
+created -- GetötetePolizistenbeerdigt.txt
+added to Meta - Getötete Polizisten beerdigt
+created -- BriefwahlimSaarland.txt
+added to Meta - Briefwahl im Saarland
+created -- SelbstfahrendesAuto.txt
+added to Meta - Selbstfahrendes Auto
+created -- VierteCoronaImpfungimSaarlandmöglich.txt
+added to Meta - Vierte Corona-Impfung im Saarland möglich
+created -- KleineÄnderungenbeidenCoronaRegelnimSaarland.txt
+added to Meta - Kleine Änderungen bei den Corona-Regeln im Saarland
+created -- StreitumImpfpflichtimGesundheitsbereich.txt
+added to Meta - Streit um Impfpflicht im Gesundheitsbereich
+11
+created -- MahnmalfürSintiundRomainSaarbrückengeplant.txt
+added to Meta - Mahnmal für Sinti und Roma in Saarbrücken geplant
+created -- FastnachtsAuftrittealsInternetVideo.txt
+added to Meta - Fastnachts-Auftritte als Internet-Video
+created -- VieleUnwetterEinsätzeamvergangenenWochenende.txt
+added to Meta - Viele Unwetter-Einsätze am vergangenen Wochenende
+created -- HassNachrichtengegenPolizistenimInternet.txt
+added to Meta - Hass-Nachrichten gegen Polizisten im Internet
+created -- GedenkfeierzumGrubenunglückvonLuisenthal.txt
+added to Meta - Gedenkfeier zum Grubenunglück von Luisenthal
+created -- 2Polizistenwurdengetötet.txt
+added to Meta - 2 Polizisten wurden getötet
+created -- SaarländerinstartetbeidenParalympics.txt
+added to Meta - Saarländerin startet bei den Paralympics
+created -- CoronaimpfungenjetztauchinApotheken.txt
+added to Meta - Coronaimpfungen jetzt auch in Apotheken
+created -- KostenloseFFP2MaskenfürärmereMenschen.txt
+added to Meta - Kostenlose FFP2-Masken für ärmere Menschen
+created -- FordBeschäftigtekämpfenfürdasWerkinSaarlouis.txt
+added to Meta - Ford-Beschäftigte kämpfen für das Werk in Saarlouis
+created -- WahlkampffürdieLandtagswahlstartet.txt
+added to Meta - Wahlkampf für die Landtagswahl startet
+created -- RekordanNeuinfektionenimSaarland.txt
+added to Meta - Rekord an Neuinfektionen im Saarland
+created -- Gerichtverbietet2GRegelimEinzelhandel.txt
+added to Meta - Gericht verbietet 2G-Regel im Einzelhandel
+created -- InklusiverVereinstelltJahresprogrammvor.txt
+added to Meta - Inklusiver Verein stellt Jahresprogramm vor
+created -- SaarlandempfängtSpecialOlympicSportler.txt
+added to Meta - Saarland empfängt Special Olympic-Sportler
+12
+created -- VieleMenschenhabendenSRTatortgesehen.txt
+added to Meta - Viele Menschen haben den SR-Tatort gesehen
+created -- NeuerSpendenrekordfürdieHerzenssache.txt
+added to Meta - Neuer Spendenrekord für die Herzenssache
+created -- MehrFlüchtlingewohneninOrtenundStädten.txt
+added to Meta - Mehr Flüchtlinge wohnen in Orten und Städten
+created -- SRModeratorJörgGehlengestorben.txt
+added to Meta - SR-Moderator Jörg Gehlen gestorben
+created -- NeueRegelnfürGeneseneimSaarland.txt
+added to Meta - Neue Regeln für Genesene im Saarland
+created -- ImmermehrMenschensteckensichmitCoronaan.txt
+added to Meta - Immer mehr Menschen stecken sich mit Corona an
+created -- ÄnderungenbeiGeimpftenmitJohnsonJohnson.txt
+added to Meta - Änderungen bei Geimpften mit Johnson & Johnson
+created -- KinderinKitassollenauchFranzösischsprechen.txt
+added to Meta - Kinder in Kitas sollen auch Französisch sprechen
+created -- Bahnhöfesollenbarrierefreiwerden.txt
+added to Meta - Bahnhöfe sollen barrierefrei werden
+created -- ImpfenohneTerminindenImpfzentren.txt
+added to Meta - Impfen ohne Termin in den Impfzentren
+created -- DemonstrationgegenImpfpflicht.txt
+added to Meta - Demonstration gegen Impfpflicht
+created -- ErstesFreitagsgebetinneuerMoschee.txt
+added to Meta - Erstes Freitagsgebet in neuer Moschee
+created -- ErmittlungenwegengefälschterImpfpässe.txt
+added to Meta - Ermittlungen wegen gefälschter Impfpässe
+created -- TicketverkauffürMaxOphülsFestival.txt
+added to Meta - Ticketverkauf für Max-Ophüls-Festival
+created -- CDUimSaarlandwillAbiturnach9Jahren.txt
+added to Meta - CDU im Saarland will Abitur nach 9 Jahren 
+13
+created -- PreiseimSaarlandimDezemberstarkgestiegen.txt
+added to Meta - Preise im Saarland im Dezember stark gestiegen. 
+created -- ZweiTotebeiBrandinAltenheim.txt
+added to Meta - Zwei Tote bei Brand in Altenheim
+created -- VieleCoronaFälleinSanktWendel.txt
+added to Meta - Viele Corona-Fälle in Sankt Wendel
+created -- SaarbrückenwillTempo30.txt
+added to Meta - Saarbrücken will Tempo 30
+created -- StarkerRegenimSaarland.txt
+added to Meta - Starker Regen im Saarland
+created -- Vögelsollengezähltwerden.txt
+added to Meta - Vögel sollen gezählt werden
+created -- DennisErdmannverlässtden1FCSaarbrücken.txt
+added to Meta - Dennis Erdmann verlässt den 1. FC Saarbrücken
+created -- SternsingerimSaarland.txt
+added to Meta - Sternsinger im Saarland
+created -- AuchJugendlichedürfenzurBoosterImpfung.txt
+added to Meta - Auch Jugendliche dürfen zur Booster-Impfung
+created -- 2GRegelgiltweiterfürvieleGeschäfte.txt
+added to Meta - 2G-Regel gilt weiter für viele Geschäfte
+created -- DemosgegenCoronaregeln.txt
+added to Meta - Demos gegen Coronaregeln
+created -- ClemensbeiDartsWMausgeschieden.txt
+added to Meta - Clemens bei Darts-WM ausgeschieden
+created -- 3LottoMillionärimSaarland.txt
+added to Meta - 3. Lotto-Millionär im Saarland
+created -- StrengereCoronaregelnanSilvester.txt
+added to Meta - Strengere Coronaregeln an Silvester
+created -- ExplosionineinemHausinNeunkirchen.txt
+added to Meta - Explosion in einem Haus in Neunkirchen
+14
+created -- Boosterimpfungnach3Monaten.txt
+added to Meta - Boosterimpfung nach 3 Monaten
+created -- VieleTerminezumImpfenimSaarland.txt
+added to Meta - Viele Termine zum Impfen im Saarland
+created -- OmikronfälleimSaarland.txt
+added to Meta - Omikronfälle im Saarland
+created -- NeueCoronaregelnabDienstag.txt
+added to Meta - Neue Coronaregeln ab Dienstag
+created -- Sportlerinnenausgezeichnet.txt
+added to Meta - Sportlerinnen ausgezeichnet
+created -- Mannzwischen2Autoseingeklemmt.txt
+added to Meta - Mann zwischen 2 Autos eingeklemmt
+created -- GaspreisesteigenimSaarland.txt
+added to Meta - Gaspreise steigen im Saarland
+created -- Kältebushatwiedergeöffnet.txt
+added to Meta - Kältebus hat wieder geöffnet
+created -- FriedenslichtimSaarlandangekommen.txt
+added to Meta - Friedenslicht im Saarland angekommen
+created -- ImpfzentruminSaarbrückenöffnetfrüher.txt
+added to Meta - Impfzentrum in Saarbrücken öffnet früher
+created -- SaarlandbeginntmitKinderimpfungen.txt
+added to Meta - Saarland beginnt mit Kinderimpfungen 
+created -- VerkehrskreiselanderOstspangewiederfreigegeben.txt
+added to Meta - Verkehrskreisel an der Ostspange wieder freigegeben
+created -- KeineTestpflichtmehrfürGeboosterte.txt
+added to Meta - Keine Testpflicht mehr für Geboosterte
+created -- GrußbotschaftausdemWeltraum.txt
+added to Meta - Grußbotschaft aus dem Weltraum
+created -- TestbescheinigungfürSchülerbaldungültig.txt
+added to Meta - Testbescheinigung für Schüler bald ungültig
+15
+created -- FalscheImpfpässeimSaarland.txt
+added to Meta - Falsche Impfpässe im Saarland
+created -- NeueBundesregierungohneSaarländer.txt
+added to Meta - Neue Bundesregierung ohne Saarländer
+created -- TrainerdesFCHomburgbleibtlänger.txt
+added to Meta - Trainer des FC Homburg bleibt länger
+created -- BriefeandenNikolaus.txt
+added to Meta - Briefe an den Nikolaus
+created -- VieleBäumesindkrank.txt
+added to Meta - Viele Bäume sind krank
+created -- SaarSportlerdesJahres.txt
+added to Meta - Saar-Sportler des Jahres
+created -- MehrschwerbehinderteMitarbeiter.txt
+added to Meta - Mehr schwerbehinderte Mitarbeiter
+created -- StromundHeizensehrteuer.txt
+added to Meta - Strom und Heizen sehr teuer
+created -- CoronaRegelnnochstrenger.txt
+added to Meta - Corona-Regeln noch strenger
+created -- Ausländerbehördehatsehrvielzutun.txt
+added to Meta - Ausländerbehörde hat sehr viel zu tun
+created -- VölklingenbekommtFrauenhaus.txt
+added to Meta - Völklingen bekommt Frauenhaus
+created -- SaarländerwürdenSPDwählen.txt
+added to Meta - Saarländer würden SPD wählen 
+created -- Impfzentrenöffnenwieder.txt
+added to Meta - Impfzentren öffnen wieder
+created -- GrüneimSaarlandhabenneuenVorsitz.txt
+added to Meta - Grüne im Saarland haben neuen Vorsitz
+created -- VieleSpendenfürdieHerzenssache.txt
+added to Meta - Viele Spenden für die "Herzenssache"
+16
+created -- ManninNalbachgetötet.txt
+added to Meta - Mann in Nalbach getötet
+created -- VieleWeihnachtsmärktefallenaus.txt
+added to Meta - Viele Weihnachtsmärkte fallen aus
+created -- NeueCoronaRegelnimSaarland.txt
+added to Meta - Neue Corona-Regeln im Saarland
+created -- Impfzentrenöffnenwieder.txt
+added to Meta - Impfzentren öffnen wieder
+created -- SchülerundLehrersollenwiederMasketragen.txt
+added to Meta - Schüler und Lehrer sollen wieder Maske tragen
+created -- CoronatestsundImpfausweisegefälscht.txt
+added to Meta - Coronatests und Impfausweise gefälscht
+created -- VieleWeihnachtsmärkteabgesagt.txt
+added to Meta - Viele Weihnachtsmärkte abgesagt
+created -- DartsSpielerClemensausgeschieden.txt
+added to Meta - Darts-Spieler Clemens ausgeschieden
+created -- Coronazahlensohochwienochnie.txt
+added to Meta - Coronazahlen so hoch wie noch nie
+created -- ArzthelferinwollteihreGroßmuttertöten.txt
+added to Meta - Arzthelferin wollte ihre Großmutter töten
+created -- Coronazahlensteigenstarkan.txt
+added to Meta - Coronazahlen steigen stark an
+created -- FavoritenimSaarlandpokalsindeineRundeweiter.txt
+added to Meta - Favoriten im Saarlandpokal sind eine Runde weiter
+created -- IllingerBürgermeisterverlässtdieCDU.txt
+added to Meta - Illinger Bürgermeister verlässt die CDU
+created -- ErsterSaarländerimWeltraum.txt
+added to Meta - Erster Saarländer im Weltraum
+created -- GeldautomateninFurpachundWadgassengesprengt.txt
+added to Meta - Geldautomaten in Furpach und Wadgassen gesprengt
+17
+created -- BundderSteuerzahlerkritisiertGeldverschwendungimSaarland.txt
+added to Meta - Bund der Steuerzahler kritisiert Geldverschwendung im Saarland
+created -- HansundRehlingersindSpitzenkandidatenfürdieLandtagswahl.txt
+added to Meta - Hans und Rehlinger sind Spitzenkandidaten für die Landtagswahl
+created -- LollitestsinSchulenundKitas.txt
+added to Meta - Lollitests in Schulen und Kitas
+created -- Weltraumflugmussverschobenwerden.txt
+added to Meta - Weltraumflug muss verschoben werden
+created -- ToterbeiUnfallmitSaarbahn.txt
+added to Meta - Toter bei Unfall mit Saarbahn
+created -- Impfzentrenbleibengeschlossen.txt
+added to Meta - Impfzentren bleiben geschlossen
+created -- KeineVerschärfungderCoronaregeln.txt
+added to Meta - Keine Verschärfung der Coronaregeln
+created -- AbJanuarfahreninVölklingenElektrobusse.txt
+added to Meta - Ab Januar fahren in Völklingen Elektrobusse
+created -- SaarländerfliegtindenWeltraum.txt
+added to Meta - Saarländer fliegt in den Weltraum
+created -- CoronaRegelnwerdenweitergelockert.txt
+added to Meta - Corona-Regeln werden weiter gelockert
+created -- ExpertenprüfenMissbrauchsvorwürfe.txt
+added to Meta - Experten prüfen Missbrauchsvorwürfe
+created -- WarnungvordemKlimawandel.txt
+added to Meta - Warnung vor dem Klimawandel
+created -- DemogegenAnkerzentrum.txt
+added to Meta - Demo gegen Ankerzentrum
+created -- HilfslinienamBodenmitFehlern.txt
+added to Meta - Hilfslinien am Boden mit Fehlern
+created -- ComputerangriffaufEberspächer.txt
+added to Meta - Computerangriff auf Eberspächer
+18
+created -- WMSilberfürPaulineSchäferBetz.txt
+added to Meta - WM-Silber für Pauline Schäfer-Betz
+created -- ZuwenigePlätze.txt
+added to Meta - Zu wenige Plätze
+created -- WiederanderUniversität.txt
+added to Meta - Wieder an der Universität
+created -- SturmimSaarland.txt
+added to Meta - Sturm im Saarland
+created -- FlugzeugeinHahnstartenweiter.txt
+added to Meta - Flugzeuge in Hahn starten weiter
+created -- JugendlicherstirbtbeiUnfall.txt
+added to Meta - Jugendlicher stirbt bei Unfall
+created -- WeiterStreitinderSaarAfD.txt
+added to Meta - Weiter Streit in der Saar-AfD
+created -- FarkfindetkünftiginLosheimstatt.txt
+added to Meta - "Fark" findet künftig in Losheim statt
+created -- WerbekommtweiterhinkostenloseCoronatests.txt
+added to Meta - Wer bekommt weiterhin kostenlose Coronatests?
+created -- CoronaRegelnwerdenweitergelockert.txt
+added to Meta - Corona-Regeln werden weiter gelockert
+created -- KrampKarrenbauerundAltmaierziehensichzurück.txt
+added to Meta - Kramp-Karrenbauer und Altmaier ziehen sich zurück
+created -- WiegehtesweitermitderHaselerMühle.txt
+added to Meta - Wie geht es weiter mit der Haseler Mühle?
+created -- RingerHorstLehrgewinntBronzemedaillebeiWM.txt
+added to Meta - Ringer Horst Lehr gewinnt Bronzemedaille bei WM
+created -- 10neueÄrztinnenundÄrzteausMexikoinSaarbrücken.txt
+added to Meta - 10 neue Ärztinnen und Ärzte aus Mexiko in Saarbrücken
+created -- MannnachMesserstichaneinerHaltestellegestorben.txt
+added to Meta - Mann nach Messerstich an einer Haltestelle gestorben
+19
+created -- PatienteninArztpraxenmüssennichtgeimpftsein.txt
+added to Meta - Patienten in Arztpraxen müssen nicht geimpft sein
+created -- TischtennisspielerPatrickFranziskamitseinemTeamEuropameister.txt
+added to Meta - Tischtennisspieler Patrick Franziska mit seinem Team Europameister
+created -- ElternmüssenSchädenanSchülerTabletsbezahlen.txt
+added to Meta - Eltern müssen Schäden an Schüler-Tablets bezahlen
+created -- 500MenschenfürJobsinRestaurantsundLokalengesucht.txt
+added to Meta - 500  Menschen für Jobs in Restaurants und Lokalen gesucht
+created -- SPDimSaarlandhatdiemeistenStimmenbekommen.txt
+added to Meta - SPD im Saarland hat die meisten Stimmen bekommen
+created -- VieleCoronaregelnwerdenimSaarlandgelockert.txt
+added to Meta - Viele Coronaregeln werden im Saarland gelockert
+created -- KeineMaskenmehrinSchulen.txt
+added to Meta - Keine Masken mehr in Schulen
+created -- LafontainewillnichtmehrindenLandtag.txt
+added to Meta - Lafontaine will nicht mehr in den Landtag
+created -- VieleMenschenbeiKlimaDemoinSaarbrücken.txt
+added to Meta - Viele Menschen bei Klima-Demo in Saarbrücken
+created -- WasistmitPascalpassiert.txt
+added to Meta - Was ist mit Pascal passiert?
+created -- VieleMenscheninSaarbrückenwarenohneStrom.txt
+added to Meta - Viele Menschen in Saarbrücken waren ohne Strom
+created -- DemozumGedenkenanSamuelYeboah.txt
+added to Meta - Demo zum Gedenken an Samuel Yeboah
+created -- LisaKleinholtGoldmedaillebeiderStraßenradWM.txt
+added to Meta - Lisa Klein holt Goldmedaille bei der Straßenrad-WM
+created -- FlügevonSaarbrückennachÄgypten.txt
+added to Meta - Flüge von Saarbrücken nach Ägypten
+created -- SaarländerzüchtetRiesenKürbisimGarten.txt
+added to Meta - Saarländer züchtet Riesen-Kürbis im Garten
+20
+created -- MaskenpflichtfürSchülerwirdgelockert.txt
+added to Meta - Maskenpflicht für Schüler wird gelockert
+created -- KeinLohnersatzfürungeimpfteSaarländer.txt
+added to Meta - Kein Lohnersatz für ungeimpfte Saarländer
+created -- GedenkenanSamuelYeboah.txt
+added to Meta - Gedenken an Samuel Yeboah
+created -- UrteilgegenFußballSpieler.txt
+added to Meta - Urteil gegen Fußball-Spieler
+created -- DemonstrationinSaarlouis.txt
+added to Meta - Demonstration in Saarlouis
+created -- GeldfürKrankenhäuserimSaarland.txt
+added to Meta - Geld für Krankenhäuser im Saarland
+created -- SchülermüssenweiterhinMaskentragen.txt
+added to Meta - Schüler müssen weiterhin Masken tragen
+created -- KeinLohnersatzfürungeimpfteSaarländer.txt
+added to Meta - Kein Lohnersatz für ungeimpfte Saarländer
+created -- SaarlandwillmehrStrommitWindundSonneerzeugen.txt
+added to Meta - Saarland will mehr Strom mit Wind und Sonne erzeugen
+created -- AstronautMaurerverabschiedetsichausdemSaarland.txt
+added to Meta - Astronaut Maurer verabschiedet sich aus dem Saarland
+created -- 50JährigerinWebenheimgetötet.txt
+added to Meta - 50-Jähriger in Webenheim getötet
+created -- NeueCoronafälleüberwiegendbeiUngeimpften.txt
+added to Meta - Neue Coronafälle überwiegend bei Ungeimpften
+created -- NeueCoronaregelnfürSchulenundKitas.txt
+added to Meta - Neue Coronaregeln für Schulen und Kitas
+created -- AlleGrundschulkindersolleneinenGanztagsplatzbekommen.txt
+added to Meta - Alle Grundschulkinder sollen einen Ganztagsplatz bekommen
+created -- WanngelteninZukunftstrengeCoronaregeln.txt
+added to Meta - Wann gelten in Zukunft strenge Coronaregeln?
+21
+created -- LolliTestsanGrundschulenwerdengetestet.txt
+added to Meta - Lolli-Tests an Grundschulen werden getestet
+created -- EinkaufenistimAugustteurergeworden.txt
+added to Meta - Einkaufen ist im August teurer geworden
+created -- ParalympicsNicoleitzik6beim100MeterRennen.txt
+added to Meta - Paralympics: Nicoleitzik 6. beim 100-Meter-Rennen
+created -- FalscheÄrztebetrügenamTelefon.txt
+added to Meta - "Falsche Ärzte" betrügen am Telefon
+created -- SaarbahnwillkeinenRassismusinBussenundZügen.txt
+added to Meta - Saarbahn will keinen Rassismus in Bussen und Zügen
+created -- MaskenpflichtfürSchülerimSaarland.txt
+added to Meta - Maskenpflicht für Schüler im Saarland
+created -- MehrWarnSirenenfürdasSaarland.txt
+added to Meta - Mehr WarnSirenen für das Saarland
+created -- WeiterePlätzefürOrtskräfteausAfghanistan.txt
+added to Meta - Weitere Plätze für Ortskräfte aus Afghanistan
+created -- NotfalldosekannLebenretten.txt
+added to Meta - Notfalldose kann Leben retten
+created -- GroßbrandinHomburg.txt
+added to Meta - Großbrand in Homburg
+created -- ImpfzentrumLebachimpftmitImpfstoffvonJohnsonJohnson.txt
+added to Meta - Impfzentrum Lebach impft mit Impfstoff von Johnson+Johnson
+created -- SaarländischeSportlerbeidenParalympics.txt
+added to Meta - Saarländische Sportler bei den Paralympics 
+created -- BriefwahlimSaarlandstartet.txt
+added to Meta - Briefwahl im Saarland startet
+created -- WarnungvordemJapankäfer.txt
+added to Meta - Warnung vor dem Japankäfer
+created -- SaarlandnimmtMenschenausAfghanistanauf.txt
+added to Meta - Saarland nimmt Menschen aus Afghanistan auf
+22
+created -- NeueCoronaRegelnfürSchülerimSaarland.txt
+added to Meta - Neue Corona-Regeln für Schüler im Saarland
+created -- ImpfterminefürStudenten.txt
+added to Meta - Impftermine für Studenten
+created -- ProzessgegenAmokfahrervonTrier.txt
+added to Meta - Prozess gegen Amokfahrer von Trier
+created -- Coronaschnelltestsbaldnichtmehrfürallekostenlos.txt
+added to Meta - Coronaschnelltests bald nicht mehr für alle kostenlos
+created -- WenigerCoronaimpfungenimSaarland.txt
+added to Meta - Weniger Coronaimpfungen im Saarland
+created -- WenigMängelbeimSpeiseeisimSaarland.txt
+added to Meta - Wenig Mängel beim Speiseeis im Saarland
+created -- GesunkenesSchiffinSchleusegeschleppt.txt
+added to Meta - Gesunkenes Schiff in Schleuse geschleppt
+created -- StreitumIntegrationshelfer.txt
+added to Meta - Streit um Integrationshelfer
+created -- OlympiaSilberfürPatrickFranziska.txt
+added to Meta - Olympia-Silber für Patrick Franziska
+created -- SVEimDFBPokalausgeschieden.txt
+added to Meta - SVE im DFB-Pokal ausgeschieden
+created -- GrünenListeimSaarlandnichtwählbar.txt
+added to Meta - Grünen-Liste im Saarland nicht wählbar
+created -- Bald3SpritzegegenCoronavirus.txt
+added to Meta - Bald 3. Spritze gegen Coronavirus
+created -- CoronaVerordnungimSaarlandverlängert.txt
+added to Meta - Corona-Verordnung im Saarland verlängert
+created -- AktionstaganderSaar.txt
+added to Meta - Aktionstag an der Saar
+created -- GoldfürLisaKlein.txt
+added to Meta - Gold für Lisa Klein
+23
+created -- AktionHerzenssachesammeltvielGeld.txt
+added to Meta - Aktion Herzenssache sammelt viel Geld
+created -- TheaterfestivalPerspectivesgehtweiter.txt
+added to Meta - Theaterfestival Perspectives geht weiter
+created -- NeueSaisoninder3FußballLiga.txt
+added to Meta - Neue Saison in der 3. Fußball-Liga
+created -- SaarSportlergehenbeiOlympialeeraus.txt
+added to Meta - Saar-Sportler gehen bei Olympia leer aus
+created -- SchiffBergungaufderSaar.txt
+added to Meta - Schiff-Bergung auf der Saar
+created -- NochmehrSchuldenwegenCorona.txt
+added to Meta - Noch mehr Schulden wegen Corona
+created -- CoronaImpfungimEinkaufszentrum.txt
+added to Meta - Corona-Impfung im Einkaufszentrum
+created -- PolizeifindetvieleDrogen.txt
+added to Meta - Polizei findet viele Drogen
+created -- HilfeausdemSaarland.txt
+added to Meta - Hilfe aus dem Saarland
+created -- UngewöhnlicherEinsatzfürdiePolizei.txt
+added to Meta - Ungewöhnlicher Einsatz für die Polizei
+created -- LeoKornbrustgestorben.txt
+added to Meta - Leo Kornbrust gestorben
+created -- NeuerWeltrekordfürJanFrodeno.txt
+added to Meta - Neuer Weltrekord für Jan Frodeno
+created -- WiedermehrCoronaInfektionen.txt
+added to Meta - Wieder mehr Corona-Infektionen
+created -- JeanneDillschneideristSpitzenkandidatinderGrünen.txt
+added to Meta - Jeanne Dillschneider ist Spitzenkandidatin der Grünen 
+created -- GasometerinNeunkirchengesprengt.txt
+added to Meta - Gasometer in Neunkirchen gesprengt
+24
+created -- VieleFunklöcherimSaarland.txt
+added to Meta - Viele Funklöcher im Saarland
+created -- FirmenbeschäftigennichtgenugSchwerbehinderte.txt
+added to Meta - Firmen beschäftigen nicht genug Schwerbehinderte
+created -- StädteundGemeindensollenSchuldenzurückzahlen.txt
+added to Meta - Städte und Gemeinden sollen Schulden zurückzahlen
+created -- VieleGaststättensinddreckig.txt
+added to Meta - Viele Gaststätten sind dreckig
+created -- 800GästeanHeiligabendimEWerk.txt
+added to Meta - 800 Gäste an Heiligabend im E-Werk
+created -- BlitzeralsZuckerstangenverkleidet.txt
+added to Meta - Blitzer als Zuckerstangen verkleidet
+created -- VielejungeMenschenverlassendasSaarland.txt
+added to Meta - Viele junge Menschen verlassen das Saarland
+created -- FCSgewinntgegenFCHimSaarlandpokal.txt
+added to Meta - FCS gewinnt gegen FCH im Saarlandpokal
+created -- ManngibtMordanSohnundSchwiegersohnzu.txt
+added to Meta - Mann gibt Mord an Sohn und Schwiegersohn zu
+created -- UrteilimProzessumToteninderSaar.txt
+added to Meta - Urteil im Prozess um Toten in der Saar
+created -- AbgeordnetersprichtimLandtagineinfacherSprache.txt
+added to Meta - Abgeordneter spricht im Landtag in einfacher Sprache
+created -- FlüchtlingebereitensichaufStudiumvor.txt
+added to Meta - Flüchtlinge bereiten sich auf Studium vor
+created -- StädteundGemeindenbekommenmehrGeld.txt
+added to Meta - Städte und Gemeinden bekommen mehr Geld
+created -- MuslimedürfeninHomburgToteimTuchbeerdigen.txt
+added to Meta - Muslime dürfen in Homburg Tote im Tuch beerdigen
+created -- FußgängerstirbtbeiAutounfall.txt
+added to Meta - Fußgänger stirbt bei Autounfall
+25
+created -- AdrianZöhleristneuerLSVSPräsident.txt
+added to Meta - Adrian Zöhler ist neuer LSVS-Präsident
+created -- NeuerSupermarktinNeunkirchen.txt
+added to Meta - Neuer Supermarkt in Neunkirchen
+26
+created -- StreitumLSVSSkandalgehtweiter.txt
+added to Meta - Streit um LSVS-Skandal geht weiter
+created -- SRdebesserlesenkönnen.txt
+added to Meta - SR.de besser lesen können
+created -- StreitumgeplantesGlobusGeschäftinNeunkirchen.txt
+added to Meta - Streit um geplantes Globus-Geschäft in Neunkirchen

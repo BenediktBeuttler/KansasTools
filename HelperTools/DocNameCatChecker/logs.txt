@@ -1,0 +1,571 @@
+AlphaGrund/Innerbetriebliche Verkehrswege.txt	*verkehr*	3
+AlphaGrund/Produktsicherheit durch HACCP.txt	*sicherheit*	0
+AlphaGrund/Sicherheit im Internet.txt	*sicherheit*	2
+AlphaGrund/Sicherheitshinweise für ein Regallager.txt	*sicherheit*	2
+AlphaGrund/Sicherheitssoftware.txt	*sicherheit*	3
+AlphaGrund/Sicherheitszeichen.txt	*sicherheit*	2
+AOK/Gesundheit_verstehen_Achtsamkeit.txt	*gesund*	4
+AOK/Gesundheit_verstehen_Blitzentspannung.txt	*gesund*	4
+AOK/Gesundheit_verstehen_Die_drei_Siebe.txt	*gesund*	4
+AOK/Gesundheit_verstehen_Die_groeßten_Gesundheitsgefahren.txt	*gesund*	4
+AOK/Gesundheit_verstehen_Die_haeufigsten_Gedanken-Fallen.txt	*gesund*	4
+AOK/Gesundheit_verstehen_Die_Lage_gelassen_von_außen_betrachten_Die_Meta-Ebene.txt	*gesund*	4
+AOK/Gesundheit_verstehen_Die_volle_Tasse_Zen-Geschichte.txt	*gesund*	4
+AOK/Gesundheit_verstehen_Die_volle_Tasse_Zen-Geschichte.txt	*geschicht*	4
+AOK/Gesundheit_verstehen_Drehbuecher_im_Kopf.txt	*gesund*	4
+AOK/Gesundheit_verstehen_Ernaehrungs-Tipps.txt	*gesund*	4
+AOK/Gesundheit_verstehen_Finger-Yoga_Mudras.txt	*gesund*	4
+AOK/Gesundheit_verstehen_Geben_statt_wollen.txt	*gesund*	4
+AOK/Gesundheit_verstehen_Gemeinsam_gegen_Einsamkeit_im_Alter.txt	*gesund*	4
+AOK/Gesundheit_verstehen_Inventur_machen.txt	*gesund*	4
+AOK/Gesundheit_verstehen_Kritik_annehmen.txt	*gesund*	4
+AOK/Gesundheit_verstehen_Mach_mal_Pause.txt	*gesund*	4
+AOK/Gesundheit_verstehen_Salutogenese.txt	*gesund*	4
+AOK/Gesundheit_verstehen_Schatz-Kiste.txt	*gesund*	4
+AOK/Gesundheit_verstehen_Sitzen_ist_das_neue_Rauchen.txt	*gesund*	4
+AOK/Gesundheit_verstehen_So_lernen_wir.txt	*gesund*	4
+AOK/Gesundheit_verstehen_Stress.txt	*gesund*	4
+AOK/Gesundheit_verstehen_Tempel_der_1000_Spiegel.txt	*gesund*	4
+AOK/Gesundheit_verstehen_Vorbeugen_gegen_Burn-Out.txt	*gesund*	4
+AOK/Gesundheit_verstehen_Warnzeichen_einer_Depression_erkennen.txt	*gesund*	4
+AOK/Gesundheit_verstehen_Was_ist_ein_Burn-Out.txt	*gesund*	4
+AOK/Gesundheit_verstehen_Was_ist_Krankheit.txt	*gesund*	4
+AOK/Gesundheit_verstehen_Was_macht_Gesundheit_aus.txt	*gesund*	4
+AOK/Infektionskrankheiten_verstehen_Geschichte_der_Infektionskrankheiten.txt	*geschicht*	4
+AOK/Krebs_verstehen_Ist_Sport_gut_bei_Krebs.txt	*sport*	4
+bpb/barrierefrei_einfach_politik_grundgesetz_grundrechte_2020.txt	*politi*	3
+bpb/Der Mensch gehört zur Natur – und verändert sie.txt	*nat?r*	0
+bpb/Die landwirtschaftliche Revolution.txt	*wirtschaft*	0
+bpb/EU Gemeinsame Außenpolitik.txt	*politi*	0
+bpb/EU Zusammenarbeit in der Wirtschaft.txt	*wirtschaft*	0
+bpb/Europawahl Klimapolitik.txt	*politi*	0
+bpb/Flüchtlingspolitik in Deutschland .txt	*politi*	0
+bpb/Geschichte des Europäischen Parlaments.txt	*geschicht*	0
+bpb/In der Natur hängt alles miteinander zusammen.txt	*nat?r*	0
+bpb/Nach dem Grundgesetz haben auch die Medien Freiheit.txt	*medien*	3
+bpb/Politik - Der Putzplan.txt	*politi*	0
+bpb/Politik als Beruf.txt	*politi*	0
+bpb/Politische Meinungen zu Flüchtlingen in Deutschland .txt	*politi*	0
+bpb/Was ist Politik.txt	*politi*	0
+bpb/Weniger Auto fahren, öfter das Rad oder öffentliche Verkehrsmittel nutzen.txt	*verkehr*	0
+bpb/politik/grundfragen/politik-einfach-fuer-alle/241346/einfach-politik-hefte-und-plakat-clean.txt	*politi*	2
+bpb/politik/grundfragen/politik-einfach-fuer-alle/248956/die-webseiten-einfach-politik-clean.txt	*politi*	2
+bpb/politik/grundfragen/politik-einfach-fuer-alle/251048/einfach-politik-aktuell-zum-hoeren-clean.txt	*politi*	2
+bpb/politik/grundfragen/politik-einfach-fuer-alle/258184/einfach-politik-aktuell-clean.txt	*politi*	0
+bpb/politik/grundfragen/politik-einfach-fuer-alle/258829/einfach-politik-aktuell-blick-hinter-nachrichten-clean.txt	*politi*	0
+bpb/politik/grundfragen/politik-einfach-fuer-alle/259080/was-ist-politik-clean.txt	*politi*	3
+bpb/politik/grundfragen/politik-einfach-fuer-alle/271896/wer-hat-einfach-politik-aktuell-gemacht-clean.txt	*politi*	2
+bpb/politik/grundfragen/politik-einfach-fuer-alle/278891/einfach-politik-hoerbuecher-einzelkapitel-clean.txt	*politi*	2
+bpb/politik/grundfragen/politik-einfach-fuer-alle/279782/gemeinsame-aussenpolitik-clean.txt	*politi*	0
+bpb/politik/grundfragen/politik-einfach-fuer-alle/280549/einfach-politik-europawahl-2019-wie-sie-sich-entscheiden-koennen-clean.txt	*politi*	0
+bpb/politik/grundfragen/politik-einfach-fuer-alle/284567/einfach-politik-hoerbuecher-clean.txt	*politi*	2
+bpb/politik/grundfragen/politik-einfach-fuer-alle/311426/einfach-politik-extra-informationen-zur-corona-krise-clean.txt	*politi*	4
+eVideo/BKF_Sicherheitsausruestung.txt	*sicherheit*	1
+GIZ/Gesundes_Hoeren_1.txt	*gesund*	4
+GIZ/Gesundes_Hoeren_2.txt	*gesund*	3
+GIZ/Gesunde_Augen_1.txt	*gesund*	7
+GIZ/Gesunde_Augen_2.txt	*gesund*	7
+GIZ/Gesunde_Augen_3.txt	*gesund*	7
+GIZ/Gesunde_Ernaehrung_1.txt	*gesund*	7
+GIZ/Gesunde_Ernaehrung_2.txt	*gesund*	7
+GIZ/Gesunde_Ernaehrung_3.txt	*gesund*	7
+GIZ/Gesunde_Ernaehrung_4.txt	*gesund*	7
+GIZ/Gesunde_Ernaehrung_5.txt	*gesund*	7
+GIZ/Gesundheitssystem_in_Deutschland_1.txt	*gesund*	4
+GIZ/Gesundheitssystem_in_Deutschland_2.txt	*gesund*	4
+GIZ/Gesundheitssystem_in_Deutschland_3.txt	*gesund*	4
+GIZ/Gesundheit_rund_um_die_Welt_1.txt	*gesund*	4
+GIZ/Gesundheit_rund_um_die_Welt_2.txt	*gesund*	4
+GIZ/Kindergesundheit_1.txt	*gesund*	4
+GIZ/Kindergesundheit_2.txt	*gesund*	3
+GIZ/Kindergesundheit_3.txt	*gesund*	6
+GIZ/Kindergesundheit_4.txt	*gesund*	3
+GIZ/Kindergesundheit_5.txt	*gesund*	3
+GIZ/Kindergesundheit_6.txt	*gesund*	2
+GIZ/Zahngesundheit_1.txt	*gesund*	7
+GIZ/Zahngesundheit_2.txt	*gesund*	7
+GIZ/Zahngesundheit_3.txt	*gesund*	7
+GIZ/Zahngesundheit_4.txt	*gesund*	4
+hurraki/wiki/apartheidspolitik-clean.txt	*politi*	3
+hurraki/wiki/aussenpolitik-clean.txt	*politi*	0
+hurraki/wiki/behindertenreitsport-clean.txt	*sport*	6
+hurraki/wiki/breitensport-clean.txt	*sport*	6
+hurraki/wiki/elektronische_gesundheitskarte-clean.txt	*gesund*	2
+hurraki/wiki/freiwillige_selbstkontrolle_der_filmwirtschaft-clean.txt	*wirtschaft*	3
+hurraki/wiki/freizeitsport-clean.txt	*sport*	6
+hurraki/wiki/geschichte-clean.txt	*geschicht*	2
+hurraki/wiki/geschichte_(wortklaerung)-clean.txt	*geschicht*	2
+hurraki/wiki/gesellschaft-clean.txt	*gesellschaft*	3
+hurraki/wiki/gesetz_(natur)-clean.txt	*nat?r*	3
+hurraki/wiki/gesetz_(politik)-clean.txt	*politi*	3
+hurraki/wiki/gruene_politik-clean.txt	*politi*	0
+hurraki/wiki/holzmedien-clean.txt	*medien*	2
+hurraki/wiki/innenpolitik-clean.txt	*politi*	0
+hurraki/wiki/kampfsport-clean.txt	*sport*	6
+hurraki/wiki/koalition_(in_der_politik)-clean.txt	*politi*	0
+hurraki/wiki/koordinator_fuer_die_zwischengesellschaftliche_zusammenarbeit_mit_russland__zentralasien_und_den_laendern_der_oestlichen_partnerschaft.txt	*gesellschaft*	0
+hurraki/wiki/koordinator_fuer_die_zwischengesellschaftliche_zusammenarbeit_mit_russland__zentralasien_und_den_laendern_der_oestlichen_partnerschaft.txt	*nat?r*	0
+hurraki/wiki/kultur-clean.txt	*kultur*	2
+hurraki/wiki/kulturbeutel-clean.txt	*kultur*	2
+hurraki/wiki/lobby_(politik)-clean.txt	*politi*	0
+hurraki/wiki/mandat_(in_der_politik)-clean.txt	*politi*	0
+hurraki/wiki/marktwirtschaft-clean.txt	*wirtschaft*	2
+hurraki/wiki/massenmedien-clean.txt	*medien*	2
+hurraki/wiki/muenchner_sicherheitskonferenz-clean.txt	*sicherheit*	0
+hurraki/wiki/naturgesetz-clean.txt	*nat?r*	3
+hurraki/wiki/naturschutzgebiet-clean.txt	*nat?r*	5
+hurraki/wiki/netzkultur-clean.txt	*kultur*	2
+hurraki/wiki/netzpolitik-clean.txt	*politi*	0
+hurraki/wiki/oekologische_landwirtschaft-clean.txt	*wirtschaft*	7
+hurraki/wiki/paralympics_radsport-clean.txt	*sport*	6
+hurraki/wiki/parkraumbewirtschaftungszone-clean.txt	*wirtschaft*	2
+hurraki/wiki/polarisierung_(in_der_politik)-clean.txt	*politi*	0
+hurraki/wiki/politik-clean.txt	*politi*	0
+hurraki/wiki/politiker-clean.txt	*politi*	0
+hurraki/wiki/politikerin-clean.txt	*politi*	0
+hurraki/wiki/politikum-clean.txt	*politi*	0
+hurraki/wiki/politisches_system_der_bundesrepublik_deutschland-clean.txt	*politi*	0
+hurraki/wiki/politische_ideologie-clean.txt	*politi*	3
+hurraki/wiki/politische_partei-clean.txt	*politi*	0
+hurraki/wiki/radsport_wettbewerbe-clean.txt	*sport*	6
+hurraki/wiki/reaktion_(politik)-clean.txt	*politi*	2
+hurraki/wiki/soziale_marktwirtschaft-clean.txt	*wirtschaft*	3
+hurraki/wiki/soziale_sicherheit-clean.txt	*sicherheit*	3
+hurraki/wiki/sport-clean.txt	*sport*	6
+hurraki/wiki/sportgeraet-clean.txt	*sport*	6
+hurraki/wiki/strassenverkehrsordnung-clean.txt	*verkehr*	1
+hurraki/wiki/transportpalette-clean.txt	*sport*	2
+hurraki/wiki/umweltschutz-clean.txt	*umwelt*	7
+hurraki/wiki/verkehrszeichen-clean.txt	*verkehr*	2
+hurraki/wiki/verkehrszeichen_136-clean.txt	*verkehr*	2
+hurraki/wiki/verkehrszeichen_138-clean.txt	*verkehr*	2
+hurraki/wiki/volkspartei_(in_der_politik)-clean.txt	*politi*	0
+hurraki/wiki/vorwahl_(in_der_politik)-clean.txt	*politi*	0
+hurraki/wiki/wegwerfgesellschaft-clean.txt	*gesellschaft*	2
+hurraki/wiki/weltgesundheitsorganisation-clean.txt	*gesund*	4
+hurraki/wiki/weltkulturerbe-clean.txt	*kultur*	5
+hurraki/wiki/weltumwelttag-clean.txt	*umwelt*	0
+hurraki/wiki/wirtschaft-clean.txt	*wirtschaft*	0
+hurraki/wiki/zebrastreifen_(verkehr)-clean.txt	*verkehr*	1
+hurraki/wiki/zugangsgesellschaft-clean.txt	*gesellschaft*	2
+klexikon/zum/wiki/freikoerperkultur-clean.txt	*kultur*	5
+klexikon/zum/wiki/geschichte-clean.txt	*geschicht*	6
+klexikon/zum/wiki/gesellschaft-clean.txt	*gesellschaft*	3
+klexikon/zum/wiki/gesellschaftsspiel-clean.txt	*gesellschaft*	6
+klexikon/zum/wiki/gesundheit-clean.txt	*gesund*	4
+klexikon/zum/wiki/gruene_politik-clean.txt	*politi*	3
+klexikon/zum/wiki/hochkultur-clean.txt	*kultur*	5
+klexikon/zum/wiki/kultur-clean.txt	*kultur*	5
+klexikon/zum/wiki/kulturhauptstadt_europas-clean.txt	*kultur*	5
+klexikon/zum/wiki/landwirtschaft-clean.txt	*wirtschaft*	7
+klexikon/zum/wiki/medien-clean.txt	*medien*	2
+klexikon/zum/wiki/monokultur-clean.txt	*kultur*	7
+klexikon/zum/wiki/motorsport-clean.txt	*sport*	1
+klexikon/zum/wiki/natur-clean.txt	*nat?r*	7
+klexikon/zum/wiki/politik-clean.txt	*politi*	0
+klexikon/zum/wiki/politiker-clean.txt	*politi*	0
+klexikon/zum/wiki/radsport-clean.txt	*sport*	6
+klexikon/zum/wiki/soziale_medien-clean.txt	*medien*	2
+klexikon/zum/wiki/sport-clean.txt	*sport*	6
+klexikon/zum/wiki/umwelt-clean.txt	*umwelt*	7
+klexikon/zum/wiki/umweltschutz-clean.txt	*umwelt*	7
+klexikon/zum/wiki/umweltverschmutzung-clean.txt	*umwelt*	7
+klexikon/zum/wiki/urgeschichte-clean.txt	*geschicht*	5
+klexikon/zum/wiki/verkehr-clean.txt	*verkehr*	1
+klexikon/zum/wiki/verkehrsmittel-clean.txt	*verkehr*	1
+klexikon/zum/wiki/watt_(natur)-clean.txt	*nat?r*	7
+klexikon/zum/wiki/weltgesundheitsorganisation-clean.txt	*gesund*	4
+klexikon/zum/wiki/weltkulturerbe-clean.txt	*kultur*	5
+klexikon/zum/wiki/weltnaturerbe-clean.txt	*nat?r*	5
+klexikon/zum/wiki/wintersport-clean.txt	*sport*	6
+klexikon/zum/wiki/wirtschaft-clean.txt	*wirtschaft*	0
+KonsumAlpha Universität Flensburg/Projekt_KonsumAlpha_Sonstiges_Gesundheit.txt	*gesund*	4
+LV VHS Bayern/Wie viel Fett pro Tag ist gesund.txt	*gesund*	7
+mdr/nachrichten-leicht/kultur-ls-100-clean.txt	*kultur*	0
+mdr/nachrichten-leicht/prozess-kampfsport-trainer-dresden-missbrauch-ls-100-clean.txt	*sport*	3
+mdr/nachrichten-leicht/sachsen-corona-hilfen-kultur-ls-100-clean.txt	*kultur*	6
+mdr/nachrichten-leicht/thueringen-sportstaetten-oeffnen-ls-100-clean.txt	*sport*	0
+mdr/nachrichten-leicht/verkehrsbetriebe-leipzig-kuendigung-kontrolleure-attacke-ls-100-clean.txt	*verkehr*	1
+mdr/nachrichten-leicht/woerterbuch/glossar-amt-fuer-strassenverkehr100-clean.txt	*verkehr*	3
+mdr/nachrichten-leicht/woerterbuch/glossar-arena-gesellschaft-100-clean.txt	*gesellschaft*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-asylpolitik-100-clean.txt	*politi*	3
+mdr/nachrichten-leicht/woerterbuch/glossar-aussen-politik-100-clean.txt	*politi*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-auto-transporter-100-clean.txt	*sport*	1
+mdr/nachrichten-leicht/woerterbuch/glossar-ballsport-100-clean.txt	*sport*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-behinderten-politik100-clean.txt	*politi*	3
+mdr/nachrichten-leicht/woerterbuch/glossar-beschaeftigungs-gesellschaft100-clean.txt	*gesellschaft*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-bildungs-politik-100-clean.txt	*politi*	3
+mdr/nachrichten-leicht/woerterbuch/glossar-bund-umwelt-natur-schutz-100-clean.txt	*nat?r*	7
+mdr/nachrichten-leicht/woerterbuch/glossar-bund-umwelt-natur-schutz-100-clean.txt	*umwelt*	7
+mdr/nachrichten-leicht/woerterbuch/glossar-bundes-verkehrs-minister-100-clean.txt	*verkehr*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-bundes-verkehrs-ministerium100-clean.txt	*verkehr*	3
+mdr/nachrichten-leicht/woerterbuch/glossar-cyber-sicherheit100-clean.txt	*sicherheit*	2
+mdr/nachrichten-leicht/woerterbuch/glossar-deutsche-umwelt-hilfe-100-clean.txt	*umwelt*	7
+mdr/nachrichten-leicht/woerterbuch/glossar-deutscher-boxsport-verband-100-clean.txt	*sport*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-deutscher-kultur-rat-100-clean.txt	*kultur*	5
+mdr/nachrichten-leicht/woerterbuch/glossar-deutsches-sport-museum-100-clean.txt	*sport*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-digitale-medien-100-clean.txt	*medien*	2
+mdr/nachrichten-leicht/woerterbuch/glossar-eu-umwelt-kommissar-100-clean.txt	*umwelt*	7
+mdr/nachrichten-leicht/woerterbuch/glossar-europaeische-kultur-100-clean.txt	*kultur*	5
+mdr/nachrichten-leicht/woerterbuch/glossar-fantasy-geschichten-100-clean.txt	*geschicht*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-fern-verkehr-100-clean.txt	*verkehr*	1
+mdr/nachrichten-leicht/woerterbuch/glossar-flug-gesellschaft-100-clean.txt	*gesellschaft*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-flughafen-gesellschaft-100-clean.txt	*gesellschaft*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-foerder-politik-auf-dem-land-100-clean.txt	*politi*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-gas-gesellschaft-100-clean.txt	*gesellschaft*	3
+mdr/nachrichten-leicht/woerterbuch/glossar-gefangenen-transport-100-clean.txt	*sport*	1
+mdr/nachrichten-leicht/woerterbuch/glossar-gefluegel-wirtschafts-verband-100-clean.txt	*wirtschaft*	7
+mdr/nachrichten-leicht/woerterbuch/glossar-gehoerlosen-sport-verband100-clean.txt	*sport*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-gesellschaft-100-clean.txt	*gesellschaft*	3
+mdr/nachrichten-leicht/woerterbuch/glossar-gesellschaft-fuer-bruecke-preis-100-clean.txt	*gesellschaft*	3
+mdr/nachrichten-leicht/woerterbuch/glossar-gesellschafter-100-clean.txt	*gesellschaft*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-gesundheit-sprecher-100-clean.txt	*gesund*	4
+mdr/nachrichten-leicht/woerterbuch/glossar-gesundheits-amt-100-clean.txt	*gesund*	3
+mdr/nachrichten-leicht/woerterbuch/glossar-gesundheits-bestaetigung-100-clean.txt	*gesund*	4
+mdr/nachrichten-leicht/woerterbuch/glossar-gesundheits-dienstleister-100-clean.txt	*gesund*	4
+mdr/nachrichten-leicht/woerterbuch/glossar-gesundheits-minister-konferenz-100-clean.txt	*gesund*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-gesundheits-ministerin100-clean.txt	*gesund*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-gesundheits-ministerium-100-clean.txt	*gesund*	3
+mdr/nachrichten-leicht/woerterbuch/glossar-gesundheits-sachen100-clean.txt	*gesund*	4
+mdr/nachrichten-leicht/woerterbuch/glossar-gesundheits-zentrum-100-clean.txt	*gesund*	4
+mdr/nachrichten-leicht/woerterbuch/glossar-haupt-gesellschafter-100-clean.txt	*gesellschaft*	3
+mdr/nachrichten-leicht/woerterbuch/glossar-innen-politiker-100-clean.txt	*politi*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-innen-politischer-sprecher-von-sachsen-100-clean.txt	*politi*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-institut-fuer-weltwirtschaft-100-clean.txt	*wirtschaft*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-institut-fuer-wirtschafts-forschung-100-clean.txt	*wirtschaft*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-institut-tiergesundheit-100-clean.txt	*gesund*	4
+mdr/nachrichten-leicht/woerterbuch/glossar-institut-von-der-deutschen-wirtschaft-100-clean.txt	*wirtschaft*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-juedisch-israelische-kultur-tage-100-clean.txt	*kultur*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-kampfsport-gruppen-100-clean.txt	*sport*	3
+mdr/nachrichten-leicht/woerterbuch/glossar-kampfsport-schau-100-clean.txt	*sport*	2
+mdr/nachrichten-leicht/woerterbuch/glossar-kampfsport-veranstaltungen-100-clean.txt	*sport*	3
+mdr/nachrichten-leicht/woerterbuch/glossar-kanu-sport-100-clean.txt	*sport*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-klein-transporter-100-clean.txt	*sport*	1
+mdr/nachrichten-leicht/woerterbuch/glossar-klein-transporter100-clean.txt	*sport*	1
+mdr/nachrichten-leicht/woerterbuch/glossar-klima-politik100-clean.txt	*politi*	5
+mdr/nachrichten-leicht/woerterbuch/glossar-kommunal-politiker-100-clean.txt	*politi*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-kreisverkehr-100-clean.txt	*verkehr*	1
+mdr/nachrichten-leicht/woerterbuch/glossar-kultur-buerger-meisterin100-clean.txt	*kultur*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-kultur-buero100-clean.txt	*kultur*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-kultur-direktorin-100-clean.txt	*kultur*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-kultur-gueter-100-clean.txt	*kultur*	5
+mdr/nachrichten-leicht/woerterbuch/glossar-kultur-gut-schutz-gesetz-100-clean.txt	*kultur*	3
+mdr/nachrichten-leicht/woerterbuch/glossar-kultur-hauptstadt-100-clean.txt	*kultur*	5
+mdr/nachrichten-leicht/woerterbuch/glossar-kultur-haus-100-clean.txt	*kultur*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-kultur-landschaft-100-clean.txt	*kultur*	5
+mdr/nachrichten-leicht/woerterbuch/glossar-kultur-minister-100-clean.txt	*kultur*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-kultur-ministerium-100-clean.txt	*kultur*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-kultur-palast-100-clean.txt	*kultur*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-kultur-projekte-100-clean.txt	*kultur*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-kultur-quartier-100-clean.txt	*kultur*	5
+mdr/nachrichten-leicht/woerterbuch/glossar-kultur-staats-minister-100-clean.txt	*kultur*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-kultur-staats-sekretaere-100-clean.txt	*kultur*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-kultur-staetten-100-clean.txt	*kultur*	5
+mdr/nachrichten-leicht/woerterbuch/glossar-kultur-stiftung-100-clean.txt	*kultur*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-kultur-verein-100-clean.txt	*kultur*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-kultur-wissenschaftler-100-clean.txt	*kultur*	3
+mdr/nachrichten-leicht/woerterbuch/glossar-kultur-zentrum100-clean.txt	*kultur*	5
+mdr/nachrichten-leicht/woerterbuch/glossar-kulturanker100-clean.txt	*kultur*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-kulturelle-angebote-100-clean.txt	*kultur*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-kulturelle-einrichtungen-100-clean.txt	*kultur*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-kultursenat-100-clean.txt	*kultur*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-kur-und-tourismus-gesellschaft-100-clean.txt	*gesellschaft*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-landes-amt-fuer-strassenbau-und-verkehr-100-clean.txt	*verkehr*	1
+mdr/nachrichten-leicht/woerterbuch/glossar-landes-amt-fuer-umwelt-100-clean.txt	*umwelt*	7
+mdr/nachrichten-leicht/woerterbuch/glossar-landes-betrieb-fuer-hochwasser-schutz-und-wasserwirtschaft-100-clean.txt	*wirtschaft*	5
+mdr/nachrichten-leicht/woerterbuch/glossar-landes-entwicklungs-gesellschaft-100-clean.txt	*gesellschaft*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-landes-museum-fuer-vorgeschichte-100-clean.txt	*geschicht*	7
+mdr/nachrichten-leicht/woerterbuch/glossar-landes-politiker-100-clean.txt	*politi*	5
+mdr/nachrichten-leicht/woerterbuch/glossar-landes-sport-bund-100-clean.txt	*sport*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-landes-umwelt-amt-102-clean.txt	*umwelt*	7
+mdr/nachrichten-leicht/woerterbuch/glossar-landes-zentrale-fuer-politische-bildung-100-clean.txt	*politi*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-landwirtschaft-100-clean.txt	*wirtschaft*	7
+mdr/nachrichten-leicht/woerterbuch/glossar-landwirtschaftliche-betriebe-100-clean.txt	*wirtschaft*	7
+mdr/nachrichten-leicht/woerterbuch/glossar-landwirtschafts-minister-102-clean.txt	*wirtschaft*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-landwirtschafts-ministerium-100-clean.txt	*wirtschaft*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-lebensmittel-sicherheit100-clean.txt	*sicherheit*	3
+mdr/nachrichten-leicht/woerterbuch/glossar-magdeburger-verkehrs-betrieben-100-clean.txt	*verkehr*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-mainzeraufbau-gesellschaft-100-clean.txt	*gesellschaft*	3
+mdr/nachrichten-leicht/woerterbuch/glossar-medien-100-clean.txt	*medien*	2
+mdr/nachrichten-leicht/woerterbuch/glossar-medien-foerderung100-clean.txt	*medien*	2
+mdr/nachrichten-leicht/woerterbuch/glossar-medien-stiftung-100-clean.txt	*medien*	2
+mdr/nachrichten-leicht/woerterbuch/glossar-medien-suechtig-100-clean.txt	*medien*	2
+mdr/nachrichten-leicht/woerterbuch/glossar-ministerium-fuer-umwelt-landwirtschaft-energie-100-clean.txt	*wirtschaft*	7
+mdr/nachrichten-leicht/woerterbuch/glossar-ministerium-fuer-umwelt-landwirtschaft-energie-100-clean.txt	*umwelt*	7
+mdr/nachrichten-leicht/woerterbuch/glossar-ministerium-kultur-und-tourismus-100-clean.txt	*kultur*	5
+mdr/nachrichten-leicht/woerterbuch/glossar-mittel-deutsche-flughafen-gesellschaft-100-clean.txt	*gesellschaft*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-mitteldeutscher-verkehrs-verbund-100-clean.txt	*verkehr*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-museum-fuer-ur-geschichte-und-frueh-geschichte-100-clean.txt	*geschicht*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-nah-verkehr-100-clean.txt	*verkehr*	1
+mdr/nachrichten-leicht/woerterbuch/glossar-nah-verkehrs-gesellschaft-100-clean.txt	*verkehr*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-nah-verkehrs-gesellschaft-100-clean.txt	*gesellschaft*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-nahverkehrs-zuege-100-clean.txt	*verkehr*	1
+mdr/nachrichten-leicht/woerterbuch/glossar-nationales-natur-monument-100-clean.txt	*nat?r*	7
+mdr/nachrichten-leicht/woerterbuch/glossar-natur-100-clean.txt	*nat?r*	7
+mdr/nachrichten-leicht/woerterbuch/glossar-natur-heil-kunde-100-clean.txt	*nat?r*	4
+mdr/nachrichten-leicht/woerterbuch/glossar-natur-heil-mittel-100-clean.txt	*nat?r*	4
+mdr/nachrichten-leicht/woerterbuch/glossar-natur-katastrophe-100-clean.txt	*nat?r*	3
+mdr/nachrichten-leicht/woerterbuch/glossar-natur-monument-100-clean.txt	*nat?r*	7
+mdr/nachrichten-leicht/woerterbuch/glossar-natur-schuetzer100-clean.txt	*nat?r*	7
+mdr/nachrichten-leicht/woerterbuch/glossar-natur-schutz-100-clean.txt	*nat?r*	7
+mdr/nachrichten-leicht/woerterbuch/glossar-natur-schutz-bund-100-clean.txt	*nat?r*	7
+mdr/nachrichten-leicht/woerterbuch/glossar-natur-schutz-station100-clean.txt	*nat?r*	7
+mdr/nachrichten-leicht/woerterbuch/glossar-natur-wissenschaft-100-clean.txt	*nat?r*	7
+mdr/nachrichten-leicht/woerterbuch/glossar-naturdenkmal-100-clean.txt	*nat?r*	5
+mdr/nachrichten-leicht/woerterbuch/glossar-naturpark-verwaltung-100-clean.txt	*nat?r*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-naturschutz-gebiet-100-clean.txt	*nat?r*	7
+mdr/nachrichten-leicht/woerterbuch/glossar-neue-medien100-clean.txt	*medien*	2
+mdr/nachrichten-leicht/woerterbuch/glossar-oberhofer-sportstaetten-gmbh-100-clean.txt	*sport*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-politik-sendungen100-clean.txt	*politi*	2
+mdr/nachrichten-leicht/woerterbuch/glossar-politik100-clean.txt	*politi*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-politiker100-clean.txt	*politi*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-politische-anschlaege-100-clean.txt	*politi*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-politische-gegner-100-clean.txt	*politi*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-politische-meinung100-clean.txt	*politi*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-politische-straftaten-100-clean.txt	*politi*	3
+mdr/nachrichten-leicht/woerterbuch/glossar-politische-tat-100-clean.txt	*politi*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-politische-veranstaltung100-clean.txt	*politi*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-politischer-hintergrund-100-clean.txt	*politi*	3
+mdr/nachrichten-leicht/woerterbuch/glossar-politisches-amt-100-clean.txt	*politi*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-politischewahl-100-clean.txt	*politi*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-privater-verkehrs-verbund-100-clean.txt	*verkehr*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-regional-politiker-100-clean.txt	*politi*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-reha-sport-verband102-clean.txt	*sport*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-roessener-kultur-100-clean.txt	*kultur*	5
+mdr/nachrichten-leicht/woerterbuch/glossar-saechsische-bibliotheks-gesellschaft-100-clean.txt	*gesellschaft*	3
+mdr/nachrichten-leicht/woerterbuch/glossar-saechsische-carlowitz-gesellschaft-100-clean.txt	*gesellschaft*	5
+mdr/nachrichten-leicht/woerterbuch/glossar-schul-politik100-clean.txt	*politi*	3
+mdr/nachrichten-leicht/woerterbuch/glossar-sicherheit-100-clean.txt	*sicherheit*	1
+mdr/nachrichten-leicht/woerterbuch/glossar-sicherheits-eingaenge-100-clean.txt	*sicherheit*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-sicherheits-firmen-100-clean.txt	*sicherheit*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-sicherheits-konferenz-100-clean.txt	*sicherheit*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-sicherheits-kraefte-100-clean.txt	*sicherheit*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-sicherheits-luecke-100-clean.txt	*sicherheit*	1
+mdr/nachrichten-leicht/woerterbuch/glossar-sicherheits-partnerschaft-100-clean.txt	*sicherheit*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-sicherheits-plan-100-clean.txt	*sicherheit*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-sicherheits-politik-100-clean.txt	*politi*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-sicherheits-politik-100-clean.txt	*sicherheit*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-sicherheits-schranke-100-clean.txt	*sicherheit*	1
+mdr/nachrichten-leicht/woerterbuch/glossar-sicherheits-vorkehrungen-100-clean.txt	*sicherheit*	1
+mdr/nachrichten-leicht/woerterbuch/glossar-soziale-medien-100-clean.txt	*medien*	2
+mdr/nachrichten-leicht/woerterbuch/glossar-soziokulturelles-zentrum-100-clean.txt	*kultur*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-spitzen-sportler-100-clean.txt	*sport*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-sport-anlagen-100-clean.txt	*sport*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-sport-arzt100-clean.txt	*sport*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-sport-direktor100-clean.txt	*sport*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-sport-foerderung-100-clean.txt	*sport*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-sport-gericht-100-clean.txt	*sport*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-sport-geschaefts-fuehrer-100-clean.txt	*sport*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-sport-gremien100-clean.txt	*sport*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-sport-hostorisches-museum-100-clean.txt	*sport*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-sport-journalisten100-clean.txt	*sport*	2
+mdr/nachrichten-leicht/woerterbuch/glossar-sport-medizin100-clean.txt	*sport*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-sport-psychologin-100-clean.txt	*sport*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-sport-redaktion-100-clean.txt	*sport*	2
+mdr/nachrichten-leicht/woerterbuch/glossar-sport-saison-100-clean.txt	*sport*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-sport-schuetzen-100-clean.txt	*sport*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-sport-staetten100-clean.txt	*sport*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-sport-verein-100-clean.txt	*sport*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-sport-wettkampf-100-clean.txt	*sport*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-sportbuergermeister-100-clean.txt	*sport*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-sportchef-100-clean.txt	*sport*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-sportpark100-clean.txt	*sport*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-staats-sicherheits-dienst-100-clean.txt	*sicherheit*	3
+mdr/nachrichten-leicht/woerterbuch/glossar-stadt-sport-bund-100-clean.txt	*sport*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-staedtische-baeder-gesellschaft-100-clean.txt	*gesellschaft*	3
+mdr/nachrichten-leicht/woerterbuch/glossar-strassen-verkehrs-ordnung100-clean.txt	*verkehr*	1
+mdr/nachrichten-leicht/woerterbuch/glossar-tier-gesundheits-amt-100-clean.txt	*gesund*	7
+mdr/nachrichten-leicht/woerterbuch/glossar-transfer-gesellschaft-100-clean.txt	*gesellschaft*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-transport-weg-100-clean.txt	*sport*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-transporter100-clean.txt	*sport*	1
+mdr/nachrichten-leicht/woerterbuch/glossar-umwelt-100-clean.txt	*umwelt*	7
+mdr/nachrichten-leicht/woerterbuch/glossar-umwelt-amt-100-clean.txt	*umwelt*	7
+mdr/nachrichten-leicht/woerterbuch/glossar-umwelt-bundes-amt-100-clean.txt	*umwelt*	7
+mdr/nachrichten-leicht/woerterbuch/glossar-umwelt-daten-zentrum-100-clean.txt	*umwelt*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-umwelt-minister-100-clean.txt	*umwelt*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-umwelt-ministerium-100-clean.txt	*umwelt*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-umwelt-politik-100-clean.txt	*politi*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-umwelt-politik-100-clean.txt	*umwelt*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-umwelt-praemie-100-clean.txt	*umwelt*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-umwelt-schuetzer-100-clean.txt	*umwelt*	7
+mdr/nachrichten-leicht/woerterbuch/glossar-umwelt-schutz-100-clean.txt	*umwelt*	7
+mdr/nachrichten-leicht/woerterbuch/glossar-umwelt-schutz-amt100-clean.txt	*umwelt*	7
+mdr/nachrichten-leicht/woerterbuch/glossar-umwelt-verein100-clean.txt	*umwelt*	7
+mdr/nachrichten-leicht/woerterbuch/glossar-umwelt-verschmutzung-100-clean.txt	*umwelt*	7
+mdr/nachrichten-leicht/woerterbuch/glossar-unsportlich-100-clean.txt	*sport*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-untere-natur-schutz-behoerde100-clean.txt	*nat?r*	4
+mdr/nachrichten-leicht/woerterbuch/glossar-vereinigung-der-saechsischen-wirtschaft-100-clean.txt	*wirtschaft*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-verkehrs-betriebe-100-clean.txt	*verkehr*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-verkehrs-erziehung-100-clean.txt	*verkehr*	1
+mdr/nachrichten-leicht/woerterbuch/glossar-verkehrs-experte-100-clean.txt	*verkehr*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-verkehrs-inseln100-clean.txt	*verkehr*	1
+mdr/nachrichten-leicht/woerterbuch/glossar-verkehrs-leit-zentralen-100-clean.txt	*verkehr*	1
+mdr/nachrichten-leicht/woerterbuch/glossar-verkehrs-minister-100-clean.txt	*verkehr*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-verkehrs-ministerium-100-clean.txt	*verkehr*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-verkehrs-museum-100-clean.txt	*verkehr*	1
+mdr/nachrichten-leicht/woerterbuch/glossar-verkehrs-sicherheits-zentrum-100-clean.txt	*verkehr*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-verkehrs-sicherheits-zentrum-100-clean.txt	*sicherheit*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-verkehrs-staats-sekretaer-100-clean.txt	*verkehr*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-verkehrs-stau-100-clean.txt	*verkehr*	1
+mdr/nachrichten-leicht/woerterbuch/glossar-verkehrs-suender-kartei-100-clean.txt	*verkehr*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-verkehrs-teilnehmer-100-clean.txt	*verkehr*	1
+mdr/nachrichten-leicht/woerterbuch/glossar-verkehrs-untersuchung-100-clean.txt	*verkehr*	1
+mdr/nachrichten-leicht/woerterbuch/glossar-verkehrs-verband-100-clean.txt	*verkehr*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-verkehrs-verbund-100-clean.txt	*verkehr*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-verkehrs-verbund-mittel-thueringen-vmt-100-clean.txt	*verkehr*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-versorgungs-gesellschaft-100-clean.txt	*gesellschaft*	3
+mdr/nachrichten-leicht/woerterbuch/glossar-verwertungs-gesellschaft-102-clean.txt	*gesellschaft*	2
+mdr/nachrichten-leicht/woerterbuch/glossar-weihnachtsmarkt-gesellschaft-100-clean.txt	*gesellschaft*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-welt-erbe-staette-welt-kultur-staetten100-clean.txt	*kultur*	5
+mdr/nachrichten-leicht/woerterbuch/glossar-welt-gesundheits-organisation-100-clean.txt	*gesund*	4
+mdr/nachrichten-leicht/woerterbuch/glossar-welt-kultur-erbe-100-clean.txt	*kultur*	5
+mdr/nachrichten-leicht/woerterbuch/glossar-winter-sport100-clean.txt	*sport*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-winter-sportler-100-clean.txt	*sport*	6
+mdr/nachrichten-leicht/woerterbuch/glossar-wintersport-ort-100-clean.txt	*sport*	5
+mdr/nachrichten-leicht/woerterbuch/glossar-wirtschaft-100-clean.txt	*wirtschaft*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-wirtschaftliche-veraenderungen-100-clean.txt	*wirtschaft*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-wirtschafts-dezernent-100-clean.txt	*wirtschaft*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-wirtschafts-foerder-gesellschaft-100-clean.txt	*wirtschaft*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-wirtschafts-foerder-gesellschaft-100-clean.txt	*gesellschaft*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-wirtschafts-kriminalitaet-100-clean.txt	*wirtschaft*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-wirtschafts-ministerium-100-clean.txt	*wirtschaft*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-wirtschafts-region100-clean.txt	*wirtschaft*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-wirtschafts-sekretaere-100-clean.txt	*wirtschaft*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-wirtschafts-staats-sekretaer-100-clean.txt	*wirtschaft*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-wirtschafts-verband-100-clean.txt	*wirtschaft*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-wirtschafts-wissenschaftler-100-clean.txt	*wirtschaft*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-wohnungs-bau-gesellschaft-100-clean.txt	*gesellschaft*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-zweck-verband-fuer-den-nah-verkehr-100-clean.txt	*verkehr*	0
+mdr/nachrichten-leicht/woerterbuch/glossar-zweckverband-thueringer-wintersport-zentrum-100-clean.txt	*sport*	5
+mdr/nachrichten-leicht/woerterbuch/kultur-geschichte-100-clean.txt	*kultur*	5
+mdr/nachrichten-leicht/woerterbuch/kultur-geschichte-100-clean.txt	*geschicht*	5
+mdr/nachrichten-leicht/woerterbuch/natur100-clean.txt	*nat?r*	7
+mdr/nachrichten-leicht/woerterbuch/schwer-transporter100-clean.txt	*sport*	1
+mdr/nachrichten-leicht/woerterbuch/sport-politischer-sprecher100-clean.txt	*politi*	0
+mdr/nachrichten-leicht/woerterbuch/sport-politischer-sprecher100-clean.txt	*sport*	0
+mdr/nachrichten-leicht/woerterbuch/sport-wissenschaftler100-clean.txt	*sport*	6
+mdr/nachrichten-leicht/woerterbuch/verkehrspolitischer-sprecher100-clean.txt	*politi*	0
+mdr/nachrichten-leicht/woerterbuch/verkehrspolitischer-sprecher100-clean.txt	*verkehr*	0
+NDR/BekannterPolitikerausGefängnisentlassen.txt	*politi*	1
+NDR/BekannterPolitikerfestgenommen.txt	*politi*	1
+NDR/BesondererHilfstransportfürFlüchtlinge.txt	*sport*	3
+NDR/BundesregierungVielGeldfürKultur.txt	*kultur*	0
+NDR/BundeswehrhilftGesundheitsämtern.txt	*gesund*	4
+NDR/EinigePolitikerwollenMaskenpflichtabschaffen.txt	*politi*	4
+NDR/FrankHorchwillnichtmehrSenatorsein.txt	*nat?r*	0
+NDR/FußballFCStPaulihatneuenSportchef.txt	*sport*	6
+NDR/GesundheitsämterhabenProbleme.txt	*gesund*	4
+NDR/GiftinNaturschutzgebiet.txt	*nat?r*	7
+NDR/Hamburg130neueSporthallen.txt	*sport*	3
+NDR/HamburgAnschlagaufHausvonPolitiker.txt	*politi*	1
+NDR/HamburgAnschlagaufHausvonPolitikerin.txt	*politi*	1
+NDR/HamburgBesondereSportveranstaltung.txt	*sport*	6
+NDR/HamburgGroßeSportveranstaltungenfallenaus.txt	*sport*	6
+NDR/HamburgSchwertransporterpassennichtdurchTunnel.txt	*sport*	1
+NDR/HamburgSenatorentschuldigtsich.txt	*nat?r*	0
+NDR/HSVSportchefentlassen.txt	*sport*	6
+NDR/JournalisthatGeschichtengefälscht.txt	*geschicht*	2
+NDR/KerberistSportlerindesJahres.txt	*sport*	6
+NDR/KielPolitikerbesprechenwichtigeThemen.txt	*politi*	0
+NDR/MecklenburgVorpommernEinsatzinSportschule.txt	*sport*	4
+NDR/MecklenburgVorpommernStaatsaktfürwichtigePolitikerin.txt	*politi*	0
+NDR/NeueSenatoreninHamburg.txt	*nat?r*	0
+NDR/NiedersachsenGroßesFeuerinSporthalle.txt	*sport*	1
+NDR/NiedersachsenProblemeimZugverkehr.txt	*verkehr*	1
+NDR/NiedersachsenWichtigerPolitikerhörtauf.txt	*politi*	0
+NDR/PolitikerausNiedersachsenbleibtArbeitsminister.txt	*politi*	0
+NDR/PolitikerbeschließenneueCoronaRegeln.txt	*politi*	4
+NDR/PolitikerentscheidenBauernbekommenvielGeld.txt	*politi*	7
+NDR/PolitikerkritisierenZuvieleZuschauer.txt	*politi*	6
+NDR/PolitikerlockernCoronaRegeln.txt	*politi*	4
+NDR/PolitikerlockernCoronaRegelnfürGeimpfte.txt	*politi*	4
+NDR/PolitikerlockernQuarantäneRegeln.txt	*politi*	4
+NDR/PolitikersprechenüberCoronaImpfungen.txt	*politi*	4
+NDR/PolitikersprechenüberCoronaRegeln.txt	*politi*	4
+NDR/PolitikersprechenüberImpfpflicht.txt	*politi*	4
+NDR/PolitikersprechenüberstrengeCoronaRegeln.txt	*politi*	4
+NDR/PolitikerwollenAusreisesperre.txt	*politi*	4
+NDR/PolitikerwollenCoronaRegelnlockern.txt	*politi*	4
+NDR/PolitikerwollenstrengereCoronaRegeln.txt	*politi*	4
+NDR/SchleswigHolsteinOrdenfürPolitikerin.txt	*politi*	1
+NDR/SchleswigHolsteinSchädenanAutosvonPolitiker.txt	*politi*	1
+NDR/SchleswigHolsteinTreffenvonPolitikern.txt	*politi*	0
+NDR/SchleswigHolsteinUmweltschützerholenNetzeausOstsee.txt	*umwelt*	7
+NDR/VielePolitikerwollenstrengereCoronaRegeln.txt	*politi*	4
+NDR/WichtigePolitikerinFernsehsendung.txt	*politi*	0
+NDR/WindkraftPolitikerwillFirmenhelfen.txt	*politi*	0
+NDR/ZuschauerbeiSportveranstaltungen.txt	*sport*	6
+NDR/ÄrgerumPolitiker.txt	*politi*	0
+ndr korpus/fernsehen/service/leichte_sprache/2-tote-bei-unfall-mit-sportbooten_nilsunfall168-clean.txt	*sport*	1
+ndr korpus/fernsehen/service/leichte_sprache/andre-greipel-gewinnt-nacht-von-hannover_nilsradsport100-clean.txt	*sport*	6
+ndr korpus/fernsehen/service/leichte_sprache/auszeichnungen-fuer-sportler-in-hamburg_sportlerdesjahres216-clean.txt	*sport*	6
+ndr korpus/fernsehen/service/leichte_sprache/bekannter-politiker-festgenommen_puigdemont330-clean.txt	*politi*	1
+ndr korpus/fernsehen/service/leichte_sprache/besondere-sportart-an-schule-in-niedersachsen_nilsreiten100-clean.txt	*sport*	3
+ndr korpus/fernsehen/service/leichte_sprache/besonderer-sportwettkampf-in-hamburg-_ironman354-clean.txt	*sport*	1
+ndr korpus/fernsehen/service/leichte_sprache/brandanschlag-bei-wichtiger-politikerin_nilsfeuer144-clean.txt	*politi*	1
+ndr korpus/fernsehen/service/leichte_sprache/corona-krise-vielen-firmen-geht-es-schlecht_wirtschaft352-clean.txt	*wirtschaft*	4
+ndr korpus/fernsehen/service/leichte_sprache/einige-politiker-wollen-maskenpflicht-abschaffen_maskenpflicht414-clean.txt	*politi*	4
+ndr korpus/fernsehen/service/leichte_sprache/feuer-zerstoert-sporthalle_nilsfeuer134-clean.txt	*sport*	1
+ndr korpus/fernsehen/service/leichte_sprache/frank-horch-will-nicht-mehr-senator-sein_frankhorch110-clean.txt	*nat?r*	0
+ndr korpus/fernsehen/service/leichte_sprache/geheime-akten-bei-polizei-geklaut_sicherheitspanne100-clean.txt	*sicherheit*	1
+ndr korpus/fernsehen/service/leichte_sprache/geldautomat-_geldtransporterleichtesprache100-clean.txt	*sport*	1
+ndr korpus/fernsehen/service/leichte_sprache/gift-in-naturschutzgebiet_dioxin614-clean.txt	*nat?r*	7
+ndr korpus/fernsehen/service/leichte_sprache/hamburg-grosse-sportveranstaltungen-fallen-aus_sportveranstaltungen102-clean.txt	*sport*	6
+ndr korpus/fernsehen/service/leichte_sprache/hamburg-schwertransporter-passen-nicht-durch-tunnel_schwertransporter124-clean.txt	*sport*	1
+ndr korpus/fernsehen/service/leichte_sprache/hint-vorlage-zum-klonen_naturschutzgebietleichtesprache100-clean.txt	*nat?r*	5
+ndr korpus/fernsehen/service/leichte_sprache/hsv-sportchef-entlassen_hsventlassung100-clean.txt	*sport*	6
+ndr korpus/fernsehen/service/leichte_sprache/innensenator_innensenatorleichtesprache100-clean.txt	*nat?r*	0
+ndr korpus/fernsehen/service/leichte_sprache/journalist-hat-geschichten-gefaelscht_spiegel852-clean.txt	*geschicht*	2
+ndr korpus/fernsehen/service/leichte_sprache/kerber-ist-sportlerin-des-jahres_kerber1722-clean.txt	*sport*	6
+ndr korpus/fernsehen/service/leichte_sprache/kiel-politiker-besprechen-wichtige-themen_innenminister188-clean.txt	*politi*	0
+ndr korpus/fernsehen/service/leichte_sprache/kultursenator_kultursenatorleichtesprache100-clean.txt	*kultur*	0
+ndr korpus/fernsehen/service/leichte_sprache/kultursenator_kultursenatorleichtesprache100-clean.txt	*nat?r*	0
+ndr korpus/fernsehen/service/leichte_sprache/neue-senatoren-in-hamburg_hamburg1786-clean.txt	*nat?r*	0
+ndr korpus/fernsehen/service/leichte_sprache/neuer-innensenator-in-hamburg_nilsgrote100-clean.txt	*nat?r*	0
+ndr korpus/fernsehen/service/leichte_sprache/neuer-kultursenator-in-hamburg_brosda102-clean.txt	*kultur*	0
+ndr korpus/fernsehen/service/leichte_sprache/neuer-kultursenator-in-hamburg_brosda102-clean.txt	*nat?r*	0
+ndr korpus/fernsehen/service/leichte_sprache/neuer-sportchef-bei-hannover-96_hannover11800-clean.txt	*sport*	6
+ndr korpus/fernsehen/service/leichte_sprache/peter-knaebel-nicht-mehr-sportchef-vom-hsv_nilshsv106-clean.txt	*sport*	6
+ndr korpus/fernsehen/service/leichte_sprache/politiker-entscheiden-bauern-bekommen-viel-geld-_duerrehilfe100-clean.txt	*politi*	7
+ndr korpus/fernsehen/service/leichte_sprache/politiker-hans-koschnick-ist-tot_nilskoschnick100-clean.txt	*politi*	0
+ndr korpus/fernsehen/service/leichte_sprache/politiker-henning-voscherau-ist-tot_nilshenningvoscherau100-clean.txt	*politi*	0
+ndr korpus/fernsehen/service/leichte_sprache/politiker-wollen-ausreisesperre_ausreisesperre100-clean.txt	*politi*	4
+ndr korpus/fernsehen/service/leichte_sprache/politikerin-barbara-kisseler-ist-tot_nilstrauer102-clean.txt	*politi*	0
+ndr korpus/fernsehen/service/leichte_sprache/polizei-kontrolliert-autofahrer_verkehrskontrollen118-clean.txt	*verkehr*	1
+ndr korpus/fernsehen/service/leichte_sprache/polizeieinsatz-gegen-einbrecher_verkehrskontrollen128-clean.txt	*verkehr*	1
+ndr korpus/fernsehen/service/leichte_sprache/schleswig-holstein-erlaubt-mehr-sport_coronavirus2440-clean.txt	*sport*	4
+ndr korpus/fernsehen/service/leichte_sprache/schwertransporter_schwertransporterleichtesprache100-clean.txt	*sport*	1
+ndr korpus/fernsehen/service/leichte_sprache/sehr-grosser-lkw-in-hamburg_schwertransport532-clean.txt	*sport*	1
+ndr korpus/fernsehen/service/leichte_sprache/senator_senatorleichtesprache100-clean.txt	*nat?r*	0
+ndr korpus/fernsehen/service/leichte_sprache/sportchef_sportchefleichtesprache100-clean.txt	*sport*	6
+ndr korpus/fernsehen/service/leichte_sprache/sportlerinnen-gewinnen-medaillen_nilsparalympics100-clean.txt	*sport*	6
+ndr korpus/fernsehen/service/leichte_sprache/thomas-eichin-nicht-mehr-sportchef-bei-werder-bremen_nilseichin100-clean.txt	*sport*	6
+ndr korpus/fernsehen/service/leichte_sprache/torsten-albig-will-keine-politik-mehr-machen-_albig826-clean.txt	*politi*	0
+ndr korpus/fernsehen/service/leichte_sprache/umweltschuetzer_umweltschuetzerleichtesprache100-clean.txt	*umwelt*	7
+ndr korpus/fernsehen/service/leichte_sprache/unfall-mit-schwertransporter_unfall11050-clean.txt	*sport*	1
+ndr korpus/fernsehen/service/leichte_sprache/verkehrskontrollen-gegen-einbrecher_nilskontrollen100-clean.txt	*verkehr*	1
+ndr korpus/fernsehen/service/leichte_sprache/verkehrsminister_verkehrsministerleichtesprache100-clean.txt	*verkehr*	0
+ndr korpus/fernsehen/service/leichte_sprache/viel-geld-gestohlen-polizei-nimmt-2-maenner-fest_geldtransporter158-clean.txt	*sport*	1
+ndr korpus/fernsehen/service/leichte_sprache/weltkulturerbe_weltkulturerbeleichtesprache100-clean.txt	*kultur*	5
+ndr korpus/fernsehen/service/leichte_sprache/wichtige-politiker-treffen-sich-in-hamburg-_gzwanzigpolitik100-clean.txt	*politi*	0
+ndr korpus/fernsehen/service/leichte_sprache/wichtige-politiker-treffen-sich-in-hamburg_osze416-clean.txt	*politi*	0
+ndr korpus/fernsehen/service/leichte_sprache/wichtiger-politiker-aus-der-tuerkei-in-hamburg_tuerkei924-clean.txt	*politi*	0
+ndr korpus/fernsehen/service/leichte_sprache/wichtiger-politiker-besucht-daenemark_guenther450-clean.txt	*politi*	0
+ndr korpus/fernsehen/service/leichte_sprache/windkraft-politiker-will-firmen-helfen_windkraft1066-clean.txt	*politi*	0
+SR/DasBundesumweltministeriumbeobachtetdasfranzösischeAtomkraftwerkCattenom.txt	*umwelt*	7
+SR/OskarLafontainehörtmitderPolitikauf.txt	*politi*	0
+SR/SaarlandempfängtSpecialOlympicSportler.txt	*sport*	6
+SR/SaarländischeSportlerbeidenParalympics.txt	*sport*	6
+SR/SaarSportlerdesJahres.txt	*sport*	6
+SR/SaarSportlergehenbeiOlympialeeraus.txt	*sport*	6
+SR/SabineDengelwirdKulturdezernentin.txt	*kultur*	0
+SR/Sportlerinnenausgezeichnet.txt	*sport*	6
+SR/StreitumImpfpflichtimGesundheitsbereich.txt	*gesund*	0
+SR/VerkehrskreiselanderOstspangewiederfreigegeben.txt	*verkehr*	1
+Stiftung Lesen/Digitale_Lesemedien_Familie_Einsatz.txt	*medien*	3
+Stiftung Lesen/Vorlesen_und_Erzaehlen_ab_1_Bilderbücher_und_digitale_Medien.txt	*medien*	2
+Stiftung Lesen/Vorlesen_und_Erzaehlen_ab_1_Einschlafen_mit_Geschichten.txt	*geschicht*	3
+Stiftung Lesen/Vorlesen_und_Erzaehlen_ab_3_andere_Medien.txt	*medien*	2
+Wallaschek/Besondere Sport-Wettbewerbe in Kiel.txt	*sport*	6
+wdr/hilfe/leichte-sprache/jahresrueckblick2017/schnee-verkehrschaos-100-clean.txt	*verkehr*	1
+wdr/hilfe/leichte-sprache/jahresrueckblick2017/zugverkehr-wuppertal-100-clean.txt	*verkehr*	1
