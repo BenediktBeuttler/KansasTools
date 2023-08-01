@@ -122,8 +122,10 @@ with codecs.open(processedTextsFile, "r", encoding) as f:
         processedTexts.append(line.strip())
 
 # read processed files first and save in array
+# for testing purposes only have a look at the first page
 for i in range(0,1):
     logIt(str(i))
+    # for testing purposes, i am crawling here the articles directly and break afterwards.
     # crawlNewsPage("https://www.sr.de/sr/home/nachrichten/nachrichten_einfach/schriftgroesse_kontrast_nachrichten_einfach100.html")
     crawlNewsPage("https://www.fluter.de/polizeigewalt-kennzeichungspflicht-behr")
     break
