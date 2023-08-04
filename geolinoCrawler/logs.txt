@@ -1,0 +1,80 @@
+year: 0 month: 1
+https://www.geo.de/geolino/archiv/?month=1&year=2002
+year: 0 month: 2
+https://www.geo.de/geolino/archiv/?month=2&year=2002
+year: 0 month: 3
+https://www.geo.de/geolino/archiv/?month=3&year=2002
+year: 0 month: 4
+https://www.geo.de/geolino/archiv/?month=4&year=2002
+year: 0 month: 5
+https://www.geo.de/geolino/archiv/?month=5&year=2002
+year: 0 month: 6
+https://www.geo.de/geolino/archiv/?month=6&year=2002
+year: 0 month: 7
+https://www.geo.de/geolino/archiv/?month=7&year=2002
+year: 0 month: 8
+https://www.geo.de/geolino/archiv/?month=8&year=2002
+year: 0 month: 9
+https://www.geo.de/geolino/archiv/?month=9&year=2002
+year: 0 month: 10
+https://www.geo.de/geolino/archiv/?month=10&year=2002
+year: 0 month: 11
+https://www.geo.de/geolino/archiv/?month=11&year=2002
+year: 0 month: 12
+https://www.geo.de/geolino/archiv/?month=12&year=2002
+year: 1 month: 1
+https://www.geo.de/geolino/archiv/?month=1&year=2003
+year: 1 month: 2
+https://www.geo.de/geolino/archiv/?month=2&year=2003
+year: 1 month: 3
+https://www.geo.de/geolino/archiv/?month=3&year=2003
+year: 1 month: 4
+https://www.geo.de/geolino/archiv/?month=4&year=2003
+year: 1 month: 5
+https://www.geo.de/geolino/archiv/?month=5&year=2003
+year: 1 month: 6
+https://www.geo.de/geolino/archiv/?month=6&year=2003
+year: 1 month: 7
+https://www.geo.de/geolino/archiv/?month=7&year=2003
+year: 1 month: 8
+https://www.geo.de/geolino/archiv/?month=8&year=2003
+year: 1 month: 9
+https://www.geo.de/geolino/archiv/?month=9&year=2003
+year: 1 month: 10
+https://www.geo.de/geolino/archiv/?month=10&year=2003
+year: 1 month: 11
+https://www.geo.de/geolino/archiv/?month=11&year=2003
+year: 1 month: 12
+https://www.geo.de/geolino/archiv/?month=12&year=2003
+year: 2 month: 1
+https://www.geo.de/geolino/archiv/?month=1&year=2004
+year: 2 month: 2
+https://www.geo.de/geolino/archiv/?month=2&year=2004
+year: 2 month: 3
+https://www.geo.de/geolino/archiv/?month=3&year=2004
+year: 2 month: 4
+https://www.geo.de/geolino/archiv/?month=4&year=2004
+year: 2 month: 5
+https://www.geo.de/geolino/archiv/?month=5&year=2004
+year: 2 month: 6
+https://www.geo.de/geolino/archiv/?month=6&year=2004
+year: 2 month: 7
+https://www.geo.de/geolino/archiv/?month=7&year=2004
+year: 2 month: 8
+https://www.geo.de/geolino/archiv/?month=8&year=2004
+year: 2 month: 9
+https://www.geo.de/geolino/archiv/?month=9&year=2004
+year: 2 month: 10
+https://www.geo.de/geolino/archiv/?month=10&year=2004
+year: 2 month: 11
+https://www.geo.de/geolino/archiv/?month=11&year=2004
+year: 2 month: 12
+https://www.geo.de/geolino/archiv/?month=12&year=2004
+year: 3 month: 1
+https://www.geo.de/geolino/archiv/?month=1&year=2005
+year: 3 month: 2
+https://www.geo.de/geolino/archiv/?month=2&year=2005
+year: 3 month: 3
+https://www.geo.de/geolino/archiv/?month=3&year=2005
+year: 3 month: 4
+https://www.geo.de/geolino/archiv/?month=4&year=2005
