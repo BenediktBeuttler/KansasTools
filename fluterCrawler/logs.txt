@@ -1,83 +1,76 @@
 https://www.fluter.de/suche
 checking:https://www.fluter.de/gamingexperte-auswaertiges-amt
-created -- Auswärtsspiel.txt
-added to Meta - Auswärtsspiel
 checking:https://www.fluter.de/wasseraktien-etfs-investieren
-created -- Immerschönliquidebleiben.txt
-added to Meta - Immer schön liquide bleiben
 checking:https://www.fluter.de/hip-hop-50-curse-rueckblick
-created -- MamaPapaHipHop.txt
-added to Meta - „Mama, Papa, Hip-Hop“
 checking:https://www.fluter.de/nachhaltigkeit-in-der-musikbranche
-created -- NachhaltigkeitundRocknRoll.txt
-added to Meta - Nachhaltigkeit und Rock ’n’ Roll
 checking:https://www.fluter.de/botswana-homosexualitaet-urteil-motshidiemang
-created -- Politikistmiregalichwollteeinfachfreisein.txt
-added to Meta - „Politik ist mir egal, ich wollte einfach frei sein“
 checking:https://www.fluter.de/musikbranche-gewalt-sexismus-bauhus
-created -- WirmüssenwegvonSoläuftdasebenNeintutesnicht.txt
-added to Meta - „Wir müssen weg von: So läuft das eben. Nein, tut es nicht!“
 checking:https://www.fluter.de/el-salvador-banden-ausnahmezustand
-created -- ImAusnahmezustand.txt
-added to Meta - Im Ausnahmezustand
 checking:https://www.fluter.de/sam-ein-sachse-serie-interview-harris-bauer
-created -- Dasmussmaneinfachmalfeiern.txt
-added to Meta - „Das muss man einfach mal feiern“
 checking:https://www.fluter.de/inan-roman-natuerlich-kann-man-hier-nicht-leben-interview
-created -- DiesenWunschtraumirgendwiedabeizuseinhabeichtotalgespürt.txt
-added to Meta - „Diesen Wunschtraum, irgendwie dabei zu sein, habe ich total gespürt“
 checking:https://www.fluter.de/weltrechtsprinzip-syrien-klagen-jarmuk
-created -- Lebenslang.txt
-added to Meta - Lebenslang
 https://www.fluter.de/suche?page=1
 checking:https://www.fluter.de/barbie-film-feminismus-mattel
-created -- DieEntdeckungdesPatriarchats.txt
-added to Meta - Die Entdeckung des Patriarchats
 checking:https://www.fluter.de/polizeigewalt-kennzeichungspflicht-behr
-created -- IchhabeimDienstauchGrenzenüberschritten.txt
-added to Meta - „Ich habe im Dienst auch Grenzen überschritten“
 checking:https://www.fluter.de/integration-indische-studierende
-created -- EsfehlenZutatenfürdieIntegration.txt
-added to Meta - Es fehlen Zutaten für die Integration
 checking:https://www.fluter.de/Fat-Acceptance-Aktivistin-Interview
-created -- Wirwärenallefreierwennwirdickseindürften.txt
-added to Meta - „Wir wären alle freier, wenn wir dick sein dürften“
 checking:https://www.fluter.de/meme-food-influencer-tiktok
-created -- VonderAppindenMund.txt
-added to Meta - Von der App in den Mund
 checking:https://www.fluter.de/protokoll-croupier-las-vegas
-created -- SoistesichzuseinCroupier.txt
-added to Meta - So ist es, ich zu sein: Croupier
 checking:https://www.fluter.de/junge-indigene-taiwan
-created -- Schweingehabt.txt
-added to Meta - Schwein gehabt
 https://www.fluter.de/suche?page=2
 checking:https://www.fluter.de/hongkong-protestbewegung
-created -- DieseFreiheithabenwirverloren.txt
-added to Meta - „Diese Freiheit haben wir verloren“
 checking:https://www.fluter.de/neue-seidenstrasse-china
-created -- Ganzgeschmeidig.txt
-added to Meta - Ganz geschmeidig
 checking:https://www.fluter.de/china-friedenspapier-russland-ukraine
-created -- PekingbrauchtMoskau.txt
-added to Meta - „Peking braucht Moskau“
 checking:https://www.fluter.de/games-schulunterricht-didaktik
-created -- GanzneuesLevel.txt
-added to Meta - Ganz neues Level
 checking:https://www.fluter.de/lootboxen-videogames
-created -- FetteBeute.txt
-added to Meta - Fette Beute
 checking:https://www.fluter.de/pachinko-japan-gluecksspiel
-created -- SospieltdieWeltPachinko.txt
-added to Meta - So spielt die Welt: Pachinko
 checking:https://www.fluter.de/oware-ghana-spiel
-created -- SospieltdieWeltOware.txt
-added to Meta - So spielt die Welt: Oware
 checking:https://www.fluter.de/ludologe-jens-koenig-spielen
-created -- DasganzeLebenisteinSpiel.txt
-added to Meta - „Das ganze Leben ist ein Spiel“
 checking:https://www.fluter.de/gamification-beispiele
-created -- ComeonistdochnureinSpiel.txt
-added to Meta - Come on, ist doch nur ein Spiel!
 https://www.fluter.de/suche?page=3
 checking:https://www.fluter.de/spieltheorie-erklaert
+checking:https://www.fluter.de/wettbueros-deutsche-innenstaedte
+checking:https://www.fluter.de/furrys-fandom
+checking:https://www.fluter.de/privilegien-spiel-lauf-des-lebens
+checking:https://www.fluter.de/videospiele-markt-statistiken
+checking:https://www.fluter.de/P%C3%A4htz-Schach-Gleichberechtigung
+checking:https://www.fluter.de/saudi-arabien-investition-gaming
+checking:https://www.fluter.de/computerspiele-politik
+checking:https://www.fluter.de/hoop-dreams-college-basketball-usa
+https://www.fluter.de/suche?page=4
+checking:https://www.fluter.de/usa-gluecksspiel-casinos-indigene
+checking:https://www.fluter.de/computerspielsucht-jugendliche-beratung
+checking:https://www.fluter.de/azdar-theater-afghanistan-anschlag
+checking:https://www.fluter.de/basken-sportart-spiel-pelota
+checking:https://www.fluter.de/spieleautor-harald-muecke-brettspiele
+checking:https://www.fluter.de/cricket-indien-kolonialismus
+checking:https://www.fluter.de/lotto-wirtschaft-selbstversuch
+checking:https://www.fluter.de/kate-beaton-ducks-%C3%B6lsande-kanada
+https://www.fluter.de/suche?page=5
+checking:https://www.fluter.de/film-how-to-blow-up-a-pipeline
+checking:https://www.fluter.de/prothesen-cover-bergkarabach
+checking:https://www.fluter.de/wie-helfe-ich-menschen-mit-psychischen-erkrankungen
+checking:https://www.fluter.de/nele-willfurth-lokalpolitik-junge-menschen
+checking:https://www.fluter.de/buergergeld-reform-beratung
+checking:https://www.fluter.de/wie-ist-es-schoeffe-zu-sein-protokoll
+checking:https://www.fluter.de/watch-me-sex-sells-serie-zdf-rezension
+checking:https://www.fluter.de/taiwan-vorbereitung-auf-angriff-chinas
+checking:https://www.fluter.de/lehrermangel-die-jungen-sollens-richten
+https://www.fluter.de/suche?page=6
+checking:https://www.fluter.de/rabe-moeglichkeit-von-glueck-ddr-interview
+checking:https://www.fluter.de/tuerkei-wahlen-erdbeben-auswirkungen
+checking:https://www.fluter.de/burning-days-alper-tuerkei-filmfoerderung
+checking:https://www.fluter.de/arbeit-teilzeit-hans-rusinek
+checking:https://www.fluter.de/keine-alternative-gesellschaftspolitik-erdogan
+checking:https://www.fluter.de/brasilien-marica-grundeinkommen
+checking:https://www.fluter.de/lehrerinnen-verbeamtung-psychotherapie
+checking:https://www.fluter.de/junge-menschen-im-kosovo-gehen-oder-bleiben
+https://www.fluter.de/suche?page=7
+checking:https://www.fluter.de/schwarzer-flinta-outdoorsport-verein
+checking:https://www.fluter.de/lea-murawiec-comic-aufmerksamkeit
+checking:https://www.fluter.de/seyda-kurt-interview-hass
+checking:https://www.fluter.de/proteste-peru-demonstrationen-gewalt
+checking:https://www.fluter.de/cannabis-legalisierung-uruguay-bilanz
+checking:https://www.fluter.de/interview-el-hotzo-mindset
+checking:https://www.fluter.de/15-minuten-stadt-erklaert
+https://www.fluter.de/suche?page=8
