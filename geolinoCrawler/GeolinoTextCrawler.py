@@ -14,7 +14,7 @@ author = "Geolino"
 processedTextsFile = basePath + "/processed-geolino-files.txt"
 logs = basePath + "/logs.txt"
 geolinoLizenz = "unknown"
-disallowedCategories = ["kreativ, wettbewerbe, archive, spiele"]
+disallowedCategories = ["kreativ", "wettbewerbe", "archive", "spiele"]
 # allowedCategories = ["berufe", "forschung-und-technik", "natur-und-umwelt",
 #                      "mensch", "redewendungen", "filmtipps", "spieletests"]
 encoding = "utf-8"
@@ -140,7 +140,7 @@ with codecs.open(processedTextsFile, "r", encoding) as f:
         processedTexts.append(line.strip())
 
 # year
-for i in range(11, 24): # 24
+for i in range(0, 24): # 24
     # month
     for j in range(1, 13): #13
         logIt(str("year: " + str(i) + " month: " + str(j)))
@@ -172,7 +172,7 @@ for i in range(11, 24): # 24
                 completeLink = link['href']
                 logIt("checking... " + completeLink)
                 # skip stuff
-                substrings_to_check = ["/geolino/1", "podcast", "hoerspiel", "-quiz-", "wissenstest", "fotoquiz", "-video-"]
+                substrings_to_check = ["/geolino/1", "podcast", "hoerspiel", "quiz-", "wissenstest", "fotoquiz", "-video-", "/video-", "-live-", "/newsletter"]
                 if any(substring in completeLink for substring in substrings_to_check):
                     logIt("skipping: " + completeLink)
                     continue
