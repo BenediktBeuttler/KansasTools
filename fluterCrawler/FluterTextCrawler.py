@@ -13,6 +13,7 @@ processedTextsFile = basePath + "/processed-fluter-files.txt"
 logs = basePath + "/logs.txt"
 fluterLizenz = "CC BY-NC-ND 4.0"
 encoding = "utf-8"
+print("test")
 
 
 def logIt(text):
