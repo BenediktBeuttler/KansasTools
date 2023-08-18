@@ -9,7 +9,7 @@ metaFileName = basePath + "/bibermeta.csv"
 biberLizenz = 'unknown'
 encoding = "utf-8"
 author = 'dasBiber'
-org = 'dasBiber'
+org = 'dasBiber'# 
 orgLink = 'https://www.dasbiber.at/'
 logs = 'logs.txt'  # Define logs file path
 
