@@ -59,10 +59,11 @@ def crawl_page():
 # Zeile 65 funktioniert nicht, Fehler muss dort behoben werden, weiß nicht wo das Problem ist. 
 def crawlSelectedText(soup):
     text = ""
-    parent = soup.find("div", {"class":"node-content"}) #find all tags, safe them in variable 
+    parent = soup.find("div", {"class":"node-content"}) #find all tags, safe them in variable TODO: should this be find_all?
     print(parent)
-   
-    for child in parent: 
+    # TODO contentChildren = parent.findChildren()
+    # TODO for child in contentChildren   
+    for child in parent: # TODO the fluter crawler has two loops
         if (child.name != "div" in child.get("class", [])): #habe diese Zeile aus flutercrawler (line 68) kopiert. Wieso funktioniert es bei mir nicht?
             txt = child.get_text().strip()
             if (txt != "&nbsp" or "*BEZAHLTE ANZEIGE*"):
