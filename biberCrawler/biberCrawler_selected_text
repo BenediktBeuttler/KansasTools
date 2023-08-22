@@ -44,6 +44,7 @@ def crawl_page():
      print(meta_title)
      fileName = meta_title.replace(" ", "") + '.txt'
      print(fileName)
+     #
      
      baseUrl = 'https://www.dasbiber.at/content/'
      url = (soup.find('link', rel=re.compile('canonical'))['href']) 
