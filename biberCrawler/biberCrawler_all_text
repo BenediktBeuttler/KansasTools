@@ -37,6 +37,7 @@ def crawl_page():
      r = requests.get('https://www.dasbiber.at/content/optimal-vorbereitet-auf-die-karriere-der-gesundheits-und-krankenpflege')
      data = r.text
      soup = BeautifulSoup(data, features="html.parser")
+     #
      
      meta_title = soup.title
      meta_title = meta_title.string 
