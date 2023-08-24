@@ -1,0 +1,34 @@
+Documentation of working progress
+Thursday, 24. August 
+
+finished so far: 
+all definitions of which the crawler must consists of work
+
+finished today:
+def get_each_URL(url_page)
+def get_page
+
+started today: 
+merging all definitions to one "crawler code" 
+fixing unexpected bugs
+
+goal for the next few days: 
+for tomorrow morning: merge code snippets for biber crawler. If any unexpected bugs, fix them. Hand in biberCrawler
+tomorrow afternoon: start new website, view html code. 
+next days: draft of crawler new website, start coding on receiving text/meta data 
+
+----------------------------------------------------------------------------
+
+Documentation of past working progress 
+11. Aug - 23.Aug 
+
+I have worked 28h yet. 
+Estimated content of my working hours: 
+10h for understanding structure html of website, draft of crawler code,  watching tutorial on html & beautifulsoup
+10h for reading documentation of beautifulsoup, writing the methods 
+10h for reading documentation again, debugging 
+
+As I am now familiar with beautifulsoup and "real world" html source code of a website, 
+I don't expect needing as much time for the next website as I did for the biberCrawler
+
+
