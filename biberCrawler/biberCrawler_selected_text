@@ -5,13 +5,14 @@ import re
 
 basePath = "biberCrawler"
 metaFileName = basePath + "/bibermeta.csv"
+logs = basePath + "/logs.txt"
 # Variables which have the same value for all articles
 biberLizenz = 'unknown'
 encoding = "utf-8"
 author = 'dasBiber'
 org = 'dasBiber'# 
 orgLink = 'https://www.dasbiber.at/'
-logs = 'logs.txt'  # Define logs file path
+#logs = 'logs.txt'  # Define logs file path
 
 r = requests.get("https://www.dasbiber.at/content/optimal-vorbereitet-auf-die-karriere-der-gesundheits-und-krankenpflege")
 data = r.text
@@ -30,11 +31,11 @@ def logIt(text):
     with codecs.open(logs, 'a', encoding) as f:
         f.write(text+ "\n")
         f.close()
-    print(text)
+    #print(text)
 
 # Crawling method
-def crawl_page():
-     r = requests.get('https://www.dasbiber.at/content/optimal-vorbereitet-auf-die-karriere-der-gesundheits-und-krankenpflege')
+def crawl_page_metaData(url_link):
+     r = requests.get(url_link)
      data = r.text
      soup = BeautifulSoup(data, features="html.parser")
      
@@ -44,33 +45,34 @@ def crawl_page():
      print(meta_title)
      fileName = meta_title.replace(" ", "") + '.txt'
      print(fileName)
-     #
      
-     baseUrl = 'https://www.dasbiber.at/content/'
+     
+     # baseUrl = 'https://www.dasbiber.at/content/'
      url = (soup.find('link', rel=re.compile('canonical'))['href']) 
      
      logIt(url)
      addToMetaFile(fileName, url, meta_title, author, org, orgLink)
 
 
-# Ziel der Funktion: text filtern. Bildunterschriften (welche in div class sind) sowie "&nsbp" sowie "*BEZAHLTE ANZEIGE*" nicht drucken. 
-# Coding approach:  über alle tags iterieren und prüfen, dass sie nicht eine div class sind. Wenn sie keine div class sind,text abdrucken, solange er nicht 
-# "&nsbp" bzw. "*BEZAHLTE ANZEIGE*" ist. 
-# Zeile 65 funktioniert nicht, Fehler muss dort behoben werden, weiß nicht wo das Problem ist. 
-def crawlSelectedText(soup):
+def crawl_page_text(url_link):
     text = ""
-    parent = soup.find("div", {"class":"node-content"}) #find all tags, safe them in variable 
-    print(parent)
-   
-    for child in parent: 
-        if (child.name != "div" in child.get("class", [])): #habe diese Zeile aus flutercrawler (line 68) kopiert. Wieso funktioniert es bei mir nicht?
+    parent = soup.find("div", {"class":"node-content"}) #find all tags, safe them in variable
+    contentChildren = parent.findChildren()
+    for child in contentChildren:
+        
+        if (child.name != "div" ): #habe diese Zeile aus flutercrawler (line 68) kopiert. Wieso funktioniert es bei mir nicht?
             txt = child.get_text().strip()
-            if (txt != "&nbsp" or "*BEZAHLTE ANZEIGE*"):
+            if ((txt != "&nbsp") and (txt !="*BEZAHLTE ANZEIGE*")):
                 text += txt
                 print(text)
-        else: 
-            continue     
-        return text
+            else: 
+                continue
+            
+    logIt(text)
+    https://www.dasbiber.at/content/optimal-vorbereitet-auf-die-karriere-der-gesundheits-und-krankenpflege
+
+
+
 
 
 
