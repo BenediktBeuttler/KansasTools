@@ -1,0 +1,136 @@
+from ast import If
+from fileinput import filename
+from bs4 import BeautifulSoup
+import requests
+import codecs
+import re
+import uuid
+
+# Variables which have the same value for all articles
+basePath = "biberCrawler"
+metaFileName = basePath + "/bibermeta.csv"
+logs = basePath + "/logs.txt"
+biberLizenz = 'unknown'
+encoding = "utf-8"
+author = 'dasBiber'
+org = 'dasBiber'# 
+orgLink = 'https://www.dasbiber.at/'
+processed_files = basePath +  "processed-biber-files.txt"
+#logs = 'logs.txt'  # Define logs file path
+
+
+# Do I need that function? 
+def write_to_logs(url):
+    with codecs.open(logs, 'a', encoding) as f:
+        f.write("checking: "+str(url)+ "\n")
+        f.close()
+    
+def addToMetaFile(fileName, url, title, author, org, orgLink):
+    with codecs.open(metaFileName, 'a', encoding) as f:
+        f.write(f'{fileName}\t{title}\t{url}\t\t{biberLizenz}\t{author}\t\t{org}\t{orgLink}\n')
+        f.close()
+
+   # logIt(str("added to Meta - " + title))
+
+def safe_text_in_file(fileName, text):
+    with codecs.open(fileName, 'a', encoding) as f:
+        f.write(text)
+        f.close 
+def safe_in_processedfiles(fileName):
+    with codecs.open(processed_files, 'a', encoding) as f:
+        f.write(fileName + "\n")
+
+# Crawling method
+def crawl_page_meta_and_text(url_link):
+     # get html of website
+     r = requests.get(url_link)
+     data = r.text
+     soup = BeautifulSoup(data, features="html.parser")
+     
+     # search meta data 
+     meta_title = soup.title
+     meta_title = meta_title.string 
+     meta_title = meta_title[:-11]
+     print(meta_title)
+     fileName = meta_title.replace(" ", "") + '.txt'
+     print(fileName)
+     url = (soup.find('link', rel=re.compile('canonical'))['href']) 
+     
+    # add results to metacsv
+     addToMetaFile(fileName, url, meta_title, author, org, orgLink)
+
+    # find text
+     text = ""
+     parent = soup.find("div", {"class":"node-content"})
+     print((parent))
+    # print("parent is following type: " + len(parent))
+    #print("result of parent"+parent)
+     contentChildren = parent.findChildren()
+    #print(len(contentChildren))
+    #print(type(contentChildren))
+     for child in contentChildren:   
+        
+        if (child.name != "div" ): 
+            txt = child.get_text().strip()
+            if ((txt != "&nbsp") and (txt !="*BEZAHLTE ANZEIGE*")):
+                text += txt
+                
+                # def for saving text
+              #  safe_text_in_file(fileName, text)
+                
+            else: 
+                continue
+           
+    #hand text over to function to save 
+     print(text)
+    
+            
+
+
+
+def Crawl():
+    basePageURL = "https://www.dasbiber.at/articles"
+    for i in range(0,5):
+        if i == 0:
+            get_each_URL1(basePageURL)
+        else:
+            
+            newPageURL = basePageURL + "?page=" +str(i)
+            print("I reached the else statement"+newPageURL)
+            get_each_URL1(newPageURL)
+
+
+
+
+def get_each_URL1(newPageURL ):
+    baseURL = "https://www.dasbiber.at/articles"
+    r = requests.get(newPageURL)
+    data = r.text
+    soup = BeautifulSoup(data, features="html.parser")
+    
+
+    heading_parent1 = soup.find("div", {"class": "main-group group-cols-1 group-6 grid grid-6"})
+    children = heading_parent1.findChildren()
+    #print(len(children))
+    i= 0
+    for child in children:
+        if (child.name == "div" and "field-content" in child.get("class", [])):
+            tags_link = child.findChildren()
+            tag_url = tags_link[0]
+            final_url = baseURL + tag_url['href']
+            # add url to logs file 
+            write_to_logs(str(final_url))
+            # get meta data and  saved in csv
+            # get text safed to file
+            # safe crawled page in processed-biber-files
+            crawl_page_meta_and_text(final_url)
+            # get text
+
+            
+          
+
+
+Crawl()
+#get_each_URL1("https://www.dasbiber.at/articles?page=3")
+
+
