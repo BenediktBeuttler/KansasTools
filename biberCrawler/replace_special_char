@@ -3,6 +3,7 @@
 # see lines 44 - 52 and 22 - 26 
 
 
+
 def replace():
      meta_title_file = "Herr Tür, wie oft haben Sie die Republik verklagt?"
      special_char = "/\\:*<>|"
