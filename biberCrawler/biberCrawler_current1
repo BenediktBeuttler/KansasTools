@@ -18,15 +18,20 @@ orgLink = 'https://www.dasbiber.at/'
 processed_files = basePath +  "processed-biber-files.txt"
 
 
-def safe_text_in_file(fileName, text):
-    with codecs.open(fileName, 'a', encoding) as f:
+def safe_text_in_file(meta_title, text):
+     clean_fileName  = re.sub('[^a-zA-Z0-9 \n\.]', " ", meta_title)
+     print("After replacing special characters with spaces: " + clean_fileName)
+     fileName = basePath+ "/txts/" + clean_fileName.replace(" ", "") + '.txt'
+
+     with codecs.open(fileName, 'a', encoding) as f:
         f.write(text)
+        f.close()
 
 
 
 def crawl_page_meta_and_text(url_link):
      
-     print(url_link)
+     
      # get html of website
      r = requests.get(url_link)
      data = r.text
@@ -35,23 +40,7 @@ def crawl_page_meta_and_text(url_link):
      # search meta data 
      meta_title = soup.title
      meta_title = meta_title.string 
-     meta_title = meta_title[:-11]
-     meta_title_file = meta_title
-
-     # replacing special char in title------------------------------------------------------------------------------
-     # why is "" not replaced? 
-     special_char = "/\\:*<>|"
-     no_char = " "
-     
-     for char in special_char:
-         meta_title_file = meta_title_file.replace(char, no_char)
-     
-     print("After replacing special characters with spaces: " + meta_title_file)
-
-     # generating file name 
-     fileName = basePath+ "/txts/" + meta_title_file.replace(" ", "") + '.txt'
-     print(fileName)#-------------------------------------------------------------------------------------------------
-
+     meta_title = meta_title[:-11] 
      url = (soup.find('link', rel=re.compile('canonical'))['href']) 
      
     # add results to metacsv
@@ -60,12 +49,8 @@ def crawl_page_meta_and_text(url_link):
     # find text
      text = ""
      parent = soup.find("div", {"class":"node-content"})
-     print(type(parent))
-     # print("parent is following type: " + len(parent))
-     #print("result of parent"+parent)
+     
      contentChildren = parent.findChildren()
-     #print(len(contentChildren))
-     #print(type(contentChildren))
      for child in contentChildren:   
         
         if (child.name != "div" ): 
@@ -74,9 +59,10 @@ def crawl_page_meta_and_text(url_link):
                 text += txt   
             else: 
                 continue
+     
            
     # safe text in for it created file
-     safe_text_in_file(fileName, text)
+     safe_text_in_file(meta_title, text)
 
 
 def Crawl():
@@ -87,7 +73,7 @@ def Crawl():
         else:
             
             newPageURL = basePageURL + "?page=" +str(i)
-            print("I reached the else statement"+newPageURL)
+
             get_each_URL1(newPageURL)
 
 
