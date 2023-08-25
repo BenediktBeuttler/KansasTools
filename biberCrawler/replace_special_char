@@ -1,6 +1,6 @@
 # this method replaces special characters with white space and works perfectly fine 
 # it doesn't work in the biberCrawler. I cannot see why. 
-# see lines 44 - 52 and 22 - 26 
+# see lines 44 - 52 and 22 - 26 . 
 
 
 
