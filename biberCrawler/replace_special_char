@@ -1,0 +1,16 @@
+# this method replaces special characters with white space and works perfectly fine 
+# it doesn't work in the biberCrawler. I cannot see why. 
+# see lines 44 - 52 and 22 - 26 
+
+
+def replace():
+     meta_title_file = "Herr Tür, wie oft haben Sie die Republik verklagt?"
+     special_char = "/\\:*<>|"
+     no_char = " "
+     
+     for char in special_char:
+         meta_title_file = meta_title_file.replace(char, no_char)
+     
+     print("After replacing special characters with spaces: " + meta_title_file)
+
+replace()
