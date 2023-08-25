@@ -1,8 +1,27 @@
 Documentation of working progress
+Friday, 25. August 
+
+finished today: 
+rebuild code of yesterdays progress - changes weren't safed 
+replacing special characters
+print text to files
+
+started today:
+debugging method of printing to file. Duplicate sentences printed. 
+
+goal for next few days: 
+- add "bereich" to meta data 
+- add line breaks to .txt files?
+- what crawling info to include in code? (ask Purita)
+- enlarge range for websites
+
+
+------------------------------------------------------------------------------
+Documentation of working progress
 Thursday, 24. August 
 
 finished so far: 
-all definitions of which the crawler must consists of work
+all definitions of which the crawler must consists to work
 
 finished today:
 def get_each_URL(url_page)
