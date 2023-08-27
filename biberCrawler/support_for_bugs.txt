@@ -1,0 +1,16 @@
+1. print data in csv
+lines 21 - 25, 
+line 55 
+
+
+with print statements I can see: 
+- meta data is extracted from website
+- the function "addToMetaFile"is runned. The print statement at the end of the function is executed
+
+Problem: 
+the function "addToMetaFile" doesn't print the passed variables (which contain meta data) nor plain text to the csv. 
+
+Question: 
+can anyone see why nothing is printed to the csv file?
+
+PS: it has worked yesterday, but not anymore. 
