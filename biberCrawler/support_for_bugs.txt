@@ -1,16 +1,19 @@
-1. print data in csv
-lines 21 - 25, 
-line 55 
+Avoid duplicate sentences when extracting text from article
+lines 58 - 70
 
+Situation:
+The p tags contain the text. That's why:
+"of any p tag get_text()" - works fine. 
+BUT: If a p tag contains another tag as then the text will be printed twice. That leads to duplicate sentences in the text. 
+Example:
+<p>
+    <strong> Was bisher geschah </strong> 
+</p>
 
-with print statements I can see: 
-- meta data is extracted from website
-- the function "addToMetaFile"is runned. The print statement at the end of the function is executed
-
-Problem: 
-the function "addToMetaFile" doesn't print the passed variables (which contain meta data) nor plain text to the csv. 
+Output in .txt file: Was bisher geschah Was bisher geschah 
 
 Question: 
-can anyone see why nothing is printed to the csv file?
+how to write code for following:
+"if p tag has descandents, get text only of "smallest" descandent" 
 
-PS: it has worked yesterday, but not anymore. 
+
