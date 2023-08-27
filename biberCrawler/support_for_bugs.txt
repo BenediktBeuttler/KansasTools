@@ -1,4 +1,4 @@
-Avoid duplicate sentences when extracting text from article
+Bug: duplicate sentences in .txt file when extracting text from article
 lines 58 - 70
 
 Situation:
