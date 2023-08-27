@@ -3,7 +3,18 @@ Sunday, 27. August
 
 finished today:
 debugging method for printing metaData to csv file. 
-Error not found. Asked for help on GitHub
+Error found.
+debugging missing white spaces
+
+started today:
+delete duplicates:
+rewrite crawling method so that there are no duplicates
+
+
+gaols for tomorrow:
+- finsih rewriting crawling method
+- add data to logs.txt and processed_files.txt (10min) 
+- check out html of new website
 
 
 
@@ -27,9 +38,8 @@ inspect bibermeta.csv: Compare meta data file and meta data analog with two exam
 
 goals for I don't know when: 
 - add data to logs.txt and processed_files.txt (10min) 
-- ask myself: is everything finished besides txt files? (5min)
 - Formulate question detailedly for add text to files and ask for support on Monday ✓
-- check out interface of new website. Is there an overview?  (10min)
+
 
 
 
