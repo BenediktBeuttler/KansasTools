@@ -3,8 +3,7 @@ Sunday, 27. August
 
 finished today:
 debugging method for printing metaData to csv file. 
-Error not found. Asked for help on GitHub.
-
+Error not found. Asked for help on GitHub
 
 
 
