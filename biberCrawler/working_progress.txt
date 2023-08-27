@@ -1,4 +1,45 @@
 Documentation of working progress
+Sunday, 27. August
+
+finished today:
+debugging method for printing metaData to csv file. 
+Error not found. Asked for help on GitHub.
+
+
+
+
+
+
+Documentation of working progress
+Saturday, 26. August
+
+finished today:
+make code run again  ✓
+add fileName to meta.csv  ✓
+allow Umlaute in file names ✓
+add "bereich" to meta data  ✓
+change code so that metadata is contained once ✓
+
+started today:
+inspect bibermeta.csv: Compare meta data file and meta data analog with two examples 
+                       hand in meta data 
+
+
+
+goals for I don't know when: 
+- add data to logs.txt and processed_files.txt (10min) 
+- ask myself: is everything finished besides txt files? (5min)
+- Formulate question detailedly for add text to files and ask for support on Monday ✓
+- check out interface of new website. Is there an overview?  (10min)
+
+
+
+ab 17 Uhr: meine eigene Zeit nur für mich 
+
+
+
+
+Documentation of working progress
 Friday, 25. August 
 
 finished today: 
@@ -14,6 +55,8 @@ goal for next few days:
 - add line breaks to .txt files?
 - what crawling info to include in code? (ask Purita)
 - enlarge range for websites
+- add fileName to metaData.csv
+- allow Umlaute in fileName
 
 
 ------------------------------------------------------------------------------
