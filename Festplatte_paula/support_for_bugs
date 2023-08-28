@@ -1,0 +1,25 @@
+Bug: duplicate sentences in .txt file when extracting text from article
+find code in crawler_for_snippet.py, lines 11-17
+
+Problem 1:
+The p tags contain the text. That's why:
+"of any p tag get_text()"    (line 16 - 19) 
+BUT: somehow p tags which do not contain children, are printed twice. 
+Question: how to write code, that the text from a p tag is only printed once?
+
+
+
+Problem 2: 
+Some p tag contain children. e.g:
+<p>
+    <strong> Was bisher geschah </strong>
+</p>
+
+Approach: 
+"if a p tag has children, get descandents and save them in list.
+Get the text of the last element in list" (lines 20 -24)
+BUT: somehow the text is still printed several times, depending on how many children there are 
+Question: what do I oversee in my code that not the text of the last child is printed? 
+
+
+
