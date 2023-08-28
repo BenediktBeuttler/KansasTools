@@ -1,0 +1,45 @@
+from bs4 import BeautifulSoup
+encoding = "utf-8"
+
+with open("Festplatte_paula/snippet.html") as fp:
+    soup = BeautifulSoup(fp, "html.parser")
+
+
+text = ""
+parent = soup.find("div", {"class":"node-content"})
+contentChildren = parent.findChildren()
+#PROBLEM 1 - text printed twice
+for child in contentChildren: 
+     if (child.name != "div" ) or (type(contentChildren)) == None: 
+        print( child.get_text())   
+#PROBLEM 2 - text printed n times (n depending on n children)
+     else: 
+         txt = ""
+         ls = child.findChildren(recursive=True)
+         if len(ls)!= 0:
+             print(ls[-1].get_text())
+         else: 
+             print("list of len 0-----")
+             continue
+        # print(ls[-1])
+
+         
+
+
+
+
+
+
+
+
+     """contentChildren = parent.findChildren()
+     or child in contentChildren:   
+        
+        if (child.name != "div" ): 
+            txt = child.get_text().strip()
+            if ((txt != "&nbsp") and (txt !="*BEZAHLTE ANZEIGE*")):
+                text += txt   
+            else: 
+                continue
+            
+"""
