@@ -36,7 +36,6 @@ def safe_text_in_file(meta_title, text):
         f.close()
 
 
-
 def crawl_page_meta_and_text(url_link):
      
      # get html of website
@@ -56,12 +55,16 @@ def crawl_page_meta_and_text(url_link):
 
     # find text
      text = ""
-     parent = soup.find("div", {"class":"node-content"})
-     
-     contentChildren = parent.findChildren()
+     parent = soup.find("div", {"class":"field-item odd"})
+         
+     contentChildren = parent.findChildren(recursive=False)
      for child in contentChildren:   
-        
-        if (child.name != "div" ): 
+        # print(child)
+        # print("----------")
+
+        ## TODOs
+        # abfrage wenn p leer ist (kein text)
+        if (child.name != "div"):
             txt = child.get_text().strip()
             if ((txt != "&nbsp") and (txt !="*BEZAHLTE ANZEIGE*")):
                 text += txt   
@@ -69,7 +72,7 @@ def crawl_page_meta_and_text(url_link):
                 continue
             
            
-     
+     print(text)
            
     # safe text in for it created file
      safe_text_in_file(meta_title, text)
@@ -112,9 +115,8 @@ def get_each_URL1(newPageURL ):
             crawl_page_meta_and_text(final_url)
             # get text
 
-
-
 #crawl_txt("https://www.dasbiber.at/content/freispruch-warum-die-klage-gegen-sos-balkanroute-gesellschaftliche-folgen-hat")
-#crawl_page_meta_and_text("https://www.dasbiber.at/content/die-welt-darf-keinen-zweiten-voelkermord-zulassen")
+# crawl_page_meta_and_text("https://www.dasbiber.at/content/warum-wir-2-mal-weihnachten-feiern")
+# crawl_page_meta_and_text("https://www.dasbiber.at/content/freispruch-warum-die-klage-gegen-sos-balkanroute-gesellschaftliche-folgen-hat")
 #get_each_URL1("https://www.dasbiber.at/articles")
 Crawl()
