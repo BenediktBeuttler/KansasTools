@@ -21,25 +21,4 @@ for child in contentChildren:
          else: 
              print("list of len 0-----")
              continue
-        # print(ls[-1])
-
-         
-
-
-
-
-
-
-
-
-     """contentChildren = parent.findChildren()
-     or child in contentChildren:   
-        
-        if (child.name != "div" ): 
-            txt = child.get_text().strip()
-            if ((txt != "&nbsp") and (txt !="*BEZAHLTE ANZEIGE*")):
-                text += txt   
-            else: 
-                continue
-            
-"""
+    
