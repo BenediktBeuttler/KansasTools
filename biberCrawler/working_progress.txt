@@ -1,10 +1,36 @@
 Documentation of working progress
+Monday, 28. August
+
+finished today:
+- debugging method for extracting text and printing. 
+  Error not found, asked for help and provided code and explanation
+- call with Bendedikt for fixing duplicated text. Fixed as we get text from children of "field-item odd" ✓
+
+
+Zwischenstand:
+-  Foto  u. Autor wird abgedruckt. Ganz normaler Text, ohne speziellen Tag name (3min mit Omar Kaissi)
+- Bildunterschrif wird abgedruckt (Mit Copyright symbol) (gemma grillen)
+- Herr Thür wird nicht abgedruckt 
+- Optimal vorbereitet - Bildunterschrif wird nicht abgedruckt ✓
+- SREBRNICA  Bildunterschrif wird nicht abgedruckt, Autor schon
+- stelldich nicht so an: Autor wird abgedruckt 
+- vonselbstgesponnen ... Autor wird abgedruckt
+
+things to do:
+- was passiert wenn ich allg divs ausklammere?
+- Liste von AutorInnen
+- meta file vervollständigen
+- code auch für alte Webseiten ausprobieren
+
+
+
+Documentation of working progress
 Sunday, 27. August
 
 finished today:
 debugging method for printing metaData to csv file. 
 Error found.
-debugging missing white spaces
+debugging missing white spaces, error found. 
 
 started today:
 delete duplicates:
