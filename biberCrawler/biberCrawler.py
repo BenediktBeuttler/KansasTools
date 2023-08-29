@@ -18,28 +18,42 @@ orgLink = 'https://www.dasbiber.at/'
 processed_files = basePath +  "processed-biber-files.txt"
 
 
-def addToMetaFile(title, url):
-    with codecs.open(metaFileName, 'a', encoding) as f:
-        f.write(f'{title}\t{url}\t\t{biberLizenz}\t{author}\t\t{org}\t{orgLink}\n')
-        f.write("im allgemeinen printed diese FUnktion etwas in das csv")
-        print("reached the end of the function ----------------------")
+def write_to_logs(url):
+ with codecs.open(logs, 'a', encoding) as f:
+        f.write("checking: " + url + "\n")
         f.close()
 
 
-def safe_text_in_file(meta_title, text):
-     clean_fileName  = re.sub('[^a-zA-Z0-9 \n\.]', " ", meta_title)
-     print("After replacing special characters with spaces: " + clean_fileName)
-     fileName = basePath+ "/txts/" + clean_fileName.replace(" ", "") + '.txt'
+def write_to_processedFiles(fileName):  
+     with codecs.open(processed_files, 'a', encoding) as f:
+        f.write(fileName)
+        f.close()
 
+
+def addToMetaFile(meta_title, url, cleaned_bereich, fileName):
+    with codecs.open(metaFileName, 'a', encoding) as f:
+        f.write(f'{meta_title}\t{url}\t{cleaned_bereich}\t{fileName}\t{biberLizenz}\t{author}\t\t{org}\t{orgLink}\n')
+        f.close()
+
+
+def safe_text_in_file(fileName, text):
      with codecs.open(fileName, 'a', encoding) as f:
         f.write(text)
         f.close()
 
 
-def crawl_page_meta_and_text(url_link):
+
+def crawl_page_meta_and_text(url__link):
      
      # get html of website
-     r = requests.get(url_link)
+     headers = {
+
+                    "X-Request-ID": str(uuid.uuid4()),
+
+                    "From": "https://www.germ.univie.ac.at/projekt/latill/"
+
+                }
+     req = requests.get(url, headers = headers)
      data = r.text
      soup = BeautifulSoup(data, features="html.parser")
      
@@ -48,10 +62,25 @@ def crawl_page_meta_and_text(url_link):
      meta_title = meta_title.string 
      meta_title = meta_title[:-11] 
      url = (soup.find('link', rel=re.compile('canonical'))['href']) 
+
+
+     # get Bereich. Wo ist Bereich?
+     # <div class="field field-name-field-bereich field-type-taxonomy-term-reference field-label-above clearfix">
+     bereich = soup.find("div", {"field field-name-field-bereich field-type-taxonomy-term-reference field-label-above clearfix"})
+     if (type(bereich)!= None):
+        ("tag with bereich found ")
+        bereich = bereich.get_text()
+        cleaned_bereich = re.sub(r'\n', ' ', bereich)
+     else: 
+         cleaned_bereich = "no specified category"
+         print(cleaned_bereich)
+
+     clean_fileName  = re.sub('[^a-zA-Z0-9äöüÄÖÜ \n\.]', " ", meta_title)
+     fileName = basePath+ "/txts/" + clean_fileName.replace(" ", "") + '.txt'
      
      
-    # add results to metacsv
-     addToMetaFile(meta_title, url)
+    # add results to metacsv - maybe later ? 
+     addToMetaFile(meta_title, url, cleaned_bereich, fileName)
 
     # find text
      text = ""
@@ -64,23 +93,24 @@ def crawl_page_meta_and_text(url_link):
 
         ## TODOs
         # abfrage wenn p leer ist (kein text)
-        if (child.name != "div"):
+        if (child.name != "div", {"class":"media media-element container media-default"}):
             txt = child.get_text().strip()
             if ((txt != "&nbsp") and (txt !="*BEZAHLTE ANZEIGE*")):
-                text += txt   
+                text += txt + " "
             else: 
                 continue
             
            
-     print(text)
-           
     # safe text in for it created file
-     safe_text_in_file(meta_title, text)
+     safe_text_in_file(fileName, text)
+     write_to_processedFiles(fileName)
 
 
 def Crawl():
+    
+    
     basePageURL = "https://www.dasbiber.at/articles"
-    for i in range(0,2):
+    for i in range(0,320):
         if i == 0:
             get_each_URL1(basePageURL)
         else:
@@ -99,24 +129,20 @@ def get_each_URL1(newPageURL ):
 
     heading_parent1 = soup.find("div", {"class": "main-group group-cols-1 group-6 grid grid-6"})
     children = heading_parent1.findChildren()
-    #print(len(children))
     i= 0
     for child in children:
         if (child.name == "div" and "field-content" in child.get("class", [])):
             tags_link = child.findChildren()
             tag_url = tags_link[0]
             final_url = baseURL + tag_url['href']
-            print(final_url)
-            # add url to logs file 
-           # write_to_logs(str(final_url))
-            # get meta data and  saved in csv
-            # get text safed to file
-            # safe crawled page in processed-biber-files
+            
+            write_to_logs(str(final_url))
+            #will following method be called? 
             crawl_page_meta_and_text(final_url)
-            # get text
+            
 
 #crawl_txt("https://www.dasbiber.at/content/freispruch-warum-die-klage-gegen-sos-balkanroute-gesellschaftliche-folgen-hat")
-# crawl_page_meta_and_text("https://www.dasbiber.at/content/warum-wir-2-mal-weihnachten-feiern")
+#crawl_page_meta_and_text("https://www.dasbiber.at/content/%C3%B6lige-tr%C3%A4ume")
 # crawl_page_meta_and_text("https://www.dasbiber.at/content/freispruch-warum-die-klage-gegen-sos-balkanroute-gesellschaftliche-folgen-hat")
 #get_each_URL1("https://www.dasbiber.at/articles")
 Crawl()
