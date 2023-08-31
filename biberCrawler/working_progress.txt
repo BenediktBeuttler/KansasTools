@@ -1,4 +1,58 @@
 Documentation of working progress
+Thursday 31. August
+
+
+Questions:
+file bibermeta.csv: why is Bereich printed and not fileName?
+file biber_article_overview: why is nothing printed there?
+file processed_files: why is nothing printed there?
+
+finished today:
+- csv mit flutercsv vergleichen, ändern, dass es flutercsv gleich ist
+- zweites meta file: title, url, bereich. But doesnt work 
+
+
+goals for today:
+- ausprobieren: funktioniert die Methode für Daten zu meta file hinzufügen so, dass das alle Meta data übergeben wird? Fast
+- ausprobieren: funktioniert die Methode für zweites meta file so wie ich möchte? Nein
+
+
+
+--------------------------------------------------------------------------------------------------------------
+
+Docuemntation of working progress
+Wednesday, 30. August 
+
+
+
+--------Pausa ----------
+
+--------------------------------------------------------------------------------------------------------------
+
+Documentation of working progress
+Tuesday, 29 August
+
+finsihed today:
+- what happens if I omit all div tags? Info might not be caught. 
+ Solution: only omit div tags of <div, class = media media-element container media-default>
+- ran code on old articles. Result is perfectly fine
+- add files to logs/ processed_files 
+- meta file vervollständigen (15min)
+
+gaols for today: 
+things to do:
+- Liste von AutorInnen
+- einzige Schwachstelle. Manchmal sind tags nicht da, führt zu Fehlermeldung. Muss ich noch beheben. Alle 600 Artikel etwa 
+- feedback holen. Was war gut, was hätten sie sich anders gewünscht? 
+- wie geht es weiter, noch eine Webseite? Habe ich eine Deadline für 5. September?
+
+Questions for meeting: 
+- where headers? 
+- ask for feedback 
+
+--------------------------------------------------------------------------------------------------------------
+
+Documentation of working progress 
 Monday, 28. August
 
 finished today:
@@ -8,6 +62,7 @@ finished today:
 
 
 Zwischenstand:
+- alle Texte werden gedruckt, keine Duplikate. Immer AutorInnen (da kein klarer Tag) sowie manchmal Bildunterschriften enthalten.
 -  Foto  u. Autor wird abgedruckt. Ganz normaler Text, ohne speziellen Tag name (3min mit Omar Kaissi)
 - Bildunterschrif wird abgedruckt (Mit Copyright symbol) (gemma grillen)
 - Herr Thür wird nicht abgedruckt 
@@ -21,8 +76,10 @@ things to do:
 - Liste von AutorInnen
 - meta file vervollständigen
 - code auch für alte Webseiten ausprobieren
+------------------------------------------
+ich glaube dann bin ich wirklich fertig. 
 
-
+---------------------------------------------------------------------------------------------
 
 Documentation of working progress
 Sunday, 27. August
@@ -44,7 +101,7 @@ gaols for tomorrow:
 
 
 
-
+----------------------------------------------------------------------------------------------
 
 Documentation of working progress
 Saturday, 26. August
@@ -72,7 +129,7 @@ goals for I don't know when:
 ab 17 Uhr: meine eigene Zeit nur für mich 
 
 
-
+-----------------------------------------------------------------------------------------
 
 Documentation of working progress
 Friday, 25. August 
