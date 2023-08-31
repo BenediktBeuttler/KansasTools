@@ -1,0 +1,92 @@
+from ast import If
+from fileinput import filename
+from bs4 import BeautifulSoup
+import requests
+import codecs
+import re
+import uuid
+
+# Variables which have the same value for all articles
+basePath = "learnGerman"
+metaFileName = basePath + "/bibermeta.csv"
+metaFile2 = basePath + "biber_article_overview.csv"
+logs = basePath + "/logs.txt"
+biberLizenz = 'unknown'
+encoding = "utf-8"
+author = 'dasBiber'
+org = 'dasBiber'# 
+orgLink = 'https://www.dasbiber.at/'
+processed_files = basePath +  "processed_biber_files.txt"
+
+
+def crawl_meta(link):
+    real_link= str("https://learngerman.dw.com"+link)
+    headers = { "X-Request-ID": str(uuid.uuid4()),
+                    "From": "https://www.germ.univie.ac.at/projekt/latill/" }
+    req = requests.get(real_link, headers = headers)
+    data = req.text
+    soup = BeautifulSoup(data, features="html.parser")
+
+    print("I reached the meta method")
+
+
+
+def crawl_text(link):
+    real_link= str("https://learngerman.dw.com"+link)
+    headers = { "X-Request-ID": str(uuid.uuid4()),
+                    "From": "https://www.germ.univie.ac.at/projekt/latill/" }
+    req = requests.get(real_link, headers = headers)
+    data = req.text
+    soup = BeautifulSoup(data, features="html.parser")
+    print("I reached the text method")
+
+def crawl_article_page(actual_link):
+     # get html of article website
+     real_link= str("https://learngerman.dw.com"+actual_link)
+     headers = { "X-Request-ID": str(uuid.uuid4()),
+                    "From": "https://www.germ.univie.ac.at/projekt/latill/" }
+     req = requests.get(real_link, headers = headers)
+     data = req.text
+     soup = BeautifulSoup(data, features="html.parser")
+
+    # get link to "landeskunde"
+     nav_button = soup.find("ul", {"class" : "lesson-nav-menu"})
+     children = nav_button.findChildren()
+     print(type(children))
+     for c in children:
+         if (c.get_text()) == "Landeskunde":
+             print( c.get_text())
+             link = c.get('href')
+             #link is none # why is that so?
+             print("link to landeskunde: ", type(link)) 
+             crawl_meta(link)
+             crawl_text(link)
+             
+         
+       
+     
+
+def Crawl():
+    basePageURL = "https://learngerman.dw.com/de/nicos-weg/c-36519687"
+    headers = { "X-Request-ID": str(uuid.uuid4()),
+                    "From": "https://www.germ.univie.ac.at/projekt/latill/" }
+    req = requests.get(basePageURL, headers = headers)
+    data = req.text
+    soup = BeautifulSoup(data, features="html.parser")
+     
+    links = soup.find_all("a", {"class":"sc-faUpoM lbXSjK"})
+    i = 0
+    for link in links: 
+         if i <2:
+            print("Found the URL: ", link.get('href'))   
+            actual_link = link.get('href')     
+            i = i+1   
+            crawl_article_page(str(actual_link))
+         else: 
+            exit()
+
+
+
+    
+
+Crawl()
