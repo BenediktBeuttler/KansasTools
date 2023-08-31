@@ -1,0 +1,188 @@
+Documentation of working progress
+Thursday 31. August
+
+
+Questions:
+file bibermeta.csv: why is Bereich printed and not fileName?
+file biber_article_overview: why is nothing printed there?
+file processed_files: why is nothing printed there?
+
+finished today:
+- csv mit flutercsv vergleichen, ändern, dass es flutercsv gleich ist
+- zweites meta file: title, url, bereich. But doesnt work 
+
+
+goals for today:
+- ausprobieren: funktioniert die Methode für Daten zu meta file hinzufügen so, dass das alle Meta data übergeben wird? Fast
+- ausprobieren: funktioniert die Methode für zweites meta file so wie ich möchte? Nein
+
+
+
+--------------------------------------------------------------------------------------------------------------
+
+Docuemntation of working progress
+Wednesday, 30. August 
+
+
+
+--------Pausa ----------
+
+--------------------------------------------------------------------------------------------------------------
+
+Documentation of working progress
+Tuesday, 29 August
+
+finsihed today:
+- what happens if I omit all div tags? Info might not be caught. 
+ Solution: only omit div tags of <div, class = media media-element container media-default>
+- ran code on old articles. Result is perfectly fine
+- add files to logs/ processed_files 
+- meta file vervollständigen (15min)
+
+gaols for today: 
+things to do:
+- Liste von AutorInnen
+- einzige Schwachstelle. Manchmal sind tags nicht da, führt zu Fehlermeldung. Muss ich noch beheben. Alle 600 Artikel etwa 
+- feedback holen. Was war gut, was hätten sie sich anders gewünscht? 
+- wie geht es weiter, noch eine Webseite? Habe ich eine Deadline für 5. September?
+
+Questions for meeting: 
+- where headers? 
+- ask for feedback 
+
+--------------------------------------------------------------------------------------------------------------
+
+Documentation of working progress 
+Monday, 28. August
+
+finished today:
+- debugging method for extracting text and printing. 
+  Error not found, asked for help and provided code and explanation
+- call with Bendedikt for fixing duplicated text. Fixed as we get text from children of "field-item odd" ✓
+
+
+Zwischenstand:
+- alle Texte werden gedruckt, keine Duplikate. Immer AutorInnen (da kein klarer Tag) sowie manchmal Bildunterschriften enthalten.
+-  Foto  u. Autor wird abgedruckt. Ganz normaler Text, ohne speziellen Tag name (3min mit Omar Kaissi)
+- Bildunterschrif wird abgedruckt (Mit Copyright symbol) (gemma grillen)
+- Herr Thür wird nicht abgedruckt 
+- Optimal vorbereitet - Bildunterschrif wird nicht abgedruckt ✓
+- SREBRNICA  Bildunterschrif wird nicht abgedruckt, Autor schon
+- stelldich nicht so an: Autor wird abgedruckt 
+- vonselbstgesponnen ... Autor wird abgedruckt
+
+things to do:
+- was passiert wenn ich allg divs ausklammere?
+- Liste von AutorInnen
+- meta file vervollständigen
+- code auch für alte Webseiten ausprobieren
+------------------------------------------
+ich glaube dann bin ich wirklich fertig. 
+
+---------------------------------------------------------------------------------------------
+
+Documentation of working progress
+Sunday, 27. August
+
+finished today:
+debugging method for printing metaData to csv file. 
+Error found.
+debugging missing white spaces, error found. 
+
+started today:
+delete duplicates:
+rewrite crawling method so that there are no duplicates
+
+
+gaols for tomorrow:
+- finsih rewriting crawling method
+- add data to logs.txt and processed_files.txt (10min) 
+- check out html of new website
+
+
+
+----------------------------------------------------------------------------------------------
+
+Documentation of working progress
+Saturday, 26. August
+
+finished today:
+make code run again  ✓
+add fileName to meta.csv  ✓
+allow Umlaute in file names ✓
+add "bereich" to meta data  ✓
+change code so that metadata is contained once ✓
+
+started today:
+inspect bibermeta.csv: Compare meta data file and meta data analog with two examples 
+                       hand in meta data 
+
+
+
+goals for I don't know when: 
+- add data to logs.txt and processed_files.txt (10min) 
+- Formulate question detailedly for add text to files and ask for support on Monday ✓
+
+
+
+
+ab 17 Uhr: meine eigene Zeit nur für mich 
+
+
+-----------------------------------------------------------------------------------------
+
+Documentation of working progress
+Friday, 25. August 
+
+finished today: 
+rebuild code of yesterdays progress - changes weren't safed 
+replacing special characters
+print text to files
+
+started today:
+debugging method of printing to file. Duplicate sentences printed. 
+
+goal for next few days: 
+- add "bereich" to meta data 
+- add line breaks to .txt files?
+- what crawling info to include in code? (ask Purita)
+- enlarge range for websites
+- add fileName to metaData.csv
+- allow Umlaute in fileName
+
+
+------------------------------------------------------------------------------
+Documentation of working progress
+Thursday, 24. August 
+
+finished so far: 
+all definitions of which the crawler must consists to work
+
+finished today:
+def get_each_URL(url_page)
+def get_page
+
+started today: 
+merging all definitions to one "crawler code" 
+fixing unexpected bugs
+
+goal for the next few days: 
+for tomorrow morning: merge code snippets for biber crawler. If any unexpected bugs, fix them. Hand in biberCrawler
+tomorrow afternoon: start new website, view html code
+next days: draft of crawler new website, start coding on receiving text/meta data 
+
+----------------------------------------------------------------------------
+
+Documentation of past working progress 
+11. Aug - 23.Aug 
+
+I have worked 28h yet. 
+Estimated content of my working hours: 
+10h for understanding structure html of website, draft of crawler code,  watching tutorial on html & beautifulsoup
+10h for reading documentation of beautifulsoup, writing the methods 
+8h for reading documentation again, debugging 
+
+As I am now familiar with beautifulsoup and "real world" html source code of a website, 
+I don't expect needing as much time for the next website as I did for the biberCrawler
+
+
