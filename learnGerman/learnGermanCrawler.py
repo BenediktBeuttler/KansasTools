@@ -12,10 +12,10 @@ metaFileName = basePath + "/learnGerman_meta.csv"
 metaFile2 = basePath + "/learnGerman_article_overview.csv"
 logs = basePath + "/logs.txt"
 processed_files = basePath +  "/processed_learnGerman_files.txt"
-learnGermanLizenz = 'unknown'
+learnGermanLizenz = ''
 encoding = "utf-8"
-author = 'dw - learnGerman'
-org = 'learngerman dw '# 
+author = 'Deutsche Welle'
+org = 'Deutsche Welle'# 
 orgLink = 'https://learngerman.dw.com/de/deutsch-lernen/s-9095'
 
 
@@ -40,7 +40,7 @@ def safe_text_in_file(fileName, text):
 
 def add_to_metaFile(fileName, title, link):
     with codecs.open(metaFileName, 'a', encoding) as f:
-        f.write(f'{fileName}\t{title}\t{link}\t\t{learnGermanLizenz}\t{author}\t{author}\t{org}\t{orgLink}\n')
+        f.write(f'\n{fileName}\t{title}\t{link}\t\t{learnGermanLizenz}\t{author}\t\t{org}\t{orgLink}')
         f.close()
         print("Iam after close statement")    
 
