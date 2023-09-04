@@ -16,7 +16,7 @@ encoding = "utf-8"
 author = 'dasBiber'
 org = 'dasBiber'# 
 orgLink = 'https://www.dasbiber.at/'
-processed_files = basePath +  "processed_biber_files.txt"
+processed_files = basePath +  "/processed_biber_files.txt"
 
 
 def write_to_logs(url):
