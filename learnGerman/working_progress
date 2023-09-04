@@ -1,3 +1,86 @@
+Documentation of working progress 
+Monday, 4th Septemeber
+
+finished: 
+crawl_page_article works and receives the actual href.
+crawl_meta works. receives title 
+remove iStockphoto. I cannot find the tag which holds the iStockphoto
+    ask for help at 1pm 
+final run: 
+    logs ✓
+    title.txt ✓
+    learnGerman_article_overview.csv ✓
+    processed_learnGerman_files - why is nothing printed ? ?
+    learnGerman_meta.csv - why is nothing printed ? ?
+    
+
+Questions: 
+? printing to csv and processed_files
+? remove iStockphoto
+
+
+ich wäre echt richtig zufrieden, wenn der NicosWeg Crawler funktioniert. 
+
+
+
+
+
+Goal: 
+abschließen zur Übergabe
+Übergabe: Dokumentieren, Bestandsaufnahme für ein vollständigen Crawler:
+    - was braucht es noch, dass vollständiger Crawler?
+abschließen BiberCrawler: was fehlt?
+bestandsaufnahme NicosWegCrawler
+
+
+
+
+
+
+
+
+Documentation of working progress 
+Sunday, 3rd Septemeber
+
+Question: 
+- where am I in the code? What works, what is not quiet working, 
+  what is still to code?
+    Crawl() works. Result: receive 77 links. These links lead to articles
+    crawl_article_page. Soll: link zu Landeskunde article
+                         Ist: - ein Teil des Links wird abgedruckt. Need to debug with Denise
+
+
+
+
+
+Documentation of working progress
+Friday, 1st September
+
+steps for morning: 
+learnGermanCrawler - nicos weg
+1. 2 metadata file erstellen ✓
+2. variablen für meta data nennen,
+   und Inhalt f. Variablen suchen ✓
+3. Variablen an add_to_MetaFile übergeben
+
+Questions: 
+
+- full title: Begrüßungen auf Deutsch | Landeskunde | Hallo! | DW Deutsch Lernen . habe alles ab "| Landeskunde" abgeschnitten
+- learnGerman data geben lassen
+
+B u g   Q u e s t i o n s
+
+- why is the link in crawl_page == None?
+- wieso wird nicht auf csv file abgedruckt?
+
+
+
+
+
+
+
+
+
 Documentation of working progress
 Thursday 31. August
 
