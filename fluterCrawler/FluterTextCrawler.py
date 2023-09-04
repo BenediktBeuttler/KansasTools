@@ -8,12 +8,12 @@ import uuid
 
 basePath = "fluterCrawler"
 metaFileName = basePath + "/flutermeta.csv"
+summaryFileName = basePath + "/flutersummary.csv"
 baseFluterUrl = "https://www.fluter.de"
 processedTextsFile = basePath + "/processed-fluter-files.txt"
 logs = basePath + "/logs.txt"
 fluterLizenz = "CC BY-NC-ND 4.0"
 encoding = "utf-8"
-print("test")
 
 
 def logIt(text):
@@ -47,7 +47,7 @@ def saveFile(fileName, text):
             f.write(f'{fileName}\n')
             f.close()
 
-def addToMetaFile(fileName, url, title, author, org, orgLink):
+def addToMetaFile(fileName, url, title, author, org, orgLink, category):
     if fileName in processedTexts:
         logIt("already exists in Meta: " + fileName)
         return
@@ -57,7 +57,14 @@ def addToMetaFile(fileName, url, title, author, org, orgLink):
         f.write(f'\n{fileName}\t{title}\t{url}\t\t{fluterLizenz}\t{author}\t\t{org}\t{orgLink}')
         f.close()
 
-    logIt(str("added to Meta - " + title))
+    logIt(str("added to Meta - " + title))    
+    addToSummary(title, url, category)
+
+def addToSummary(title, url, category):
+     # append entry to meta collection
+    with codecs.open(summaryFileName, 'a', encoding) as f:
+        f.write(f'\n{title}\t{url}\t{category}')
+        f.close()
 
 def crawlNormalText(soup):
     text = ""
@@ -68,6 +75,8 @@ def crawlNormalText(soup):
             if (contentChild.name=="div" and "articleBlock articleBlockInsertRightFloated" in contentChild.get("class", [])):
                 continue
             if (contentChild.name=="p" and len(contentChild.get_text().strip())>1 ):
+                if ("typewriter" in contentChild.get("class", [])):
+                    continue
                 # merge texts
                 text += "\n" + contentChild.get_text().strip()
     return text
@@ -79,13 +88,24 @@ def crawlNewsPage(textUrl):
 
     title = simpleSanitizeText(
         soup.find("meta", property="og:title")["content"])
-    org = simpleSanitizeText(
-        soup.find("meta", property="og:site_name")["content"])
+    org = "Fluter"
     orgLink = baseFluterUrl
+    # category
+    category = "unknown"
+    categoryHtml = soup.find("ul", {"class":"tags-second"})
+    if categoryHtml is not None:
+        category = categoryHtml.get_text().strip()
     
     authorHtml = soup.find("div", {"class": "author author-first"})
+    if authorHtml is None:
+        logIt("skipping")
+        return
     author = simpleSanitizeText(authorHtml.get_text()).replace(" und ", ", ")
-    textHeaderHtml = soup.find("div", {"class": "intro-fourth center <none>"})
+    textHeaderHtml = soup.find("div", {"class": "intro-fourth"})
+    if textHeaderHtml is None:
+        textHeaderHtml = soup.find("div", {"class": "intro-fifth"})    
+    if textHeaderHtml is None:
+        textHeaderHtml = soup.find("div", {"class": "intro-sixth"})                
     textHeader = textHeaderHtml.find("h2").get_text().strip() + "."
     text = textHeader
     
@@ -103,6 +123,7 @@ def crawlNewsPage(textUrl):
         texts = soup.find_all("div", {"class": "left_floated"})
         i = 0
         for textDisput in texts:
+            text = textHeader
             specAuthor = ""
             textChildren = textDisput.findChildren()
             for textChild in textChildren:
@@ -133,7 +154,7 @@ def crawlNewsPage(textUrl):
                 text = text[1:]
 
             saveFile(fileName, text)
-            addToMetaFile(fileName, textUrl, title, specAuthor, org, orgLink)
+            addToMetaFile(fileName, textUrl, title + " - " + specAuthor, specAuthor, org, orgLink, category)
             # print("")
             # print(text)
             # print(fileName)
@@ -154,7 +175,7 @@ def crawlNewsPage(textUrl):
             text = text[1:]
 
         saveFile(fileName, text)
-        addToMetaFile(fileName, textUrl, title, author, org, orgLink)
+        addToMetaFile(fileName, textUrl, title, author, org, orgLink, category)
         # print("")
         # print(text)
         # print(fileName)
@@ -174,15 +195,17 @@ with codecs.open(processedTextsFile, "r", encoding) as f:
 
 # read processed files first and save in array
 # for testing purposes only have a look at the first page
-for i in range(0, 404): #404
+for i in range(53, 404): #404
     # for testing purposes, i am crawling here the articles directly and break afterwards.
     # crawlNewsPage("https://www.fluter.de/wm-katar-boykottieren-streit")
     # crawlNewsPage("https://www.fluter.de/unterwassergarten-genua-landwirtschaft")
     # crawlNewsPage("https://www.fluter.de/polizeigewalt-kennzeichungspflicht-behr")
+    # crawlNewsPage("https://www.fluter.de/keine-macht-fuer-niemand")
+    
     # exit()
     url = getNewsUrl(i)
     logIt(getNewsUrl(i))
-
+    
     headers = {
                     "X-Request-ID": str(uuid.uuid4()),
                     "From": "https://www.germ.univie.ac.at/projekt/latill/"
@@ -202,5 +225,8 @@ for i in range(0, 404): #404
         link = newsDiv.find("a", href=True)
         if link is not None:
             completeLink = baseFluterUrl + link['href']
-            logIt("checking:" + completeLink)
+            logIt("checking:" + completeLink)            
+            r = requests.head(completeLink)
+            if r.status_code==500:
+                continue
             crawlNewsPage(completeLink)
