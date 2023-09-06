@@ -1,3 +1,78 @@
+Documentation of working progress
+Wednesday, 6th September
+
+
+Results Wednesday 
+8 bis 10 Uhr : 
+- habe Rubrik "Manuskript" gecrawlt ✓
+
+For finishing crawler: 
+- meta.csv Titel tragen Sonderzeichen 
+- manche Manuskripte sind leer, andere nur Anfang abgedruckt(Happy Birthday, Was machst du denn hier?). 
+  Manuskipte auf Vollständigkeit überprüfen
+- mit "meineBand" anfagen  
+
+
+goal: 
+- auch wenn ich Freizeit möchte, es würde mich auch freuen, wenn ich das Ziel von 2 Webseiten erreichen würde.  
+- wie weit kommt ich mit dem crawler "meine Band"? - habe noch nicht angefangen, Crawler für "manuskripte" geschrieben. 
+- welche Ziele könnte es die nächsten Tage geben? "Manuskripte" fertig machen, meineBand anfagen 
+
+
+
+
+-------------------------------------------------------------
+
+Documentation of working progress
+Tuesday, 5th September
+
+Feedback: 
+- einarbeitungszeit bis man weiß, wo man steht, war über einen recht langen Zeitraum unklar
+- (noch) keine starken hardskills, deshalb: wer hat gute Softskills? 
+  Softskills: Fragen stellen, Wissbegierig, nett
+- auch: Ziel evaluiert. 1,5 Webseiten. Wurde (mit guten Willen) erreicht
+
+aber ich weiß nicht, welche weiteren Punkte es gibt. 
+- Nicos Weg: glaube ich fertig
+- biberCrawler: AutorInnen rausfiltern
+- 
+toDO: 
+- herausfinden Nicos Weg fertig? Leider nochmal laufen lassen, 
+- ist biberCrawler fertig wird alles geprinted? Leider nochmal laufen lassen
+- jetzt: für welche Artikel gibt es AutorInnen, für welche keine? 
+         stehen die AutorInnen immer in der ersten Zeile?
+- if p empty, wird artikel dann übergangen? 
+
+- Artikel: nach subtitle IIII
+          als subtitle
+          keine* AutorIn 
+
+          AutorInnen: 
+          Von Özben Önal, Mitarbeit: Aleksandra Tulej
+          von Dennis Miskić
+          Von Banan Sakbani, Fotos: Zoe Opratko
+          Von Nada El-Azar-Chekh, Fotos: Atila Vadoc 
+          Kolumne von Ivana Cucujkić-Panić
+          Von Dione Azemi, Collage: Zoe Opratko
+          Interview: Anja Bachleitner, Foto: Zoe Opratko
+          Aus der Kolumne "Der Quoten-Almanci" von Özben Önal
+          Von Maria Lovrić -Anušić
+          diese Frage stellt sich Sprecher der Grünen Andersrum Wien Emir Dizdarević in einem Gastkommentar.
+          von Šemsa Salioski
+          Von Emilija Ilić, Illustrationen: Anna Lumaca
+          Von: Maria Lovrić-Anušić, Collagen: Zoe Opratko
+          Von Helin Kara, Mitarbeit: Nada El-Azar-Chekh und Aleksandra Tulej
+          von Janima Nam
+          von Amar Rajković
+          Interview: Nada El-Azar-Chekh
+          Von Sara Mohammadi, Fotos: Lisa Leutner
+          Von Celina Dinhopl, Fotos: Zoe Opratko
+
+
+
+
+--------------------------------------------------------------------
+
 Documentation of working progress 
 Monday, 4th Septemeber
 
@@ -18,6 +93,10 @@ Questions:
 ? printing to csv and processed_files
 ? remove iStockphoto
 
+Goals: 
+- bereich "Nicos Weg" bzw. "Band"
+ 
+
 
 ich wäre echt richtig zufrieden, wenn der NicosWeg Crawler funktioniert. 
 
@@ -36,7 +115,7 @@ bestandsaufnahme NicosWegCrawler
 
 
 
-
+------------------------------------------------------------------------------------------------
 
 
 Documentation of working progress 
@@ -50,7 +129,7 @@ Question:
                          Ist: - ein Teil des Links wird abgedruckt. Need to debug with Denise
 
 
-
+---------------------------------------------------------------------------------------------------
 
 
 Documentation of working progress
@@ -74,11 +153,7 @@ B u g   Q u e s t i o n s
 - wieso wird nicht auf csv file abgedruckt?
 
 
-
-
-
-
-
+------------------------------------------------------------------------------------------------------
 
 
 Documentation of working progress
@@ -118,7 +193,7 @@ Tuesday, 29 August
 finsihed today:
 - what happens if I omit all div tags? Info might not be caught. 
  Solution: only omit div tags of <div, class = media media-element container media-default>
-- ran code on old articles. Result is perfectly fine
+- ran code on old articles. Result is perfectly fine                                                                                         
 - add files to logs/ processed_files 
 - meta file vervollständigen (15min)
 
