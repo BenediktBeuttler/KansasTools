@@ -139,9 +139,11 @@ def crawlNewsPage(textUrl):
                     continue
                 if (textChild.name == "p"):
                     text += "\n" + textChild.get_text().strip()
-            
+            if len(text) < 200:
+                continue
+                
             specAuthor = author.split(", ")[i]
-            # print(specAuthor)
+            
             i += 1
             
             fileName = re.sub('[^A-Za-zäöüÄÖÜß0-9]+', '', str(title + specAuthor)) + ".txt" 
