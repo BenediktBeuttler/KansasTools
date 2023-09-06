@@ -151,7 +151,7 @@ def crawl():
     soup = BeautifulSoup(data, features="html.parser")
      
     links = soup.find_all("a", {"class":"sc-faUpoM lbXSjK"})
-    i = 0
+    i = 0#
     for link in links: 
          if i <2:
             print("Found the URL: ", link.get('href'))   
