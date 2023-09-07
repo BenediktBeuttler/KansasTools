@@ -19,18 +19,17 @@ org = 'Deutsche Welle'#
 orgLink = 'https://learngerman.dw.com/de/deutsch-lernen/s-9095'
 cleanedBereich = "Nicos Weg"
 
-
-
 def write_to_processedFiles(fileName):  
      with codecs.open(processed_files, 'a', encoding) as f:
         f.write(fileName + '\n')
         f.close()
 
 
-def write_to_logs(url):
+def logIt(text):
  with codecs.open(logs, 'a', encoding) as f:
-        f.write("checking: " + url + "\n")
+        f.write(text + "\n")
         f.close()
+        print(text)
 
 def safe_text_in_file(fileName, text):
      actual_fileName = basePath+ "/txts/" + fileName
@@ -76,19 +75,17 @@ def crawl_meta_and_text_NicosWeg_manuskript(link):
         title  = input_string[span_start+2:span_end-1]  #takes title
 
         fileName  = (re.sub('[^a-zA-Z0-9äöüÄÖÜß \n\.]', "", title)).replace(" ", "") + "_NicosWeg_Manuskript.txt"
-        print(fileName)
+        logIt("adding to metas: " + title)
         add_to_metaFile(fileName, title, link)
         add_to_metaFile2(fileName, title, link, bereich)
 
         #find text of manuskript
         parent_manuskript = soup.find("div", {"class" : "richtext-content-container sc-bTfYFJ byzRmI sc-jQrDum heCnGO"})
-        print(type(parent_manuskript))
         childrenP = parent_manuskript.find_all("p")
         for ptag in childrenP:
             txt = ptag.get_text()
             text += txt + " "
         #text = childrenP.get_text().strip()
-        print("parent tag of manuskript")
         safe_text_in_file(fileName, text)
 
 
@@ -138,7 +135,7 @@ def crawl_article_page(actual_link):
             if href is not None: 
                 link = "https://learngerman.dw.com" + str(href)
                 print("not None   ", link)
-                write_to_logs(str(link))
+                logIt(str(link))
                 crawl_meta_and_text_NicosWeg_manuskript(link)
             else: 
                 link = "https://learngerman.dw.com" + str(href)
