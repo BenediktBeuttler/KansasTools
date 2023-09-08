@@ -32,22 +32,36 @@ def logIt(text):
         print(text)
 
 def safe_text_in_file(fileName, text):
-     actual_fileName = basePath+ "/txts/" + fileName
-     with codecs.open(actual_fileName, 'a', encoding) as f:
+    actual_fileName = basePath+ "/txts/" + fileName
+    with codecs.open(actual_fileName, 'a', encoding) as f:
         f.write(text)
         f.close()
+        
+    if fileName not in processedTexts:
+        with codecs.open(processed_files, 'a', encoding) as f:
+            f.write(f'{fileName}\n')
+            f.close()
 
 
 def add_to_metaFile(fileName, title, link):
+    if fileName in processedTexts:
+        logIt("already exists in Meta: " + fileName)
+        return
+    
     with codecs.open(metaFileName, 'a', encoding) as f:
         f.write(f'\n{fileName}\t{title}\t{link}\t\t{learnGermanLizenz}\t{author}\t\t{org}\t{orgLink}')
         f.close()
-        #print("Iam after close statement")    
+        #print("Iam after close statement")
+    
 
 
-def add_to_metaFile2(fileName, meta_title, link, bereich):        
+def add_to_metaFile2(fileName, meta_title, link, bereich):       
+    if fileName in processedTexts:
+        logIt("already exists in Meta: " + fileName)
+        return
+     
     with codecs.open(metaFile2, 'a', encoding) as p: 
-        p.write(f'{fileName}, {meta_title}, {link}, {bereich}\n')
+        p.write(f'{fileName}\t{meta_title}\t{link}\t{bereich}\n')
         p.close()
 
 
@@ -75,7 +89,7 @@ def crawl_meta_and_text_NicosWeg_manuskript(link):
         title  = input_string[span_start+2:span_end-1]  #takes title
 
         fileName  = (re.sub('[^a-zA-Z0-9äöüÄÖÜß \n\.]', "", title)).replace(" ", "") + "_NicosWeg_Manuskript.txt"
-        logIt("adding to metas: " + title)
+        logIt("adding manuskript to metas: " + title)
         add_to_metaFile(fileName, title, link)
         add_to_metaFile2(fileName, title, link, bereich)
 
@@ -89,27 +103,27 @@ def crawl_meta_and_text_NicosWeg_manuskript(link):
         safe_text_in_file(fileName, text)
 
 
-
     if contains_landeskunde: 
          text = ""
          
          bereich = "Nicos_Weg_Landeskunde"
          title = re.sub(r'\|.*', '', input_string)
-         print(title)
+        #  print(title)
          fileName  = (re.sub('[^a-zA-Z0-9äöüÄÖÜß \n\.]', " ", title)).replace(" ", "") + "_NicosWeg_Landeskunde.txt"
-         print(fileName)
+        #  print(fileName)
+         logIt("adding landeskunde to metas: " + title)
          add_to_metaFile(fileName, title, link)
          add_to_metaFile2(fileName, title, link, bereich)
    
         #find text of landeskunde
     
          parent_landeskunde = soup.find("div", {"class" : "richtext-content-container sc-bTfYFJ byzRmI"})
-         print(type(parent_landeskunde))
+        #  print(type(parent_landeskunde))
          childrenP = parent_landeskunde.find_all("p")
          for ptag in childrenP:
             txt = ptag.get_text()
             text += txt + " "
-         print("parent of landeskunde")
+        #  print("parent of landeskunde")
          safe_text_in_file(fileName, text)
 
 
@@ -134,12 +148,11 @@ def crawl_article_page(actual_link):
             href = c.get('href')
             if href is not None: 
                 link = "https://learngerman.dw.com" + str(href)
-                print("not None   ", link)
                 logIt(str(link))
                 crawl_meta_and_text_NicosWeg_manuskript(link)
             else: 
                 link = "https://learngerman.dw.com" + str(href)
-                print("is None   ",link )      
+                # logIt("is None   " + link )      
             
           
        
@@ -157,15 +170,19 @@ def crawl():
     i = 0#
     for link in links: 
          if i <2:
-            print("Found the URL: ", link.get('href'))   
+            # print("Found the URL: ", link.get('href'))   
             link = link.get('href')     
             actual_link = str("https://learngerman.dw.com/"+link)
             crawl_article_page((actual_link))
          else: 
            exit()
-    print(i)
+    # print(i)
 #
 
+processedTexts = [] 
+with codecs.open(processed_files, "r", encoding) as f:
+    for line in f:
+        processedTexts.append(line.strip())
 
 #crawl_article_page("https://learngerman.dw.com/de/nehmen-sie/l-40507920")
 #crawl_meta_and_text_NicosWeg_manuskript("https://learngerman.dw.com/de/hallo/l-40322767/lm")
