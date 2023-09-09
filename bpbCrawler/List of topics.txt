@@ -1,0 +1,12 @@
+Themen
+    Politik
+        Demokratie und Wahlen
+            - Grund- und Menschenrechte/    Grundgesetz/   bpbPolDemGrunGesetzCrawler
+            - Politisches System/   24-deutschland/    bpbPolDemPolSystemCrawler
+            - Europäische Union/    /   bpbPolDemEuroCrawler/   https://www.bpb.de/shop/zeitschriften/izpb/europaeische-union-345/
+            - Parteien/     Parteien in Deutschland/   bpbPolDemParteiCrawler/  https://www.bpb.de/themen/parteien/parteien-in-deutschland/
+            - Bundestagswahlen/     /   bpbPolDemBundestagCrawler/   https://www.bpb.de/kurz-knapp/zahlen-und-fakten/bundestagswahlen/
+            - Europawahlen/    /    bpbPolDemEurowahlCrawler/ https://www.bpb.de/kurz-knapp/zahlen-und-fakten/europawahl/
+            - Wahl-O-Mat/   /   
+        Innen- und Sozialpolitik
+            - Arbeit/   Arbeitsmarktpolitik/    bpbPolInnen
