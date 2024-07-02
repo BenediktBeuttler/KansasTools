@@ -5,6 +5,10 @@ import requests
 import codecs
 import re
 import uuid
+import unicodedata
+
+## TODO: https://www.dasbiber.at/blog
+
 
 # Variables which have the same value for all articles
 basePath = "biberCrawler2"
@@ -70,85 +74,128 @@ def safe_text_in_file(fileName, text):
         f.write(text)
         f.close()
 
+def clean_title_for_filename(title):
+    # Replace German umlauts and ß
+    title = title.replace('ß', 'ss')
+    title = title.replace('ü', 'ue')
+    title = title.replace('ä', 'ae')
+    title = title.replace('ö', 'oe')
+    title = title.replace('Ü', 'Ue')
+    title = title.replace('Ä', 'Ae')
+    title = title.replace('Ö', 'Oe')
+    
+    # Normalize the unicode string and replace accented characters with non-accented equivalents
+    title = unicodedata.normalize('NFKD', title).encode('ASCII', 'ignore').decode('ASCII')
 
+    # Remove special characters
+    title = re.sub(r'[^\w\s]', '', title)
+
+    # Replace spaces and periods with underscores, except for the last period
+    title = re.sub(r'(?<!\.)\.(?!$)', '_', title)  # Replace all periods except the last one
+    title = title.replace(' ', '')
+
+    # Ensure the title is a valid filename by removing any trailing period
+    if title.endswith('.'):
+        title = title[:-1]
+
+    return title
 
 def crawl_page_meta_and_text(url__link):
      
-     # get html of website
-     headers = {
+    # get html of website
+    headers = {
 
-                    "X-Request-ID": str(uuid.uuid4()),
+                "X-Request-ID": str(uuid.uuid4()),
 
-                    "From": "https://www.germ.univie.ac.at/projekt/latill/"
+                "From": "https://www.germ.univie.ac.at/projekt/latill/"
 
-                }
-     req = requests.get(url__link, headers = headers)
-     data = req.text
-     soup = BeautifulSoup(data, features="html.parser")
+            }
+    req = requests.get(url__link, headers = headers)
+    data = req.text
+    soup = BeautifulSoup(data, features="html.parser")
      
-     # search meta data 
-     meta_title = soup.title
-     meta_title = meta_title.string 
-     meta_title = meta_title[:-11] 
-     
-     bereich = soup.find("div", {"field field-name-field-bereich field-type-taxonomy-term-reference field-label-above clearfix"})
-     if (bereich is not None):
-        bereich = bereich.get_text()
-        cleaned_bereich = re.sub(r'\n', ' ', bereich)
-        ("tag with bereich found " + cleaned_bereich)
-     else: 
-         cleaned_bereich = "no specified category"
-         print(cleaned_bereich)
+    # Extract the title from the <title> tag
+    title_tag = soup.find('title')
+    if title_tag:
+        title_text = title_tag.get_text()
 
-     clean_fileName  = re.sub('[^a-zA-Z0-9äöüÄÖÜ \n\.]', " ", meta_title)
-     real_fileName = clean_fileName.replace(" ", "") + '.txt'
+        # Use regex to remove the last part and clean the title
+        clean_title = re.sub(r'\s*\|\s*dasbiber$', '', title_text)
+
+        # Print the cleaned title
+        write_to_logs("clean title: " + clean_title)
+
+    # clean_fileName  = re.sub('[^a-zA-Z0-9äöüÄÖÜ \n\.]', " ", clean_title)
+    # real_fileName = clean_fileName.replace(" ", "") + '.txt'
+    clean_filename = clean_title_for_filename(clean_title)+".txt"
+    write_to_logs("clean filename: " + clean_filename)
 
     # find text
-     text = ""
-     parent = soup.find("div", {"class":"field-item odd"})
-     pattern = r'(?i)^von.*[^.?!]$'
-     authorString = ""
-         
-     contentChildren = parent.findChildren(recursive=False)
-     for child in contentChildren:   
-        # abfrage wenn div leer ist (kein text)
-        if (child.name != "div", {"class":"media media-element container media-default"}):
-            if (child.find("u")):
-                continue
-            childText = child.get_text()
-            if (childText is not None):
-                # check if there are authors mentioned in the text with prefix "von" regex
-                if re.search(pattern, childText):
-                    parenthPattern = r'\([^)]*\)'
-                    authorString = childText.strip().replace("von","").replace("Von","").replace("Collagen","").replace("Fotos","").replace("Foto","").replace(":","")
-                    # get specific author but remove parentheses if there are any
-                    authorString = re.sub(parenthPattern, "", authorString).lstrip()
-                    continue
-                txt = childText.strip()
-                if ((txt != "&nbsp") and (txt !="*BEZAHLTE ANZEIGE*")):
-                    text += txt + " "
-        else: 
-            continue
+    text = ""
+    parent = soup.find("div", {"class":"node-content"})
+    pattern = r'(?i)^von.*[^.?!]$'
+    authorString = ""
+
+    if parent:
+        # Finden Sie alle <p> Tags mit der Klasse "Text" im übergeordneten div
+        p_tags = parent.find_all("p", {"class": "Text"})
+
+        for p in p_tags:
+            # Überprüfen Sie, ob das <p> Tag nur ein <strong> Tag enthält
+            strong_tag = p.find("strong")
+            if strong_tag and len(p.contents) == 1:
+                text = text + strong_tag.get_text().strip() + '.'
+                write_to_logs(strong_tag.get_text().strip() + '.')
+            else:
+                text = text + p.get_text().strip()
+            
+    else:
+        write_to_logs("Kein div mit der Klasse 'node-content' gefunden")
+        
+    # contentChildren = parent.findChildren(recursive=False)
+    # for child in contentChildren:   
+    #     # abfrage wenn div leer ist (kein text)
+    #     if (child.name != "div", {"class":"media media-element container media-default"}):
+    #         if (child.find("u")):
+    #             continue
+    #         childText = child.get_text()
+    #         if (childText is not None):
+    #             # check if there are authors mentioned in the text with prefix "von" regex
+    #             if re.search(pattern, childText):
+    #                 parenthPattern = r'\([^)]*\)'
+    #                 authorString = childText.strip().replace("von","").replace("Von","").replace("Collagen","").replace("Fotos","").replace("Foto","").replace(":","")
+    #                 # get specific author but remove parentheses if there are any
+    #                 authorString = re.sub(parenthPattern, "", authorString).lstrip()
+    #                 continue
+    #             txt = childText.strip()
+    #             if ((txt != "&nbsp") and (txt !="*BEZAHLTE ANZEIGE*")):
+    #                 text += txt + " "
+    #     else: 
+    #         continue
         
         # skip texts, shorter than 10 characters
-     if len(text) < 10:  
-         return      
+    if len(text) < 10:  
+        return      
     
-    # only do those things, if they are not already in the processed files data (has been crawled)
-     if real_fileName not in processedTexts:
-        real_fileName = real_fileName.replace("..",".")
-        # pass on specific author, which gets replaced with das biber if there is no spec author
-        addToMetaFile(meta_title, url__link,  real_fileName, authorString)
-        write_to_logs("saving: " + real_fileName)
-     
-        # safe text in for it created file
-        safe_text_in_file(real_fileName, text)
-        write_to_processedFiles(real_fileName)
+    write_to_logs("Author: " + authorString)
+    write_to_logs(text)
+    write_to_logs("\n################################################")
+    
+    # # only do those things, if they are not already in the processed files data (has been crawled)
+    # if real_fileName not in processedTexts:
+    #     real_fileName = real_fileName.replace("..",".")
+    #     # pass on specific author, which gets replaced with das biber if there is no spec author
+    #     addToMetaFile(meta_title, url__link,  real_fileName, authorString)
+    #     write_to_logs("saving: " + real_fileName)
+        
+    #     # safe text in for it created file
+    #     safe_text_in_file(real_fileName, text)
+    #     write_to_processedFiles(real_fileName)
 
 
 def Crawl():    
     basePageURL = "https://www.dasbiber.at/articles"
-    for i in range(0,322):
+    for i in range(1,2):#322
         write_to_logs("i: " + str(i))
         if i == 0:
             get_each_URL(basePageURL)
@@ -178,15 +225,17 @@ def get_each_URL(newPageURL ):
                 link = link_tag['href']
                 finalLink = baseURL + link
                 write_to_logs(finalLink)
+                crawl_page_meta_and_text(finalLink)
+                
     else:
         write_to_logs("No div found with the class containing 'view-display-id-page_1'")
             
 
 ################# MAIN CODE #################
-# crawl_page_meta_and_text("https://www.dasbiber.at/content/wanted-migranten-f%C3%BCr-den-h%C3%A4fn")
-# crawl_page_meta_and_text("https://www.dasbiber.at/content/%C3%B6lige-tr%C3%A4ume")
+# crawl_page_meta_and_text("https://www.dasbiber.at/content/meine-freundin-die-%E2%80%9Eterrorbraut%E2%80%9C")
+crawl_page_meta_and_text("https://www.dasbiber.at/content/time-say-gudbaj")
 # crawl_page_meta_and_text("https://www.dasbiber.at/content/3-minuten-mit-baraa-bolat")
 #get_each_URL("https://www.dasbiber.at/articles")
 # exit()
-Crawl()
+# Crawl()
 # exit()
