@@ -74,6 +74,20 @@ def safe_text_in_file(fileName, text):
         f.write(text)
         f.close()
 
+def check_and_get_author(snippet_text):
+    prefixes = ['von ', 'Von ']
+    result = None
+
+    for prefix in prefixes:
+        if snippet_text.startswith(prefix):
+            result = snippet_text[len(prefix):]
+            break
+
+    if result:
+        result = result.replace("Collagen", "").replace("Fotos", "").replace("Foto", "").replace(":", "").strip()
+
+    return result
+
 def clean_title_for_filename(title):
     # Replace German umlauts and ß
     title = title.replace('ß', 'ss')
@@ -125,15 +139,12 @@ def crawl_page_meta_and_text(url__link):
         # Print the cleaned title
         write_to_logs("clean title: " + clean_title)
 
-    # clean_fileName  = re.sub('[^a-zA-Z0-9äöüÄÖÜ \n\.]', " ", clean_title)
-    # real_fileName = clean_fileName.replace(" ", "") + '.txt'
     clean_filename = clean_title_for_filename(clean_title)+".txt"
     write_to_logs("clean filename: " + clean_filename)
 
     # find text
     text = ""
     parent = soup.find("div", {"class":"node-content"})
-    pattern = r'(?i)^von.*[^.?!]$'
     authorString = ""
 
     if parent:
@@ -141,13 +152,34 @@ def crawl_page_meta_and_text(url__link):
         p_tags = parent.find_all("p", {"class": "Text"})
 
         for p in p_tags:
+            # Check if there is any descendant with class "media media-element-container media-default"
+            if p.find(class_="media media-element-container media-default"):
+                continue 
+            
             # Überprüfen Sie, ob das <p> Tag nur ein <strong> Tag enthält
             strong_tag = p.find("strong")
-            if strong_tag and len(p.contents) == 1:
-                text = text + strong_tag.get_text().strip() + '.'
-                write_to_logs(strong_tag.get_text().strip() + '.')
-            else:
-                text = text + p.get_text().strip()
+            p_text = p.get_text().strip()
+            # Check if the text does not end with any of the specified punctuation marks
+            if all(not text.endswith(punct) for punct in ['.', ':', '!', '?']):
+                check_and_get_author(p_text)
+                if strong_tag:
+                    p_text += '.'
+                    # Add spaces around the text
+                    text_to_add = " " + p_text + " "    
+                else:
+                    text_to_add = p_text      
+            
+            
+            # if strong_tag:
+            #     text_to_add = strong_tag.get_text().strip()
+            #     # Check if the text does not end with any of the specified punctuation marks
+            #     if all(not p_text.endswith(punct) for punct in ['.', ':', '!', '?']):
+            #         text += '.'
+            #     # Add spaces around the text
+            #     text_to_add = " " + text + " "   
+            # else:
+            #     text_to_add = p.get_text().strip()
+            text = text + text_to_add
             
     else:
         write_to_logs("Kein div mit der Klasse 'node-content' gefunden")
@@ -178,7 +210,7 @@ def crawl_page_meta_and_text(url__link):
         return      
     
     write_to_logs("Author: " + authorString)
-    write_to_logs(text)
+    # write_to_logs(text)
     write_to_logs("\n################################################")
     
     # # only do those things, if they are not already in the processed files data (has been crawled)
@@ -195,7 +227,7 @@ def crawl_page_meta_and_text(url__link):
 
 def Crawl():    
     basePageURL = "https://www.dasbiber.at/articles"
-    for i in range(1,2):#322
+    for i in range(1,4):#322
         write_to_logs("i: " + str(i))
         if i == 0:
             get_each_URL(basePageURL)
@@ -233,9 +265,9 @@ def get_each_URL(newPageURL ):
 
 ################# MAIN CODE #################
 # crawl_page_meta_and_text("https://www.dasbiber.at/content/meine-freundin-die-%E2%80%9Eterrorbraut%E2%80%9C")
-crawl_page_meta_and_text("https://www.dasbiber.at/content/time-say-gudbaj")
+# crawl_page_meta_and_text("https://www.dasbiber.at/content/time-say-gudbaj")
 # crawl_page_meta_and_text("https://www.dasbiber.at/content/3-minuten-mit-baraa-bolat")
 #get_each_URL("https://www.dasbiber.at/articles")
 # exit()
-# Crawl()
+Crawl()
 # exit()
