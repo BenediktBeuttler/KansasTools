@@ -16,7 +16,7 @@ metaFileName = basePath + "/bibermeta.csv"
 logs = basePath + "/logs.txt"
 biberLizenz = ''
 encoding = "utf-8"
-biberAuthor = 'das Biber'
+biberAuthor = 'Das Biber'
 org = 'das Biber'# 
 orgLink = 'https://www.dasbiber.at/'
 processed_files = basePath +  "/processed_biber_files.txt"
@@ -59,7 +59,7 @@ def clear_file_except_first_line(file, encoding):
 clear_file_except_first_line(metaFileName, encoding)
 def addToMetaFile(meta_title, url, fileName, author):
     auth = ""
-    if(author == ""):
+    if(not author or author == ""):
         auth = biberAuthor
     else:
         auth = author
@@ -144,74 +144,200 @@ def crawl_page_meta_and_text(url__link):
 
     # find text
     text = ""
+    text_to_add = ""
+    author_string = ""
+    alternative_scraping = False
     parent = soup.find("div", {"class":"node-content"})
-    authorString = ""
 
-    if parent:
+    if parent.find("div", {"class":"field-item odd"}):
+        alternative_scraping = True
+
+    if parent and not alternative_scraping:
+        # write_to_logs("1")
         # Finden Sie alle <p> Tags mit der Klasse "Text" im übergeordneten div
         p_tags = parent.find_all("p", {"class": "Text"})
 
         for p in p_tags:
+            # write_to_logs(str(p))
             # Check if there is any descendant with class "media media-element-container media-default"
             if p.find(class_="media media-element-container media-default"):
                 continue 
             
-            # Überprüfen Sie, ob das <p> Tag nur ein <strong> Tag enthält
-            strong_tag = p.find("strong")
+            # Get and clean the text from the <p> tag
             p_text = p.get_text().strip()
+
+            if any(keyword in p_text for keyword in ["Text:", "Foto:"]):
+                continue
+
             # Check if the text does not end with any of the specified punctuation marks
-            if all(not text.endswith(punct) for punct in ['.', ':', '!', '?']):
-                check_and_get_author(p_text)
-                if strong_tag:
-                    p_text += '.'
-                    # Add spaces around the text
-                    text_to_add = " " + p_text + " "    
+            if all(not p_text.endswith(punct) for punct in ['.', ':', '!', '?', '"', '\'', '“']):
+                if not author_string:
+                    author_string = check_and_get_author(p_text)
+                    if author_string:
+                        continue
+
+                # Check if the <p> tag contains a <strong> tag
+                if p.find("strong"):
+                    # Add spaces around the text and append a period
+                    text_to_add = f" {p_text}. "
                 else:
-                    text_to_add = p_text      
+                    continue
+            else:
+                text_to_add = p_text
             
-            
-            # if strong_tag:
-            #     text_to_add = strong_tag.get_text().strip()
-            #     # Check if the text does not end with any of the specified punctuation marks
-            #     if all(not p_text.endswith(punct) for punct in ['.', ':', '!', '?']):
-            #         text += '.'
-            #     # Add spaces around the text
-            #     text_to_add = " " + text + " "   
-            # else:
-            #     text_to_add = p.get_text().strip()
-            text = text + text_to_add
-            
+            # Check if the last character in text is not an empty space
+            if text and not text.endswith(' '):
+                text += ' '
+            # if there are fewer words than 2 and less chars than 6, skip
+            if len(text_to_add.split()) < 2 and len(text_to_add) < 6:
+                continue
+
+            # Append text_to_add to text
+            text += text_to_add            
     else:
-        write_to_logs("Kein div mit der Klasse 'node-content' gefunden")
+        parent = soup.find("div", {"class":"field-item odd"})
+        content_children = parent.findChildren(recursive=False)
+        for children in content_children:
+            # write_to_logs(str(children))
+            # check if first tag in child is div or p
+            # Get the first child tag
+            first_child = next((child for child in parent.children if child.name), None)
+            # Check if the first child is a <div> or <p> tag
+            if first_child:
+                if first_child.name == 'div':                    
+                    # write_to_logs("2")
+                    # if children.find(class_="media media-element-container media-default") or children.find(class_="media media-element container media-default"):
+                    #     # write_to_logs(str(children))
+                    #     write_to_logs("skipped cause media")
+                    #     continue
+                    # Check if the class element is present in any descendant
+                    # Check if the class element is present in any descendant
+                    if children.find(class_="media media-element-container media-default") or children.find(class_="media media-element container media-default"):
+                        write_to_logs("potential skipped cause media found in descendants")
+                        
+                        # Check if the class element or <a> tag is present in direct children or their children
+                        direct_child_has_class = any(
+                            child.has_attr('class') and 
+                            (
+                                "media media-element-container media-default" in child['class'] or 
+                                "media media-element container media-default" in child['class'] or
+                                child.find('a') or
+                                any(
+                                    sub_child.has_attr('class') and 
+                                    (
+                                        "media media-element-container media-default" in sub_child['class'] or 
+                                        "media media-element container media-default" in sub_child['class']
+                                        ) or
+                                    sub_child.find('a')
+                                    for sub_child in child.findChildren(recursive=False)
+                                )
+                            ) 
+                            for child in children.findChildren(recursive=False)
+                        )
+
+                        if direct_child_has_class:
+                            write_to_logs("skipped cause media found in direct children or their children")
+                            continue
+                    
+                    child_text = children.get_text()
+                    if child_text is not None:
+                        p_text = child_text.strip()
+                        if all(not p_text.endswith(punct) for punct in ['.', ':', '!', '?', '"', '\'', '“']):
+                            if not author_string:
+                                author_string = check_and_get_author(p_text)
+                                if author_string:
+                                    continue
+                            if any(keyword in child_text for keyword in ["Text:", "Foto:"]):
+                                continue
+                            # Check if the <p> tag contains a <strong> tag
+                            elif children.find("strong"):
+                                # Add spaces around the text and append a period
+                                text_to_add = f" {p_text}. "                            
+                            else:
+                                continue
+                        else:
+                            text_to_add = p_text
+                        # Check if the last character in text is not an empty space
+                        if text and not text.endswith(' '):
+                            text += ' '
+                        # if there are fewer words than 2 and less chars than 6, skip
+                        if len(text_to_add.split()) < 2 and len(text_to_add) < 6:
+                            continue
+
+                        if text_to_add not in ["&nbsp", "*BEZAHLTE ANZEIGE*"]:
+                            text_to_add += " "
+
+                        # Append text_to_add to text
+                        text += text_to_add
+                elif first_child.name == 'p':
+                    # sub_children = children.findChildren(recursive=False)
+                    # for child in sub_children:
+                    if children.find(class_="media media-element-container media-default") or children.find(class_="media media-element container media-default"):
+                        continue
+                    child_text = children.get_text()
+                    if child_text is not None:
+                        p_text = child_text.strip()
+                        if all(not p_text.endswith(punct) for punct in ['.', ':', '!', '?', '"', '\'', '“']):
+                            if not author_string:
+                                author_string = check_and_get_author(p_text)
+                                if author_string:
+                                    continue
+                            # Check if the <p> tag contains a <strong> tag
+                            if children.find("strong"):
+                                # Add spaces around the text and append a period
+                                text_to_add = f" {p_text}. "
+                            else:
+                                continue
+                        else:
+                            text_to_add = p_text
+                        # Check if the last character in text is not an empty space
+                        if text and not text.endswith(' '):
+                            text += ' '
+                        # if there are fewer words than 2 and less chars than 6, skip
+                        if len(text_to_add.split()) < 2 and len(text_to_add) < 6:
+                            continue
+
+                        if text_to_add not in ["&nbsp", "*BEZAHLTE ANZEIGE*"]:
+                            text_to_add += " "
+
+                        # Append text_to_add to text
+                        text += text_to_add
+                else:
+                    print(f"The first tag is a <{first_child.name}>. Cannot read. Aborted!")
+                    continue
+            else:
+                print("No child tags found. Aborted!")
+                continue
         
-    # contentChildren = parent.findChildren(recursive=False)
-    # for child in contentChildren:   
-    #     # abfrage wenn div leer ist (kein text)
-    #     if (child.name != "div", {"class":"media media-element container media-default"}):
-    #         if (child.find("u")):
-    #             continue
-    #         childText = child.get_text()
-    #         if (childText is not None):
-    #             # check if there are authors mentioned in the text with prefix "von" regex
-    #             if re.search(pattern, childText):
-    #                 parenthPattern = r'\([^)]*\)'
-    #                 authorString = childText.strip().replace("von","").replace("Von","").replace("Collagen","").replace("Fotos","").replace("Foto","").replace(":","")
-    #                 # get specific author but remove parentheses if there are any
-    #                 authorString = re.sub(parenthPattern, "", authorString).lstrip()
-    #                 continue
-    #             txt = childText.strip()
-    #             if ((txt != "&nbsp") and (txt !="*BEZAHLTE ANZEIGE*")):
-    #                 text += txt + " "
-    #     else: 
-    #         continue
         
-        # skip texts, shorter than 10 characters
+    # skip texts, shorter than 10 characters
     if len(text) < 10:  
-        return      
+        return
+    if text.startswith(" "):
+        text = text[1:]
+    if text.startswith("von Anonym"):
+        text = text.replace("von Anonym", "")
+
+    def process_text(text):
+        lines = text.split('\n')
+        processed_lines = []
+
+        for line in lines:
+            line = line.strip()
+            if not line:
+                continue
+            # Add a period if the line does not end with typical sentence-ending punctuation
+            if not line.endswith(('.', '!', '?', '."', '!"', '?"', ':', '."', ':"', '”', '.“')):
+                line += '.'
+            processed_lines.append(line)
+        
+        return ' '.join(processed_lines)
+
+    text = process_text(text)
     
-    write_to_logs("Author: " + authorString)
-    # write_to_logs(text)
-    write_to_logs("\n################################################")
+    write_to_logs("Author: " + str(author_string))
+    write_to_logs(text)
+    write_to_logs("################################################\n")
     
     # # only do those things, if they are not already in the processed files data (has been crawled)
     # if real_fileName not in processedTexts:
@@ -224,49 +350,43 @@ def crawl_page_meta_and_text(url__link):
     #     safe_text_in_file(real_fileName, text)
     #     write_to_processedFiles(real_fileName)
 
-
 def Crawl():    
     basePageURL = "https://www.dasbiber.at/articles"
-    for i in range(1,4):#322
+    for i in range(0,2):#322
         write_to_logs("i: " + str(i))
         if i == 0:
             get_each_URL(basePageURL)
         else:            
             newPageURL = basePageURL + "?page=" +str(i)
             get_each_URL(newPageURL)
-         
-
-
-def get_each_URL(newPageURL ):
+        
+def get_each_URL(newPageURL):
     baseURL = "https://www.dasbiber.at"
     r = requests.get(newPageURL)
     data = r.text
     soup = BeautifulSoup(data, features="html.parser")    
 
-    # Find the div with class containing "view-display-id-page_1"
-    target_div = soup.find('div', class_="view-display-id-page_1")
+    # Find the div with class containing "views-view-grid cols-3"
+    div_rows = soup.find('div', class_="views-view-grid cols-3")
 
-    if target_div:
-        # Inside the target div, find the nested divs with class "views-field views-field-title"
-        nested_divs = target_div.find_all('div', class_="views-field views-field-title")
-
+    # Iterate through all child elements of the div with class "views-view-grid cols-3"
+    for div_row in div_rows.find_all('div', recursive=False):  # Only direct children
+        # Find the nested div with class "views-field views-field-title"
+        nested_div = div_row.find_all('div', class_="views-field views-field-title")
         # Extract and print the links in each nested div
-        for nested_div in nested_divs:
-            link_tag = nested_div.find('a')  # Find the <a> tag
+        for title_div in nested_div:
+            link_tag = title_div.find('a')  # Find the <a> tag
             if link_tag and 'href' in link_tag.attrs:
                 link = link_tag['href']
                 finalLink = baseURL + link
                 write_to_logs(finalLink)
                 crawl_page_meta_and_text(finalLink)
-                
-    else:
-        write_to_logs("No div found with the class containing 'view-display-id-page_1'")
-            
-
+           
 ################# MAIN CODE #################
 # crawl_page_meta_and_text("https://www.dasbiber.at/content/meine-freundin-die-%E2%80%9Eterrorbraut%E2%80%9C")
 # crawl_page_meta_and_text("https://www.dasbiber.at/content/time-say-gudbaj")
-# crawl_page_meta_and_text("https://www.dasbiber.at/content/3-minuten-mit-baraa-bolat")
+# crawl_page_meta_and_text("https://www.dasbiber.at/content/energie-sparen-gut-fuers-geldboerserl-und-fuers-klima")
+# crawl_page_meta_and_text("https://www.dasbiber.at/content/wie-ich-zum-islam-konvertiert-bin")
 #get_each_URL("https://www.dasbiber.at/articles")
 # exit()
 Crawl()
