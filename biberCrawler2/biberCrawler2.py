@@ -12,13 +12,15 @@ import unicodedata
 
 # Variables which have the same value for all articles
 basePath = "biberCrawler2"
-metaFileName = basePath + "/bibermeta.csv"
+metaFileName = basePath + "/bibermeta.tsv"
 logs = basePath + "/logs.txt"
-biberLizenz = ''
+# biberLizenz = ''
 encoding = "utf-8"
 biberAuthor = 'Das Biber'
 org = 'das Biber'# 
 orgLink = 'https://www.dasbiber.at/'
+biberLizenz="licence_na#"
+topic="topic_na#"
 processed_files = basePath +  "/processed_biber_files.txt"
 
 
@@ -50,7 +52,7 @@ def clear_file_except_first_line(file, encoding):
     with codecs.open(file, 'r+', encoding) as f:
         lines = f.readlines()
         if lines:
-            first_line = lines[0]
+            first_line = lines[0].rstrip('\n')
             f.seek(0)
             f.truncate(0)
             f.write(first_line)
@@ -59,12 +61,12 @@ def clear_file_except_first_line(file, encoding):
 clear_file_except_first_line(metaFileName, encoding)
 def addToMetaFile(meta_title, url, fileName, author):
     auth = ""
-    if(not author or author == ""):
+    if(not author or author == "" or author == None):
         auth = biberAuthor
     else:
         auth = author
     with codecs.open(metaFileName, 'a', encoding) as f:
-        f.write(f'\n{fileName}\t{meta_title}\t{url}\t\t{biberLizenz}\t{auth}\t\t{org}\t{orgLink}')
+        f.write(f'\n{fileName}\t{meta_title}\t{url}\t{topic}\t{biberLizenz}\t{auth}\tNA\t{org}\t{orgLink}')
         f.close
 
 
@@ -84,7 +86,7 @@ def check_and_get_author(snippet_text):
             break
 
     if result:
-        result = result.replace("Collagen", "").replace("Fotos", "").replace("Foto", "").replace(":", "").strip()
+        result = result.replace("Collagen", "").replace("Fotos", "").replace("Foto", "").replace(":", "").strip().replace("()", "")
 
     return result
 
@@ -137,10 +139,14 @@ def crawl_page_meta_and_text(url__link):
         clean_title = re.sub(r'\s*\|\s*dasbiber$', '', title_text)
 
         # Print the cleaned title
-        write_to_logs("clean title: " + clean_title)
+        # write_to_logs("clean title: " + clean_title)
 
     clean_filename = clean_title_for_filename(clean_title)+".txt"
-    write_to_logs("clean filename: " + clean_filename)
+    # is already in processedtexts, so dont do anything
+    if clean_filename in processedTexts:
+        write_to_logs("already processed, skipped")
+        return
+    # write_to_logs("clean filename: " + clean_filename)
 
     # find text
     text = ""
@@ -335,24 +341,24 @@ def crawl_page_meta_and_text(url__link):
 
     text = process_text(text)
     
-    write_to_logs("Author: " + str(author_string))
-    write_to_logs(text)
-    write_to_logs("################################################\n")
+    # write_to_logs("Author: " + str(author_string))
+    # write_to_logs(text)
+    # write_to_logs("################################################\n")
     
-    # # only do those things, if they are not already in the processed files data (has been crawled)
-    # if real_fileName not in processedTexts:
-    #     real_fileName = real_fileName.replace("..",".")
-    #     # pass on specific author, which gets replaced with das biber if there is no spec author
-    #     addToMetaFile(meta_title, url__link,  real_fileName, authorString)
-    #     write_to_logs("saving: " + real_fileName)
+    # only do those things, if they are not already in the processed files data (has been crawled)
+    if clean_filename not in processedTexts:
+        clean_filename = clean_filename.replace("..",".")
+        # pass on specific author, which gets replaced with das biber if there is no spec author
+        addToMetaFile(clean_title, url__link,  clean_filename, author_string)
+        write_to_logs("saving: " + clean_filename)
         
-    #     # safe text in for it created file
-    #     safe_text_in_file(real_fileName, text)
-    #     write_to_processedFiles(real_fileName)
+        # safe text in for it created file
+        safe_text_in_file(clean_filename, text)
+        write_to_processedFiles(clean_filename)
 
 def Crawl():    
     basePageURL = "https://www.dasbiber.at/articles"
-    for i in range(0,2):#322
+    for i in range(0,322):#322
         write_to_logs("i: " + str(i))
         if i == 0:
             get_each_URL(basePageURL)
